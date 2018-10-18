@@ -38,21 +38,21 @@ function ZED06I()
             { Y: -41.61, X: -151.91, Type: "Local Trade Center", Region: "Usonoj Sector IX" },
             { Y: -42.72, X: -151.17, Type: "Beacon" },
             { Y: -42.97, X: -151.30, Type: "Camp", Region: "Zentsuu Crater XV" },
-            { Y: -43.06, X: -150.76, Type: "Local Trade Center/Camp", Region: "Meyaman Platform"}
+            { Y: -43.06, X: -150.76, Type: "Local Trade Center/Camp", Region: "Meyaman Platform" },
+            { Y: -41.20, X: -150.31, Type: "Monolith" },
+            { Y: -41.53, X: -150.77, Type: "Monolith" },
+            { Y: -43.33, X: -151.81, Type: "Camp", Region: "Lost Plains of Abiraka" },
+            { Y: -53.25, X: -153.68, Type: "Drop Pod", Region: "Nukyota's Last Stand" },
+            { Y: -56.62, X: -156.26, Type: "Camp", Region: "Bayasumo IX" },
+            { Y: -58.22, X: -156.12, Type: "Abandoned Building", Region: "Point Liyam" },
+            { Y: -59.74, X: -156.98, Type: "Drop Pod", Region: "Asuka's Drift" },
+            { Y: -65.13, X: -159.58, Type: "Trading Post" },
+            { Y: -83.44, X: 140.26, Type: "Trade Terminal", Region: "Nokokazumo Bonefield" },
+            { Y: -67.69, X: 45.71, Type: "Camp", Region: "Oichize Sector VI" }
         ]
     };
 }
 /*
-Monolith - Memories of Rogreg - Kanos(-41.20, -150.31)
-Monolith - Tribute to Axeriu(-41.53, -150.77)
-Camp at "Lost Plains of Abiraka"(-43.33, -151.81)
-Drop Pod at "Nukyota's Last Stand"(-53.25, -153.68)
-Camp at "Bayasumo IX"(-56.62, -156.26)
-Abandoned Building at "Point Liyam"(-58.22, -156.12)
-Drop Pod at "Asuka's Drift"(-59.74, -156.98)
-Trade Post(-65.13, -159.58)
-Trade Terminal at "Nokokazumo Bonefield"(-83.44, +140.26)
-Camp at "Oichize Sector VI"(-67.69, +45.71)
 Local Trade Center / Camp at "Shobarazuk Post"(-56.75, +42.24)
 Transmission Tower / Camp at "Kokayas Platform"(-9.08, +33.17)
 Drop Pod at "Ogori Sands"(+6.35, +32.60)
