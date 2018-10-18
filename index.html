@@ -1,8 +1,47 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/plot.js"></script>
+    <script src="~/Scripts/planets.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <style>
+        canvas {
+            border: 1px solid red;
+        }
+
+        #tip {
+            background-color: white;
+            border: 1px solid blue;
+            position: absolute;
+            left: -200px;
+            top: 100px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-Test
+    <div class="row">
+        <div class="col-sm-12 box" style="height:100%;" id="canvasDiv">
+            <canvas id="myCanvas" class="img-responsive" style="margin-top:10px;"></canvas>
+            <canvas id="tip" width=120 height=45></canvas>
+        </div>
+    </div>
 </body>
 </html>
+<script>
+    $(function ()
+    {
+        var canvas = document.getElementById('myCanvas');
+        canvas.width = $('#canvasDiv').width() - (parseInt($('#canvasDiv').css("padding-left").replace("px", "")) * 2) - 2;
+        canvas.height = window.innerHeight * .85;
+
+        var url = new URL(window.location.href);
+        var id = url.searchParams.get("id");
+
+        var planetFunction = eval(id);
+        var info = planetFunction();
+        Plot(info);
+    });
+</script>
