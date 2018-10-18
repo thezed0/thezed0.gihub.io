@@ -48,15 +48,14 @@ function ZED06I()
             { Y: -59.74, X: -156.98, Type: "Drop Pod", Region: "Asuka's Drift" },
             { Y: -65.13, X: -159.58, Type: "Trading Post" },
             { Y: -83.44, X: 140.26, Type: "Trade Terminal", Region: "Nokokazumo Bonefield" },
-            { Y: -67.69, X: 45.71, Type: "Camp", Region: "Oichize Sector VI" }
+            { Y: -67.69, X: 45.71, Type: "Camp", Region: "Oichize Sector VI" },
+            { Y: -56.75, X: 42.24, Type: "Local Trade Center/Camp", Region: "Shobarazuk Post" },
+            { Y: -9.08, X: 33.17, Type: "Transmission Tower/Camp", Region: "Kokayas Platform" },
+            { Y: 6.35, X: 32.60, Type: "Drop Pod", Region: "Ogori Sands" },
+            { Y: 7.38, X: 32.60, Type: "Portal"}
         ]
     };
 }
-/*
-Local Trade Center / Camp at "Shobarazuk Post"(-56.75, +42.24)
-Transmission Tower / Camp at "Kokayas Platform"(-9.08, +33.17)
-Drop Pod at "Ogori Sands"(+6.35, +32.60)
-Portal - Ruins of Sapous(+7.38, +32.60)*/
 
 function ZED13I()
 {
