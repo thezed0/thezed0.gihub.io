@@ -54,9 +54,37 @@ function ZED06I()
             { Y: -56.75, X: 42.24, Type: "Local Trade Center/Camp", Region: "Shobarazuk Post" },
             { Y: -9.08, X: 33.17, Type: "Transmission Tower/Camp", Region: "Kokayas Platform" },
             { Y: 6.35, X: 32.60, Type: "Drop Pod", Region: "Ogori Sands" },
-            { Y: 7.38, X: 32.60, Type: "Portal"}
+            { Y: 7.38, X: 32.60, Type: "Portal" }
         ]
     };
+}
+
+function ZED07III()
+{
+    return {
+        Messages: ["ZED-07 III", "Paradise", "0C84:0082:0D59:007A", "407A0355A485"],
+        POI: [
+            { Y: 27.83, X: -75.57, Type: "Abandoned Building", Region: "Nocancess Living Expanse" },
+            { Y: 28.08, X: -75.18, Type: "Camp", Region: "Swanl Crossing" },
+            { Y: 28.92, X: -74.40, Type: "Resourse Depot", Region: "Mildaya VIII" },
+            { Y: 31.25, X: -73.62, Type: "Drop Pod", Region: "Anmar Grassland" },
+            { Y: 31.28, X: -74.02, Type: "Ancient Ruins" },
+            { Y: 32.25, X: -74.39, Type: "Manufacturing", Region: "Echlevenus Scrubland" },
+            { Y: 32.53, X: -74.40, Type: "Camp", Region: "Dikeg Lowlands" },
+            { Y: 33.99, X: -74.79, Type: "Drop Pod", Region: "The Adtow Wildwood" },
+            { Y: 33.05, X: -76.37, Type: "Camp", Region: "Straps Swamplands" },
+            { Y: 33.17, X: -77.57, Type: "Crashed Freighter" },
+            { Y: 33.07, X: -79.59, Type: "Camp", Region: "Ohame Heath" },
+            { Y: 32.24, X: -80.40, Type: "Ancient Plaque" },
+            { Y: 35.02, X: -82.89, Type: "Ancient Ruins" },
+            { Y: 36.95, X: -83.30, Type: "Drop Pod", Region: "Windswept Plains of Tockho" },
+            { Y: 42.51, X: -81.64, Type: "Ancient Plaque" },
+            { Y: 52.55, X: -81.15, Type: "Comms Tower/Camp", Region: "Tokyotsl Outpost" },
+            { Y: 66.52, X: -87.09, Type: "Monolith" },
+            { Y: 87.86, X: -101.44, Type: "Trade Terminal", Region: "Mades Grove" },
+            { Y: 86.11, X: 102.76, Type: "Portal" }
+        ]
+    }
 }
 
 function ZED13I()
