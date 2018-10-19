@@ -87,6 +87,49 @@ function ZED07III()
     }
 }
 
+function ZED07II()
+{
+    return {
+        Messages: ["ZED-07 II", "Life-Incompatible", "0C84:0082:0D59:007A", "307A0355A485"]
+    }
+}
+
+function ZED07Ia()
+{
+    return {
+        Messages: ["ZED-07 Ia", "Freezing", "0C84:0082:0D59:007A", "207A0355A485"],
+        POI: [
+            { Y: -76.35, X: 89.92, Type: "Monolith" },
+            { Y: -49.25, X: 42.25, Type: "Trading Post" },
+            { Y: -50.76, X: 15.11, Type: "Crashed Freighter" },
+            { Y: -48.94, X: 14.04, Type: "Portal" },
+            { Y: -48.57, X: 5.87, Type: "Trade Terminal", Region: "Evartan Sector IV" },
+            { Y: -47.74, X: -2.02, Type: "Camp", Region: "Zalek Plateau" },
+            { Y: -44.55, X: -17.40, Region: "Ozavia Heath" },
+            { Y: -38.86, X: -33.83, Type: "Comms Tower/Camp", Region: "Ralno Platform" },
+            { Y: -22.49, X: -54.05, Type: "Abandoned Building", Region: "Windswept Plains of Vokuzn" },
+            { Y: -15.73, X: -57.65, Type: "Ancient Ruins" },
+            { Y: -12.93, X: -73.17, Type: "Manufacturing", Region: "Ufale Sector XIX" },
+            { Y: -8.52, X: -84.83, Type: "Camp", Region: "Chepet XII" },
+            { Y: -3.10, X: -114.47, Type: "Camp", Region: "The Vale of Garko" },
+            { Y: -1.27, X: -132.29, Type: "Drop Pod", Region: "Haraya Ice Field" },
+            { Y: 3.04, X: -151.27, Type: "Trading Post" },
+            { Y: 6.81, X: -164.76, Type: "Ancient Plaque" },
+            { Y: 18.07, X: -134.12, Type: "Grave" },
+            { Y: 0.05, X: -88.16, Type: "Trading Post" },
+            { Y: 1.33, X: -46.82, Type: "Camp", Region: "Great Plains of Okopinooz" },
+            { Y: 0.02, X: -34.98, Type: "Comms Tower/Camp", Region: "Point Simov" }
+        ]
+    }
+}
+
+function ZED07I()
+{
+    return {
+        Messages: ["ZED-07 I", "Dead", "0C84:0082:0D59:007A", "107A0355A485"]
+    }
+}
+
 function ZED13I()
 {
     return {
