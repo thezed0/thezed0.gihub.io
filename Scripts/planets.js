@@ -22,7 +22,9 @@ function ZED01II()
             { Y: -56.64, X: 27.13, Type: "Camp", Region: "Aniwa Valley" },
             { Y: -55.93, X: 26.69, Type: "Camp", Region: "Tachima X" },
             { Y: -54.97, X: 26.69, Region: "The Vale of Riokamiz" },
-            { Y: -53.36, X: 25.05, Type: "Drop Pod", Region: "Furay Bonefield" }],
+            { Y: -53.36, X: 25.05, Type: "Drop Pod", Region: "Furay Bonefield" },
+            { Y: -61.61, X: -149.41, Type: "Comms Tower", Region: "Oishibuyam's Wilds" }
+        ],
         Shores: [
             [{ Y: -67.77, X: 31.96 }, { Y: -67.76, X: 31.95 }, { Y: -67.76, X: 31.93 }, { Y: -67.74, X: 31.92 }, { Y: -67.74, X: 31.96 },
             { Y: -67.73, X: 31.96 }, { Y: - 67.72, X: 31.93 }, { Y: -67.70, X: 32.01 }, { Y: -67.69, X: 32.01 }, { Y: -67.68, X: 31.99 }]]
@@ -84,11 +86,17 @@ function ZED13I()
             { Y: 50.54, X: 175.59, Type: "Ancient Ruins" },
             { Y: 87.27, X: 156.02, Type: "Monolith" },
             { Y: -18.26, X: 53.03, Type: "Comms Tower/Camp", Region: "Ikiur Platform" },
-            { Y: -18.42, X: 52.85, Type: "Portal" }]
+            { Y: -18.42, X: 52.85, Type: "Portal" }
+        ]
     };
 }
 
 function ZED14IV()
 {
-
+    return {
+        Messages: ["ZED-14 IV", "Forsaken", "0C84:0082:0D59:0033", "40330355A485"],
+        POI: [
+            { Y: -58.26, X: 176.60, Type: "Distress Beacon" }
+        ]
+    }
 }
