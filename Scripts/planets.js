@@ -23,7 +23,8 @@ function ZED01II()
             { Y: -55.93, X: 26.69, Type: "Camp", Region: "Tachima X" },
             { Y: -54.97, X: 26.69, Region: "The Vale of Riokamiz" },
             { Y: -53.36, X: 25.05, Type: "Drop Pod", Region: "Furay Bonefield" },
-            { Y: -61.61, X: -149.41, Type: "Comms Tower", Region: "Oishibuyam's Wilds" }
+            { Y: -61.61, X: -149.41, Type: "Comms Tower", Region: "Oishibuyam's Wilds" },
+            { Y: -19.69, X: -77.59, Type: "Portal" }
         ],
         Shores: [
             [{ Y: -67.77, X: 31.96 }, { Y: -67.76, X: 31.95 }, { Y: -67.76, X: 31.93 }, { Y: -67.74, X: 31.92 }, { Y: -67.74, X: 31.96 },
@@ -133,7 +134,7 @@ function ZED07I()
 function ZED13I()
 {
     return {
-        Messages: ["ZED-13 I", "--", "0C84:0082:0D59:00F0", "10F00355A485"],
+        Messages: ["ZED-13 I", "Toxic", "0C84:0082:0D59:00F0", "10F00355A485"],
         POI: [
             { Y: 27.7, X: -154.33, Type: "Beacon" },
             { Y: 28.7, X: -152.54, Type: "Trading Post" },
@@ -168,6 +169,66 @@ function ZED14IV()
         Messages: ["ZED-14 IV", "Forsaken", "0C84:0082:0D59:0033", "40330355A485"],
         POI: [
             { Y: -58.26, X: 176.60, Type: "Distress Beacon" }
+        ]
+    }
+}
+
+function ZED14III()
+{
+    return {
+        Messages: ["ZED-14 III", "Caustic", "0C84:0082:0D59:0033", "30330355A485"],
+        POI: [
+            { Y: 4.82, X: -54.79, Type: "Camp", Region: "Eyant's Seat" },
+            { Y: 5.87, X: -55.35, Type: "Beacon" },
+            { Y: 3.36, X: -52.87, Type: "Resource Depot", Region: "Rimadai's Lookout" },
+            { Y: 4.02, X: -52.32, Type: "Local Trade Center/Camp", Region: "Oqing Encampment" },
+            { Y: 8.54, X: -51.55, Type: "Camp", Region: "Hetiaoh's Lookout" },
+            { Y: 9.15, X: -51.29, Type: "Transmission Tower", Region: "The Ruunmod" },
+            { Y: 8.69, X: -50.28, Type: "Trade Terminal", Region: "Jungdu XVII" },
+            { Y: 9.22, X: -49.54, Type: "Monolith" },
+            { Y: 8.21, X: -48.82, Type: "Camp", Region: "Memor Hill XIX" },
+            { Y: 7.56, X: -48.58, Type: "Transmission Tower", Region: "Iamusicheo Wetlands" },
+            { Y: 7.56, X: -48.81, Region: "Mountains of Fanqabgy" },
+            { Y: 3.79, X: -48.35, Type: "Camp", Region: "Ezham's Lookout" },
+            { Y: 3.16, X: -48.58, Type: "Beacon" },
+            { Y: 2.69, X: -53.13, Type: "Beacon" },
+            { Y: 2.67, X: -51.81, Type: "Manufacturing", Region: "Zonga Marsh" },
+            { Y: -0.32, X: -50.54, Type: "Drop Pod", Region: "Okpores Point" },
+            { Y: -1.60, X: -49.79, Type: "Trade Terminal", Region: "Hiheu's Seat" },
+            { Y: -2.87, X: -49.30, Type: "Beacon" },
+            { Y: -4.40, X: -48.34, Region: "Yitanga Bog" },
+            { Y: -4.71, X: -48.59, Type: "Camp", Region: "Ooey Valley" },
+            { Y: -4.74, X: -48.81, Type: "Grave" },
+            { Y: -5.93, X: -48.11, Type: "Drop Pod", Region: "Mount Wuhurdi" },
+            { Y: -6.19, X: -47.65, Type: "Camp", Region: "Mount Heziu" },
+            { Y: -7.40, X: -47.64, Type: "Trading Post" },
+            { Y: -10.24, X: -46.53, Type: "Observatory", Region: "Ranuh Sector XIII" },
+            { Y: -11.67, X: -46.07, Type: "Monolith" },
+            { Y: -16.84, X: -44.80, Type: "Resource Depot", Region: "Ionquusv Highlands" },
+            { Y: -18.81, X: -44.61, Type: "Abondoned Building", Region: "Amgyam Hill XVIII" },
+            { Y: -20.66, X: -44.59, Type: "Resource Depot", Region: "Oryeon Swamplands" },
+            { Y: -22.56, X: -44.38, Type: "Camp", Region: "Innan's Last Stand" },
+            { Y: -23.25, X: -44.58, Type: "Drop Pod", Region: "Apuga Reach" },
+            { Y: -24.41, X: -44.16, Type: "Drop Pod", Region: "Ziharbor's Great Reaches" },
+            { Y: -25.81, X: -43.71, Type: "Ancient Ruins" },
+            { Y: -26.93, X: -43.25, Type: "Trading Post" },
+            { Y: -28.02, X: -43.08, Type: "Abandoned Building", Region: "Gohair Wetlands" },
+            { Y: -31.05, X: -41.90, Region: "Soche Crossing" },
+            { Y: -31.24, X: -41.44, Type: "Camp", Region: "Kashengz View" },
+            { Y: -31.74, X: -41.89, Region: "Oukous Peak" },
+            { Y: -33.02, X: -40.97, Type: "Camp", Region: "Lumadi Peak" },
+            { Y: -33.69, X: -40.97, Type: "Camp", Region: "Fuzho Fen" },
+            { Y: -34.24, X: -41.19, Type: "Trade Terminal", Region: "Point Datogqe" },
+            { Y: -35.52, X: -41.19, Type: "Trade Terminal", Region: "Imenxia Sector VIII" },
+            { Y: -36.14, X: -40.73, Type: "Camp", Region: "Zoong Swamp" },
+            { Y: -36.65, X: -39.97, Region: "Axungc Swamp" },
+            { Y: -36.83, X: -39.50, Type: "Transmission Tower/Camp", Region: "Camp Sariqio" },
+            { Y: -37.36, X: -39.22, Type: "Beacon" },
+            { Y: -37.37, X: -40.21, Type: "Monolith" },
+            { Y: -36.77, X: -41.19, Type: "Drop Pod", Region: "The Rixoi Expanse" },
+            { Y: -36.75, X: -41.68, Type: "Camp", Region: "Cakamrin Swamplands" },
+            { Y: -36.66, X: -41.43, Type: "Beacon" },
+            { Y: -36.35, X: -41.66, Type: "Crashed Freighter" }
         ]
     }
 }
