@@ -131,6 +131,42 @@ function ZED07I()
     }
 }
 
+function ZED08II()
+{
+    return {
+        Messages: ["ZED-08 II", "Incandesant", "0C84:0082:0D59:013D", "213D0355A485"],
+        POI: [
+            { Y: -25.70, X: -65.06, Type: "Manufacturing", Region: "Nokuch Desert" },
+            { Y: -25.78, X: -65.40, Type: "Ancient Plaque" },
+            { Y: -25.34, X: -65.75, Type: "Manufacturing", Region: "Toganoya Desert" },
+            { Y: -24.72, X: -64.71, Type: "Beacon" },
+            { Y: -24.59, X: -64.88, Type: "Ancient Plaque" },
+            { Y: -25.35, X: -63.19, Type: "Local Trade Center", Region: "Choshinom Bonefield" },
+            { Y: -25.63, X: -63.01, Type: "Monolith" },
+            { Y: -28.39, X: -62.86, Type: "Manufacturing", Region: "Kisat Valley" },
+            { Y: -28.94, X: -62.68, Type: "Observatory/Camp", Region: "Point Gareyaga" },
+            { Y: -24.89, X: -62.35, Type: "Beacon" },
+            { Y: -24.47, X: -61.86, Type: "Local Trade Center/Camp", Region: "Gifusin Outpost" },
+            { Y: -22.61, X: -61.86, Type: "Comms Tower/Camp", Region: "Point Aifugerbac" },
+            { Y: 33.86, X: -58.39, Type: "Ancient Ruins" },
+            { Y: 31.89, X: -58.56, Type: "Trading Post" },
+            { Y: 28.87, X: -58.24, Region: "Unkyo Desert" },
+            { Y: 26.77, X: -58.24, Type: "Beacon" },
+            { Y: 26.29, X: -58.54, Type: "Observatory/Camp", Region: "Idaka Post" },
+            { Y: -21.16, X: -61.70, Type: "Monolith" },
+            { Y: -17.47, X: -120.68, Type: "Portal" },
+            { Y: 26.41, X: -60.25, Type: "Local Trade Center", Region: "Ijona XIV" }
+        ]
+    }
+}
+
+function ZED08I()
+{
+    return {
+        Messages: ["ZED-08 I", "Empty", "0C84:0082:0D59:013D", "113D0355A485"]
+    }
+}
+
 function ZED13I()
 {
     return {
