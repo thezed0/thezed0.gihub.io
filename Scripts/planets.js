@@ -167,7 +167,8 @@ function ZED08I()
     }
 }
 
-function ZED09IIa() {
+function ZED09IIa()
+{
     return {
         Messages: ["ZED-09 IIa", "Boiling", "0C84:0082:0D59:00F9", "30F90355A485"],
         POI: [
@@ -192,6 +193,42 @@ function ZED09IIa() {
             { Y: 1.68, X: -73.16, Type: "Trade Terminal", Region: "Okoshin Basin" },
             { Y: -13.25, X: -76.38, Region: "Appor's Wilds" }
         ]
+    }
+}
+
+function ZED09II()
+{
+    return {
+        Messages: ["ZED-09 II", "Noxious", "0C84:0082:0D59:00F9", "20F90355A485"],
+        POI: [
+            { Y: 21.55, X: -44.07, Type: "Abandoned Building", Region: "Point Gimche" },
+            { Y: 21.88, X: -43.82, Type: "Monolith" },
+            { Y: 22.42, X: -42.63, Type: "Manufacturing", Region: "Urcopallu Crossing" },
+            { Y: 23.00, X: -42.03, Region: "Ahaoq Swamplands" },
+            { Y: 23.32, X: -41.45, Type: "Camp", Region: "Uulanh Fen" },
+            { Y: 25.13, X: -38.24, Type: "Manufacturing", Region: "Jenni Floodplain" },
+            { Y: 25.16, X: -38.09, Type: "Crashed Freighter" },
+            { Y: 26.45, X: -36.50, Region: "Koshasoi Fen" },
+            { Y: 27.00, X: -35.57, Type: "Abandoned Building", Region: "Diehboc Wetlands" },
+            { Y: 28.03, X: -33.84, Region: "Domaiya Fen" },
+            { Y: 29.22, X: -31.48, Type: "Local Trade Center", Region: "The Izuisui Morass" },
+            { Y: 29.70, X: -29.60, Type: "Comms Tower/Camp", Region: "Enxianning Post" },
+            { Y: 29.66, X: -29.76, Type: "Comms Tower/Camp", Region: "Camp Cawat" },
+            { Y: 29.55, X: -29.59, Type: "Monolith" },
+            { Y: 30.73, X: -27.49, Type: "Camp", Region: "Uninni Swamp" },
+            { Y: 31.45, X: -25.49, Type: "Abandoned Building", Region: "Hiwaserk Sector V" },
+            { Y: 32.26, X: -23.56, Type: "Camp", Region: "The Adoiji Flats" },
+            { Y: 32.67, X: -22.13, Region: "Oiliu Bog" },
+            { Y: 36.03, X: 31.16, Type: "Plaque" },
+            { Y: -48.22, X: -169.85, Type: "Portal" }
+        ]
+    }
+}
+
+function ZED09I()
+{
+    return {
+        Messages: ["ZED-09 I", "Airless", "0C84:0082:0D59:00F9", "10F90355A485"]
     }
 }
 
