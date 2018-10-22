@@ -167,6 +167,34 @@ function ZED08I()
     }
 }
 
+function ZED09IIa() {
+    return {
+        Messages: ["ZED-09 IIa", "Boiling", "0C84:0082:0D59:00F9", "30F90355A485"],
+        POI: [
+            { Y: -25.58, X: -81.28, Type: "Portal" },
+            { Y: -10.32, X: 91.74, Type: "Drop Pod", Region: "Kosai Desert" },
+            { Y: 25.48, X: 96.93, Type: "Abandoned Building", Region: "Oyoak Plateau" },
+            { Y: 37.79, X: 100.32, Region: "Kuneri Wasteland" },
+            { Y: 41.74, X: 98.62, Type: "Abandoned Building", Region: "The Iwata Levels" },
+            { Y: 48.24, X: 99.78, Type: "Trade Terminal", Region: "Kiyod Floodplain" },
+            { Y: 72.80, X: 101.30, Type: "Drop Pod", Region: "Himadac Floodplain" },
+            { Y: 84.45, X: 108.44, Type: "Camp", Region: "Ennant Floodplain" },
+            { Y: 84.78, X: -89.90, Region: "Onezawa Desert" },
+            { Y: 75.57, X: -69.42, Type: "Camp", Region: "Yagas Crater XVI" },
+            { Y: 59.13, X: -59.53, Region: "Oakegaw Plains" },
+            { Y: 52.25, X: -59.41, Type: "Beacon" },
+            { Y: 46.53, X: -59.32, Type: "Camp", Region: "Achiyamey Bonefield" },
+            { Y: 32.23, X: -69.95, Type: "Observatory/Camp", Region: "Hiyam Enclave" },
+            { Y: 32.48, X: -71.50, Type: "Observatory/Camp", Region: "Kizawa Station" },
+            { Y: 31.27, X: -71.57, Type: "Local Trade Center", Region: "Munak's Last Stand" },
+            { Y: 49.25, X: 100.11, Type: "Artifact Crate" },
+            { Y: 24.88, X: -73.14, Type: "Beacon" },
+            { Y: 1.68, X: -73.16, Type: "Trade Terminal", Region: "Okoshin Basin" },
+            { Y: -13.25, X: -76.38, Region: "Appor's Wilds" }
+        ]
+    }
+}
+
 function ZED13I()
 {
     return {
