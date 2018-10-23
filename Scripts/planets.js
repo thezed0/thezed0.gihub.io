@@ -232,6 +232,35 @@ function ZED09I()
     }
 }
 
+function ZED10IV()
+{
+    return {
+        Messages: ["ZED-10 IV", "Torrid", "0C17:0080:0D9D:0019", "40190159E418"],
+        POI: [
+            { Y: 4.62, X: -11.81, Type: "Transmission Tower", Region: "The Kojimant" },
+            { Y: 4.34, X: -12.07, Type: "Camp", Region: "Rioki's Wilds" },
+            { Y: 4.34, X: -12.34, Type: "Transmission Tower/Camp", Region: "Point Nakawaraki" },
+            { Y: 4.04, X: -13.91, Type: "Plaque" },
+            { Y: 3.40, X: -14.71, Type: "Observatory/Camp", Region: "Point Kubar" },
+            { Y: 2.94, X: -15.74, Type: "Camp", Region: "Ettsub Wastes" },
+            { Y: 2.12, X: -16.75, Type: "Crashed Freighter" },
+            { Y: 1.31, X: -18.52, Type: "Drop Pod", Region: "Areyam Lowlands" },
+            { Y: 0.52, X: -20.01, Type: "Trade Terminal", Region: "The Kuoka" },
+            { Y: -3.24, X: -26.36, Type: "Camp", Region: "Great Plains of Inshij" },
+            { Y: -5.12, X: -28.55, Type: "Camp", Region: "Itoig Plains" },
+            { Y: -6.39, X: -31.26, Type: "Transmission Tower", Region: "Tachiya Badlands" },
+            { Y: -9.10, X: -36.44, Type: "Camp", Region: "The Vale of Nayosenda" },
+            { Y: -13.44, X: -45.56, Type: "Local Trade Center/Camp", Region: "Kegaur Outpost" },
+            { Y: -13.68, X: -45.71, Type: "Distress Beacon" },
+            { Y: -14.36, X: -45.56, Type: "Observatory/Camp", Region: "Point Azaif" },
+            { Y: -14.11, X: -45.99, Type: "Monolith" },
+            { Y: -47.21, X: -115.49, Type: "Portal" },
+            { Y: -41.11, X: -115.89, Type: "Local Trade Center", Region: "Suura Bonefield" },
+            { Y: -39.66, X: -115.89, Type: "Trading Post" }
+        ]
+    }
+}
+
 function ZED13I()
 {
     return {
