@@ -333,3 +333,50 @@ function ZED14III()
         ]
     }
 }
+
+function ZED14II()
+{
+    return {
+        Messages: ["ZED-14 II", "Scorched", "0C84:0082:0D59:0033", "30330355A485"],
+        POI: [
+            { Y: 44.63, X: 50.30, Type: "Grave" },
+            { Y: 44.58, X: 51.46, Type: "Crashed Freighter" },
+            { Y: 45.06, X: 50.11, Type: "Abandoned Building", Region: "The Oishiom" },
+            { Y: 46.53, X: 48.15, Type: "Trade Terminal", Region: "Lost Plains of Daise" },
+            { Y: 47.34, X: 47.92, Type: "Trade Terminal", Region: "Aimizu's Great Reaches" },
+            { Y: 47.21, X: 46.92, Type: "Monolith" },
+            { Y: 47.36, X: 46.63, Type: "Drop Pod", Region: "Ibuya Flats VIII" },
+            { Y: 47.05, X: 45.95, Type: "Crashed Freighter" },
+            { Y: 49.21, X: 45.70, Type: "Monolith" },
+            { Y: 51.86, X: 46.14, Type: "Trade Terminal", Region: "Obeoka Floodplain" },
+            { Y: 52.05, X: 45.75, Type: "Ancient Ruins" },
+            { Y: 51.84, X: 46.89, Type: "Ancient Ruins" },
+            { Y: 52.02, X: 47.30, Type: "Resource Depot", Region: "Rius Crater IV" },
+            { Y: 52.99, X: 45.39, Region: "Iyose XIX" },
+            { Y: 53.36, X: 46.21, Type: "Drop Pod", Region: "Lost Plains of Makog" },
+            { Y: 54.73, X: 45.01, Region: "Unnan Flats XV" },
+            { Y: 56.35, X: 45.01, Type: "Resource Depot", Region: "Daitak Moor" },
+            { Y: 56.76, X: 45.01, Type: "Drop Pod", Region: "Okyot Plateau" },
+            { Y: 57.15, X: 45.05, Type: "Observatory", Region: "Agoyamaga Bonefield" },
+            { Y: 56.14, X: 45.47, Type: "Camp", Region: "Chofu Plains" },
+            { Y: 57.79, X: 46.46, Type: "Manufacturing", Region: "Ioban Badlands" },
+            { Y: 58.87, X: 47.98, Region: "Kawagoy Sands" },
+            { Y: 64.16, X: 48.09, Type: "Trade Terminal", Region: "Ochik's Drift" },
+            { Y: 64.91, X: 45.04, Type: "Camp", Region: "Kitac Wastes" },
+            { Y: 65.16, X: 45.66, Type: "Trade Terminal", Region: "Point Manishino" },
+            { Y: 66.66, X: 45.71, Type: "Trade Terminal", Region: "Uitama Dale" },
+            { Y: 67.41, X: 46.43, Type: "Beacon" },
+            { Y: 68.87, X: 49.67, Type: "Manufacturing", Region: "Bayam's Last Stand" },
+            { Y: 69.11, X: 50.48, Type: "Comms Tower/Camp", Region: "Furakis Outpost" },
+            { Y: 69.17, X: 48.94, Type: "Trade Terminal", Region: "The Vale of Osuku" },
+            { Y: 72.58, X: 50.75, Type: "Camp", Region: "Fujinoshij Bonefield" },
+            { Y: 75.07, X: 50.64, Type: "Camp", Region: "Rabik Sands" },
+            { Y: 78.36, X: 55.15, Region: "The Vale of Kokun" },
+            { Y: 80.39, X: 55.61, Type: "Beacon" },
+            { Y: 81.86, X: 55.48, Type: "Monolith" },
+            { Y: 83.11, X: 52.52, Type: "Camp", Region: "Akoda Sands" },
+            { Y: 84.52, X: 57.51, Region: "Amuroi Wasteland" },
+            { Y: 87.90, X: -143.17, Region: "Towan Desert" }
+        ]
+    }
+}
