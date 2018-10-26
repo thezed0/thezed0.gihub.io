@@ -3,7 +3,7 @@ function ZED01II()
     return {
         Messages: ["ZED-01 II", "Charred", "0C84:0082:0D59:0137"],
         POI: [
-            { Y: -67.73, X: 31.84, Type: "Resourse Depot", Region: 'The Vale of Niratsuk' },
+            { Y: -67.73, X: 31.84, Type: "Resource Depot", Region: 'The Vale of Niratsuk' },
             { Y: -66.78, X: 31.88, Type: "Drop Pod", Region: "Jiidaka Floodplain" },
             { Y: -66.11, X: 29.74, Type: "Trade Terminal", Region: "Rikuch Floodplain" },
             { Y: -64.77, X: 30.36, Type: "Beacon" },
@@ -67,7 +67,7 @@ function ZED07III()
         POI: [
             { Y: 27.83, X: -75.57, Type: "Abandoned Building", Region: "Nocancess Living Expanse" },
             { Y: 28.08, X: -75.18, Type: "Camp", Region: "Swanl Crossing" },
-            { Y: 28.92, X: -74.40, Type: "Resourse Depot", Region: "Mildaya VIII" },
+            { Y: 28.92, X: -74.40, Type: "Resource Depot", Region: "Mildaya VIII" },
             { Y: 31.25, X: -73.62, Type: "Drop Pod", Region: "Anmar Grassland" },
             { Y: 31.28, X: -74.02, Type: "Ancient Ruins" },
             { Y: 32.25, X: -74.39, Type: "Manufacturing", Region: "Echlevenus Scrubland" },
@@ -261,6 +261,35 @@ function ZED10IV()
     }
 }
 
+function ZED10III()
+{
+    return {
+        Messages: ["ZED-10 III", "Glacial", "0C17:0080:0D9D:0019", "30190159E418"],
+        POI: [
+            { Y: 33.44, X: -176.64, Region: "Frozen Wastes of Dimirnoz" },
+            { Y: 33.45, X: -177.08, Type: "Camp", Region: "Nuderzh Woodland" },
+            { Y: 29.49, X: -177.06, Region: "The Repenze Ranges" },
+            { Y: 24.85, X: 178.72, Type: "Trade Terminal", Region: "Luziam Glacier" },
+            { Y: 23.41, X: 176.62, Region: "Rachas Basin" },
+            { Y: 24.78, X: 175.37, Type: "Plaque" },
+            { Y: 29.42, X: 174.92, Type: "Trading Post" },
+            { Y: 27.41, X: 173.29, Type: "Grave" },
+            { Y: 29.97, X: 172.84, Type: "Transmission Tower/Camp", Region: "Smanz Post" },
+            { Y: 33.01, X: 172.84, Type: "Transmission Tower/Camp", Region: "Syasn Enclave" },
+            { Y: 38.49, X: 172.82, Type: "Manufacturing", Region: "The Mitro" },
+            { Y: 39.50, X: 172.86, Type: "Resource Depot", Region: "Point Apulaa" },
+            { Y: 39.99, X: 172.85, Type: "Camp", Region: "The Nimirn Pasture" },
+            { Y: 42.57, X: 172.46, Region: "Savyur Dale" },
+            { Y: 64.38, X: 175.58, Type: "Drop Pod", Region: "Onetsi Scrubland" },
+            { Y: 66.12, X: 175.25, Type: "Beacon" },
+            { Y: 80.37, X: 175.01, Region: "Vorshoya Grove" },
+            { Y: 78.70, X: -173.64, Type: "Monolith" },
+            { Y: 87.31, X: -141.39, Type: "Distress Beacon" },
+            { Y: 9.13, X: 7.15, Type: "Portal" }
+        ]
+    }
+}
+
 function ZED13I()
 {
     return {
@@ -278,7 +307,7 @@ function ZED13I()
             { Y: 36.36, X: -151.26, Type: "Trade Terminal", Region: "Nubung Lowlands" },
             { Y: 35.94, X: -151.50, Type: "Manufacturing", Region: "Plains of Ueqin" },
             { Y: 36.62, X: -151.05, Type: "Trade Terminal", Region: "Plains of Icang" },
-            { Y: 37.06, X: -152.12, Type: "Resourse Depot", Region: "The Yetai Morass" },
+            { Y: 37.06, X: -152.12, Type: "Resource Depot", Region: "The Yetai Morass" },
             { Y: 37.44, X: -152.99, Type: "Beacon" },
             { Y: 37.81, X: -153.90, Type: "Local Trade Center/Camp", Region: "Nordoiji Post" },
             { Y: 37.86, X: -154.10, Type: "Crashed Freighter" },
