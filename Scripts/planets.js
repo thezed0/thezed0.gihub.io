@@ -24,7 +24,8 @@ function ZED01II()
             { Y: -54.97, X: 26.69, Region: "The Vale of Riokamiz" },
             { Y: -53.36, X: 25.05, Type: "Drop Pod", Region: "Furay Bonefield" },
             { Y: -61.61, X: -149.41, Type: "Comms Tower", Region: "Oishibuyam's Wilds" },
-            { Y: -19.69, X: -77.59, Type: "Portal" }
+            { Y: -19.69, X: -77.59, Type: "Portal" },
+            { Y: -12.34, X: 74.24, Type: "Comms Tower/Camp", Region: "Point Moriyam" }
         ],
         Shores: [
             [{ Y: -67.77, X: 31.96 }, { Y: -67.76, X: 31.95 }, { Y: -67.76, X: 31.93 }, { Y: -67.74, X: 31.92 }, { Y: -67.74, X: 31.96 },
@@ -366,7 +367,7 @@ function ZED14III()
 function ZED14II()
 {
     return {
-        Messages: ["ZED-14 II", "Scorched", "0C84:0082:0D59:0033", "30330355A485"],
+        Messages: ["ZED-14 II", "Scorched", "0C84:0082:0D59:0033", "20330355A485"],
         POI: [
             { Y: 44.63, X: 50.30, Type: "Grave" },
             { Y: 44.58, X: 51.46, Type: "Crashed Freighter" },
@@ -406,6 +407,68 @@ function ZED14II()
             { Y: 83.11, X: 52.52, Type: "Camp", Region: "Akoda Sands" },
             { Y: 84.52, X: 57.51, Region: "Amuroi Wasteland" },
             { Y: 87.90, X: -143.17, Region: "Towan Desert" }
+        ]
+    }
+}
+
+function ZED14I()
+{
+    return {
+        Messages: ["ZED-14 I", "Frozen", "0C84:0082:0D59:0033", "10330355A485"],
+        POI: [
+            { Y: 14.13, X: 145.42, Type: "Ancient Ruins" },
+            { Y: 16.37, X: 145.98, Type: "Drop Pod", Region: "Anzhe XII" },
+            { Y: 16.23, X: 146.37, Type: "Monolith" },
+            { Y: 17.15, X: 146.74, Type: "Transmission Tower/Camp", Region: "Urchaish Encampment" },
+            { Y: 17.36, X: 146.75, Type: "Trade Terminal", Region: "The Lokin Expanse" },
+            { Y: 17.26, X: 147.35, Type: "Beacon" },
+            { Y: 14.57, X: 149.75, Type: "Local Trade Center", Region: "Berba Ice Sheet" },
+            { Y: 14.41, X: 150.20, Region: "Udachi Ice Crust" },
+            { Y: 14.61, X: 149.98, Type: "Resource Depot", Region: "Gozhenk Crossing" },
+            { Y: 14.66, X: 150.39, Type: "Camp", Region: "The Blinich Praire" },
+            { Y: 14.92, X: 150.61, Type: "Ancient Plaque" },
+            { Y: 15.18, X: 150.82, Type: "Trade Terminal", Region: "Vumesh Ice Sheet" },
+            { Y: 17.07, X: 151.47, Region: "The Nachy Expanse" },
+            { Y: 19.34, X: 150.60, Type: "Transmission Tower", Region: "Amyish Ice Sheet" },
+            { Y: 19.63, X: 151.02, Type: "Abandoned Building", Region: "The Megistopo Praire" },
+            { Y: 20.20, X: 150.62, Type: "Beacon" },
+            { Y: 20.18, X: 151.67, Type: "Camp", Region: "Point Dovor" },
+            { Y: 20.25, X: 152.11, Type: "Resource Depot", Region: "The Biysk" },
+            { Y: 22.60, X: 151.04, Region: "Ice Station Hinyevkazh" },
+            { Y: 22.64, X: 151.25, Type: "Resource Depot", Region: "The Iryun Praire" },
+            { Y: 23.42, X: 151.04, Type: "Crashed Freighter" },
+            { Y: 23.88, X: 151.23, Type: "Transmission Tower/Camp", Region: "Ulkevi Outpost" },
+            { Y: 23.84, X: 152.09, Type: "Local Trade Center", Region: "Rezhiv Forest" },
+            { Y: 23.43, X: 152.09, Type: "Abandoned Building", Region: "The Sasurga Drifts" },
+            { Y: 24.17, X: 152.77, Type: "Drop Pod", Region: "Great Plains of Loyarny" },
+            { Y: 24.55, X: 153.66, Type: "Beacon" },
+            { Y: 24.96, X: 154.77, Type: "Camp", Region: "Eznodo Ice Field" },
+            { Y: 25.17, X: 153.63, Type: "Observatory/Camp", Region: "Miskiyvi Post" },
+            { Y: 25.32, X: 153.43, Type: "Resource Depot", Region: "Ingrats Valley" },
+            { Y: 25.38, X: 153.64, Type: "Comms Tower/Camp", Region: "Lakine Outpost" },
+            { Y: 25.82, X: 153.87, Type: "Crashed Freighter" },
+            { Y: 25.26, X: 154.11, Type: "Crashed Freighter" },
+            { Y: 26.51, X: 154.32, Type: "Camp", Region: "Meshe Ice Field" },
+            { Y: 27.50, X: 154.32, Type: "Resource Depot", Region: "Erdeyna Ice Sheet" },
+            { Y: 27.75, X: 154.56, Type: "Monolith" },
+            { Y: 30.14, X: 155.92, Type: "Camp", Region: "Hikano Ice Sheet" },
+            { Y: 30.65, X: 156.61, Type: "Transmission Tower", Region: "The Itsivolz Expanse" },
+            { Y: 33.80, X: 156.86, Type: "Trade Terminal", Region: "The Solovych Levels" },
+            { Y: 35.17, X: 157.58, Region: "Kotroit Glacier" },
+            { Y: 35.72, X: 157.82, Type: "Monolith" },
+            { Y: 36.06, X: 157.82, Type: "Crashed Freighter" },
+            { Y: 36.44, X: 158.05, Region: "The Vale of Navolog" },
+            { Y: 36.46, X: 157.32, Type: "Camp", Region: "Vuktyar Ice Crust" },
+            { Y: 36.94, X: 158.04, Type: "Camp", Region: "Chegut Ice Crust" },
+            { Y: 37.80, X: 158.28, Type: "Manufacturing", Region: "Plains of Rukals" },
+            { Y: 38.28, X: 158.29, Region: "The Bashka Praire" },
+            { Y: 39.22, X: 158.29, Region: "Duzhiz Ice Crust" },
+            { Y: 39.89, X: 158.53, Region: "The Vozyubk Flats" },
+            { Y: 40.59, X: 159.02, Region: "The Sukhtaru Ranges" },
+            { Y: 40.99, X: 158.05, Type: "Trade Terminal", Region: "Tuverkhayl XII" },
+            { Y: 41.53, X: 158.52, Type: "Comms Tower/Camp", Region: "Point Loskoy" },
+            { Y: 42.09, X: 159.25, Type: "Camp", Region: "Niyuryinst Forest" },
+            { Y: 42.62, X: 158.99, Type: "Transmission Tower", Region: "The Megisem Pasture" }
         ]
     }
 }
