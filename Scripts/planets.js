@@ -291,6 +291,35 @@ function ZED10III()
     }
 }
 
+function ZED10II()
+{
+    return {
+        Messages: ["ZED-10 II", "Radioactive", "0C17:0080:0D9D:0019", "20190159E418"],
+        POI: [
+            { Y: 15.98, X: -58.75, Type: "Grave" },
+            { Y: 16.62, X: -58.55, Type: "Manufacturing", Region: "Waragjyot Swamplands" },
+            { Y: 18.00, X: -55.61, Type: "Abandoned Building", Region: "Nogierf Sands" },
+            { Y: 17.91, X: -55.23, Type: "Comms Tower", Region: "Lost Plais of Ugust" },
+            { Y: 17.84, X: -53.95, Type: "Drop Pod", Region: "Oseiruss Lowlands" },
+            { Y: 17.89, X: -52.34, Type: "Crashed Freighter" },
+            { Y: 17.97, X: -47.92, Region: "Gudonc Marsh" },
+            { Y: 17.96, X: -44.73, Type: "Monolith" },
+            { Y: 17.85, X: -43.88, Type: "Ancient Ruins" },
+            { Y: 17.80, X: -43.42, Type: "Ancient Ruins" },
+            { Y: 18.26, X: -40.21, Type: "Manufacturing", Region: "The Reumaska Morass" },
+            { Y: 19.00, X: -37.16, Type: "Manufacturing", Region: "Sovillenn Crater VII" },
+            { Y: 19.21, X: -34.42, Type: "Abandoned Building", Region: "Ruvosa's Graveyard" },
+            { Y: 19.13, X: -32.87, Type: "Observatory/Camp", Region: "Aynem Enclave" },
+            { Y: 19.65, X: -31.27, Type: "Observatory/Camp", Region: "Judah Platform" },
+            { Y: 20.24, X: -25.22, Type: "Trade Terminal", Region: "Sogrov Crossing" },
+            { Y: 20.35, X: -24.53, Type: "Trade Terminal", Region: "Afordo Flats XII" },
+            { Y: 20.58, X: -22.91, Type: "Camp", Region: "Gaterihem Crater IV" },
+            { Y: 0.80, X: 75.29, Type: "Ancient Ruins" },
+            { Y: -49.28, X: -93.90, Type: "Portal" }
+        ]
+    }
+}
+
 function ZED13I()
 {
     return {
