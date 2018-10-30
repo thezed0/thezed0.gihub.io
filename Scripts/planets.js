@@ -25,7 +25,9 @@ function ZED01II()
             { Y: -53.36, X: 25.05, Type: "Drop Pod", Region: "Furay Bonefield" },
             { Y: -61.61, X: -149.41, Type: "Comms Tower", Region: "Oishibuyam's Wilds" },
             { Y: -19.69, X: -77.59, Type: "Portal" },
-            { Y: -12.34, X: 74.24, Type: "Comms Tower/Camp", Region: "Point Moriyam" }
+            { Y: -12.34, X: 74.24, Type: "Comms Tower/Camp", Region: "Point Moriyam" },
+            { Y: 1.82, X: -43.72, Type: "Monolith" },
+            { Y: 25.28, X: -108.62, Type: "Abandoned Building", Region: "Point Borider" }
         ],
         Shores: [
             [{ Y: -67.77, X: 31.96 }, { Y: -67.76, X: 31.95 }, { Y: -67.76, X: 31.93 }, { Y: -67.74, X: 31.92 }, { Y: -67.74, X: 31.96 },
@@ -527,6 +529,70 @@ function ZED14I()
             { Y: 41.53, X: 158.52, Type: "Comms Tower/Camp", Region: "Point Loskoy" },
             { Y: 42.09, X: 159.25, Type: "Camp", Region: "Niyuryinst Forest" },
             { Y: 42.62, X: 158.99, Type: "Transmission Tower", Region: "The Megisem Pasture" }
+        ]
+    }
+}
+
+function ZED15I()
+{
+    return {
+        Messages: ["ZED-15 I", "Decaying Nuclear", "0C84:0082:0D59:011C", "211C0355A485"],
+        POI: [
+            { Y: -17.83, X: 166.30, Type: "Abandoned Building", Region: "Lost Plains of Renbur" },
+            { Y: -17.46, X: 166.30, Type: "Abandoned Building", Region: "Ieverts's Quagmire" },
+            { Y: -17.49, X: 166.69, Type: "Observatory", Region: "Apygen's Quagmire" },
+            { Y: -20.92, X: 168.76, Type: "Drop Pod", Region: "Windswept Plains of Cebre" },
+            { Y: -22.29, X: 167.94, Type: "Camp", Region: "Treesb Dustbowl" },
+            { Y: -22.99, X: 167.95, Type: "Drop Pod", Region: "Ipleyc Swamp" },
+            { Y: -23.95, X: 167.10, Type: "Observatory/Camp", Region: "Iogerf Encampment" },
+            { Y: -24.62, X: 166.70, Type: "Abandoned Building", Region: "Okinn Wasteland" },
+            { Y: -24.99, X: 167.09, Type: "Manufacturing", Region: "Sponter Wetlands" },
+            { Y: -25.69, X: 167.56, Region: "Stoum Bonefield" },
+            { Y: -26.78, X: 168.77, Type: "Beacon" },
+            { Y: -30.66, X: 169.54, Type: "Transmission Tower/Camp", Region: "Point Rijira" },
+            { Y: -32.14, X: 169.14, Type: "Local Trade Center/Camp", Region: "Point Aweslem" },
+            { Y: -34.49, X: 169.58, Type: "Ancient Plaque" },
+            { Y: -35.04, X: 169.52, Type: "Observatory/Camp", Region: "Tungar Post" },
+            { Y: -34.73, X: 169.18, Type: "Beacon" },
+            { Y: -35.18, X: 167.95, Type: "Resource Depot", Region: "Obereig Dale" },
+            { Y: -34.85, X: 167.56, Region: "Ugusianu Dustbowl" },
+            { Y: -34.61, X: 167.92, Type: "Transmission Tower/Camp", Region: "Cusonjalin Platform" },
+            { Y: -30.37, X: 166.29, Type: "Observatory", Region: "Upolin Dustbowl" },
+            { Y: -29.83, X: 167.16, Type: "Grave" },
+            { Y: -34.53, X: 169.98, Type: "Resource Depot", Region: "Vurescopia Floodplain" },
+            { Y: -36.28, X: 171.17, Type: "Local Trade Center", Region: "Atisbu Plains" },
+            { Y: -37.34, X: 171.22, Type: "Beacon" },
+            { Y: -38.22, X: 172.43, Type: "Camp", Region: "Aldingw Desert" },
+            { Y: -39.19, X: 172.00, Type: "Transmission Tower/Camp", Region: "Curc Encampment" },
+            { Y: -40.55, X: 170.39, Type: "Trade Terminal", Region: "The Geypti" },
+            { Y: -42.45, X: 170.80, Type: "Beacon" },
+            { Y: -45.24, X: 173.61, Region: "Floru Moor" },
+            { Y: -45.48, X: 174.05, Type: "Local Trade Center", Region: "Wigani's Graveyard" },
+            { Y: -46.32, X: 173.36, Region: "Loperse's Wilds" },
+            { Y: -47.69, X: 173.51, Type: "Beacon" },
+            { Y: -54.77, X: 171.63, Region: "The Ogges Flats" },
+            { Y: -55.37, X: 172.11, Type: "Manufacturing", Region: "Oparsto Lowlands" },
+            { Y: -56.87, X: 172.33, Type: "Observatory/Camp", Region: "Point Ascat" },
+            { Y: -58.19, X: 169.75, Region: "Ludle Crater IV" },
+            { Y: -60.02, X: 169.00, Type: "Camp", Region: "Roitwitn's Drift" },
+            { Y: -62.73, X: 165.98, Type: "Trade Terminal", Region: "Hytori's Wilds" },
+            { Y: -64.80, X: 165.64, Type: "Observatory/Camp", Region: "Point Kearlans" },
+            { Y: -65.70, X: 163.94, Type: "Drop Pod", Region: "Zenos Wastes" },
+            { Y: -67.40, X: 162.52, Type: "Beacon" },
+            { Y: -67.76, X: 162.28, Type: "Transmission Tower/Camp", Region: "Apulc Post" },
+            { Y: -69.34, X: 159.48, Type: "Camp", Region: "Hiyadhurst Dustbowl" },
+            { Y: -70.73, X: 157.81, Type: "Camp", Region: "Sawbridlin Wastes" },
+            { Y: -70.78, X: 152.41, Type: "Camp", Region: "Omboja Bonefield" },
+            { Y: -72.82, X: 154.72, Type: "Camp", Region: "Shnunea Flats VIII" },
+            { Y: -73.51, X: 153.41, Type: "Monolith" },
+            { Y: -75.79, X: 150.68, Type: "Abandoned Building", Region: "The Vale of Putones" },
+            { Y: -78.27, X: 148.28, Type: "Manufacturing", Region: "Ulchi Marsh" },
+            { Y: -79.91, X: 141.80, Type: "Camp", Region: "Dosia's Graveyard" },
+            { Y: -80.26, X: 136.82, Type: "Camp", Region: "Hytehraxa Sector XV" },
+            { Y: -81.71, X: 135.06, Type: "Trade Terminal", Region: "Lavern Swamp" },
+            { Y: -83.47, X: 135.08, Type: "Resource Depot", Region: "Lotlak XVI" },
+            { Y: -84.00, X: 114.85, Type: "Comms Tower", Region: "Tuniazus Sands" },
+            { Y: -83.49, X: 75.31, Type: "Ancient Ruins" }
         ]
     }
 }
