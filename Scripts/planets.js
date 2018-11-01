@@ -507,7 +507,7 @@ function ZED14I()
 function ZED15I()
 {
     return {
-        Messages: ["ZED-15 I", "Decaying Nuclear", "0C84:0082:0D59:011C", "211C0355A485"],
+        Messages: ["ZED-15 I", "Decaying Nuclear", "0C84:0082:0D59:011C", "111C0355A485"],
         POI: [
             { Y: -17.83, X: 166.30, Type: "Abandoned Building", Region: "Lost Plains of Renbur" },
             { Y: -17.46, X: 166.30, Type: "Abandoned Building", Region: "Ieverts's Quagmire" },
@@ -563,7 +563,82 @@ function ZED15I()
             { Y: -81.71, X: 135.06, Type: "Trade Terminal", Region: "Lavern Swamp" },
             { Y: -83.47, X: 135.08, Type: "Resource Depot", Region: "Lotlak XVI" },
             { Y: -84.00, X: 114.85, Type: "Comms Tower", Region: "Tuniazus Sands" },
-            { Y: -83.49, X: 75.31, Type: "Ancient Ruins" }
+            { Y: -83.49, X: 75.31, Type: "Ancient Ruins" },
+            { Y: 7.54, X: 107.16, Type: "Observatory", Region: "Robiton Badlands" }
         ]
     }
 }
+
+function ZED16IV()
+{
+    return {
+        Messages: ["ZED-16 IV", "Boiling", "0C84:0082:0D59:00CC", "40CC0355A485"],
+        POI: [
+            { Y: 15.29, X: 38.97, Type: "Observatory/Camp", Region: "Aridera Outpost" },
+            { Y: 15.34, X: 38.73, Type: "Camp" },
+            { Y: 15.83, X: 39.24, Type: "Trade Terminal", Region: "Ioband Valley" },
+            { Y: 15.88, X: 40.37, Type: "Ancient Ruins" },
+            { Y: 16.39, X: 40.10, Type: "Camp", Region: "The Urazu" },
+            { Y: 17.24, X: 40.23, Type: "Beacon" },
+            { Y: 17.51, X: 40.34, Type: "Local Trade Center/Camp", Region: "Gurob Outpost" },
+            { Y: 18.45, X: 40.59, Type: "Camp", Region: "Dazaki Basin" },
+            { Y: 18.85, X: 40.72, Region: "Jinohas Crossing" },
+            { Y: 19.13, X: 40.72, Type: "Drop Pod", Region: "Asusa Dustbowl" },
+            { Y: 19.56, X: 40.72, Type: "Crashed Freighter" },
+            { Y: 19.66, X: 40.35, Type: "Resource Depot", Region: "Atsun Bonefield" },
+            { Y: 19.86, X: 40.10, Type: "Camp", Region: "Yachi's Great Reaches" },
+            { Y: 20.04, X: 39.99, Type: "Ancient Plaque" },
+            { Y: 20.08, X: 39.87, Type: "Beacon" },
+            { Y: 20.58, X: 40.12, Type: "Monolith" },
+            { Y: 20.69, X: 40.71, Type: "Local Trade Center/Camp", Region: "Ageoco Encampment" },
+            { Y: 20.40, X: 40.72, Type: "Grave" },
+            { Y: 20.52, X: 40.85, Type: "Trading Post" },
+            { Y: 21.47, X: 40.82, Type: "Abandoned Building", Region: "Inasu Badlands" },
+            { Y: 21.58, X: 40.96, Type: "Trade Terminal", Region: "Point Roranono" },
+            { Y: 21.31, X: 40.95, Type: "Local Trade Center/Camp", Region: "Tahag Station" },
+            { Y: 21.41, X: 41.08, Region: "Oborigusu Wastland" },
+            { Y: 22.02, X: 40.83, Type: "Camp", Region: "Ogoribetsu Sector VIII" },
+            { Y: 22.43, X: 40.83, Type: "Local Trade Center/Camp", Region: "Camp Myokot" },
+            { Y: 22.47, X: 40.70, Type: "Abandoned Building", Region: "Sesak's Graveyard" },
+            { Y: 22.82, X: 40.46, Type: "Manufacturing", Region: "Iomiot VI" },
+            { Y: 23.59, X: 40.60, Type: "Trade Terminal", Region: "Eyama Moor" },
+            { Y: 24.08, X: 40.72, Type: "Beacon" },
+            { Y: 24.49, X: 39.85, Type: "Local Trade Center/Camp", Region: "Camp Ebino" },
+            { Y: 24.71, X: 39.97, Type: "Abandoned Building", Region: "Ungoto's Graveyard" },
+            { Y: 25.75, X: 39.61, Region: "The Jiedar Flats" },
+            { Y: 26.24, X: 39.72, Type: "Manufacturing", Region: "Lost Plains of Wariy" },
+            { Y: 26.97, X: 39.85, Type: "Comms Tower/Camp", Region: "Aioikord Encampment" },
+            { Y: 27.14, X: 40.11, Type: "Drop Pod", Region: "Great Plains of Udamak" },
+            { Y: 27.18, X: 40.35, Type: "Camp", Region: "Masaijo Sector X" },
+            { Y: 27.43, X: 40.34, Type: "Observatory", Region: "Karabi Moor" },
+            { Y: 28.27, X: 39.74, Type: "Drop Pod", Region: "Antaina's Great Reaches" },
+            { Y: 28.23, X: 39.49, Type: "Distress Beacon" },
+            { Y: 28.36, X: 39.84, Type: "Abandoned Building", Region: "Rishi Plateau" },
+            { Y: 28.90, X: 39.74, Type: "Trade Terminal", Region: "Point Ozawa" },
+            { Y: 29.47, X: 39.86, Type: "Camp", Region: "Kochi Bonefield" },
+            { Y: 29.92, X: 39.61, Type: "Drop Pod", Region: "Point Ingus" },
+            { Y: 30.07, X: 39.84, Type: "Abandoned Building", Region: "Point Roran" },
+            { Y: 30.24, X: 39.72, Type: "Local Trade Center", Region: "The Magato" },
+            { Y: 30.22, X: 40.11, Type: "Ancient Ruins" },
+            { Y: 30.18, X: 40.22, Type: "Camp", Region: "Plains of Hidak" },
+            { Y: 29.61, X: 40.48, Type: "Beacon" },
+            { Y: 30.54, X: 40.23, Type: "Trade Terminal", Region: "Reshi Badlands" },
+            { Y: 30.56, X: 39.85, Type: "Local Trade Center/Camp", Region: "Oborigus Post" },
+            { Y: 30.99, X: 39.97, Type: "Trading Post" },
+            { Y: 31.03, X: 39.86, Type: "Drop Pod", Region: "Birad's Great Reaches" },
+            { Y: 31.33, X: 40.00, Type: "Trading Post" },
+            { Y: 31.45, X: 39.98, Type: "Ancient Ruins" },
+            { Y: 31.66, X: 39.74, Type: "Monolith" },
+            { Y: 31.90, X: 39.74, Type: "Ancient Plaque" },
+            { Y: 66.79, X: -121.36, Type: "Portal" },
+            { Y: 13.53, X: 38.48, Type: "Ancient Ruins" }
+        ]
+    };
+}
+
+/*
+1-humid
+1a-airless
+2-scorched
+3-blighted
+ */
