@@ -293,6 +293,71 @@ function ZED10III()
     }
 }
 
+function ZED10II()
+{
+    return {
+        Messages: ["ZED-10 II", "Radioactive", "0C17:0080:0D9D:0019", "20190159E418"],
+        POI: [
+            { Y: 15.98, X: -58.75, Type: "Grave" },
+            { Y: 16.62, X: -58.55, Type: "Manufacturing", Region: "Waragjyot Swamplands" },
+            { Y: 18.00, X: -55.61, Type: "Abandoned Building", Region: "Nogierf Sands" },
+            { Y: 17.91, X: -55.23, Type: "Comms Tower", Region: "Lost Plais of Ugust" },
+            { Y: 17.84, X: -53.95, Type: "Drop Pod", Region: "Oseiruss Lowlands" },
+            { Y: 17.89, X: -52.34, Type: "Crashed Freighter" },
+            { Y: 17.97, X: -47.92, Region: "Gudonc Marsh" },
+            { Y: 17.96, X: -44.73, Type: "Monolith" },
+            { Y: 17.85, X: -43.88, Type: "Ancient Ruins" },
+            { Y: 17.80, X: -43.42, Type: "Ancient Ruins" },
+            { Y: 18.26, X: -40.21, Type: "Manufacturing", Region: "The Reumaska Morass" },
+            { Y: 19.00, X: -37.16, Type: "Manufacturing", Region: "Sovillenn Crater VII" },
+            { Y: 19.21, X: -34.42, Type: "Abandoned Building", Region: "Ruvosa's Graveyard" },
+            { Y: 19.13, X: -32.87, Type: "Observatory/Camp", Region: "Aynem Enclave" },
+            { Y: 19.65, X: -31.27, Type: "Observatory/Camp", Region: "Judah Platform" },
+            { Y: 20.24, X: -25.22, Type: "Trade Terminal", Region: "Sogrov Crossing" },
+            { Y: 20.35, X: -24.53, Type: "Trade Terminal", Region: "Afordo Flats XII" },
+            { Y: 20.58, X: -22.91, Type: "Camp", Region: "Gaterihem Crater IV" },
+            { Y: 0.80, X: 75.29, Type: "Ancient Ruins" },
+            { Y: -49.28, X: -93.90, Type: "Portal" }
+        ]
+    }
+}
+//
+function ZED10I()
+{
+    return {
+        Messages: ["ZED-10 I", "Life-Incompatible", "0C17:0080:0D9D:0019", "10190159E418"]
+    }
+}
+
+function ZED11VI()
+{
+    return {
+        Messages: ["ZED-11 VI", "Fiery", "0C84:0082:0D59:010B", "610B0355A485"],
+        POI: [
+            { Y: -1.31, X: -70.00, Type: "Beacon" },
+            { Y: -1.30, X: -69.51, Type: "Monolith" },
+            { Y: -1.54, X: -68.54, Type: "Local Trade Center/Camp", Region: "Odairado Enclave" },
+            { Y: 3.33, X: -65.94, Type: "Manufacturing", Region: "Entsud Bonefield" },
+            { Y: 4.33, X: -65.70, Type: "Observatory/Camp", Region: "Point Kuyamakiz" },
+            { Y: 5.57, X: -65.71, Type: "Camp", Region: "Amuro Crossing" },
+            { Y: 6.55, X: -65.48, Type: "Beacon" },
+            { Y: 7.73, X: -64.33, Type: "Drop Pod", Region: "Hikuz Point" },
+            { Y: 8.23, X: -64.11, Type: "Abandoned Building", Region: "Kochin Wastes" },
+            { Y: 10.12, X: -63.66, Type: "Camp", Region: "Gauranono's Drift" },
+            { Y: 13.10, X: -62.55, Type: "Beacon" },
+            { Y: 13.51, X: -61.90, Type: "Local Trade Center", Region: "Fuefukuy View" },
+            { Y: 14.15, X: -61.68, Region: "Nemur's Wilds" },
+            { Y: 17.81, X: -59.16, Type: "Camp", Region: "Enbastul Sector XVII" },
+            { Y: 18.01, X: -59.16, Type: "Trade Terminal", Region: "The Ninoka Mountains" },
+            { Y: 22.05, X: -56.56, Type: "Crashed Freighter" },
+            { Y: 24.72, X: -54.12, Region: "Kuchik VII" },
+            { Y: 25.00, X: -53.77, Type: "Trading Post" },
+            { Y: 26.03, X: -52.33, Type: "Transmission Tower/Camp", Region: "Camp Iiyaza" },
+            { Y: 53.95, X: -13.14, Type: "Portal" }
+        ]
+    }
+}
+
 function ZED13I()
 {
     return {
