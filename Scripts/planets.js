@@ -637,7 +637,7 @@ function ZED15I()
 function ZED16IV()
 {
     return {
-        Messages: ["ZED-16 IV", "Boiling", "0C84:0082:0D59:00CC", "40CC0355A485"],
+        Messages: ["ZED-16 IV", "Boiling", "0C84:0082:0D59:00CC", "50CC0355A485"],
         POI: [
             { Y: 15.29, X: 38.97, Type: "Observatory/Camp", Region: "Aridera Outpost" },
             { Y: 15.34, X: 38.73, Type: "Camp" },
@@ -699,6 +699,71 @@ function ZED16IV()
             { Y: 13.53, X: 38.48, Type: "Ancient Ruins" }
         ]
     };
+}
+
+function ZED16III()
+{
+    return {
+        Messages: ["ZED-16 III", "Blighted", "0C84:0082:0D59:00CC", "40CC0355A485"],
+        POI: [
+            { Y: 0.00, X: -107.55, Type: "Trade Terminal", Region: "Point Igegyizhul" },
+            { Y: 0.41, X: -107.17, Type: "Trade Terminal", Region: "Ihwey Sector XVI" },
+            { Y: 2.43, X: -106.79, Type: "Camp", Region: "Naqenzh Crossing" },
+            { Y: 4.03, X: -106.39, Type: "Beacon" },
+            { Y: 4.11, X: -104.44, Type: "Local Trade Center", Region: "Oxungju Bog" },
+            { Y: 9.71, X: -104.44, Type: "Camp", Region: "Point Potourd" },
+            { Y: 10.09, X: -104.43, Type: "Ancient Plaque" },
+            { Y: 8.10, X: -105.23, Type: "Camp", Region: "Point Oingsohian" },
+            { Y: 11.40, X: -102.04, Type: "Comms Tower", Region: "Graix Valley" },
+            { Y: 12.14, X: -102.85, Type: "Trade Terminal", Region: "Amheu Marsh" },
+            { Y: 11.81, X: -101.23, Type: "Ancient Plaque" },
+            { Y: 13.01, X: -101.24, Type: "Camp", Region: "The Inleu" },
+            { Y: 14.13, X: -102.05, Region: "Ogbaj VIII" },
+            { Y: 14.12, X: -102.45, Type: "Camp", Region: "The Uduohe Morass" },
+            { Y: 15.74, X: -101.24, Type: "Manufacturing", Region: "Ogngo's Quagmire" },
+            { Y: 16.83, X: -102.04, Type: "Comms Tower/Camp", Region: "Ragxiali Enclave" },
+            { Y: 17.56, X: -102.45, Type: "Manufacturing", Region: "Ombulus Marsh" },
+            { Y: 21.95, X: -102.05, Type: "Camp", Region: "Sungn Floodplain" },
+            { Y: 22.39, X: -100.83, Type: "Camp", Region: "The Tiaom Levels" },
+            { Y: 23.03, X: -101.64, Type: "Trade Terminal", Region: "The Domba" },
+            { Y: 26.06, X: -102.04, Type: "Trade Terminal", Region: "Ibxi XVI" },
+            { Y: 27.10, X: -101.65, Type: "Camp", Region: "The Idamn Flats" },
+            { Y: 27.03, X: -102.45, Type: "Camp", Region: "Zibos Fen" },
+            { Y: 29.16, X: -103.65, Type: "Manufacturing", Region: "Myanc Moor" },
+            { Y: 29.60, X: -102.04, Type: "Ancient Plaque" },
+            { Y: 32.05, X: -102.05, Type: "Camp", Region: "Irkan Fen" },
+            { Y: 35.04, X: -100.41, Type: "Beacon" },
+            { Y: 36.06, X: -101.64, Type: "Local Trade Center/Camp", Region: "Mawonsan Platform" },
+            { Y: 36.56, X: -101.63, Region: "Point Renqjin" },
+            { Y: 38.91, X: -101.64, Type: "Camp", Region: "Agian Mire" },
+            { Y: 40.32, X: -102.04, Type: "Resource Depot", Region: "Plains of Mukangz" },
+            { Y: 41.39, X: -100.84, Type: "Drop Pod", Region: "Axoisa Sector X" },
+            { Y: 43.48, X: -100.42, Type: "Local Trade Center/Camp", Region: "Arqugar Enclave" },
+            { Y: 43.91, X: -100.42, Type: "Local Trade Center/Camp", Region: "Nuchun Platform" },
+            { Y: 44.67, X: -98.79, Region: "Dujin Marsh" },
+            { Y: 44.50, X: -98.38, Type: "Camp", Region: "Itonquo's Quagmire" },
+            { Y: 44.88, X: -98.85, Type: "Drop Pod", Region: "Ribxi Lowlands" },
+            { Y: 46.91, X: -98.14, Type: "Camp", Region: "Igong Fen" },
+            { Y: 46.24, X: -97.94, Type: "Ancient Plaque" },
+            { Y: 49.15, X: -99.78, Type: "Transmission Tower/Camp", Region: "Camp Xizentsu" },
+            { Y: 49.18, X: -99.31, Type: "Camp", Region: "Nehaej Swamp" },
+            { Y: 48.68, X: -99.62, Type: "Manufacturing", Region: "Izuisui Crossing" },
+            { Y: 51.82, X: -97.52, Type: "Beacon" },
+            { Y: 50.68, X: -95.10, Type: "Trading Post" },
+            { Y: 49.04, X: -93.40, Type: "Local Trade Center", Region: "The Siaohekou" },
+            { Y: 51.29, X: -91.59, Region: "Point Deangho" },
+            { Y: 53.40, X: -89.44, Type: "Drop Pod", Region: "Nesumxu Swamp" },
+            { Y: 55.04, X: -87.59, Region: "Point Lahazesiu" },
+            { Y: 58.64, X: -81.67, Type: "Beacon" },
+            { Y: 60.85, X: -77.04, Type: "Local Trade Center/Camp", Region: "Wangzihao Post" },
+            { Y: 62.08, X: -73.03, Type: "Transmission Tower/Camp", Region: "Lubin Encampment" },
+            { Y: 62.64, X: -71.81, Type: "Abandoned Building", Region: "Riasta Dale" },
+            { Y: 63.95, X: -68.85, Region: "Sapug Sector VII" },
+            { Y: 49.83, X: 33.27, Type: "Distress Beacon" },
+            { Y: 49.40, X: 32.76, Type: "Local Trade Center/Camp", Region: "Lihsy Encampment" },
+            { Y: 89.58, X: -179.81, Type: "Grave" }
+        ]
+    }
 }
 
 /*
