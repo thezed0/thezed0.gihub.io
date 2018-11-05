@@ -321,7 +321,7 @@ function ZED10II()
         ]
     }
 }
-//
+
 function ZED10I()
 {
     return {
@@ -354,6 +354,35 @@ function ZED11VI()
             { Y: 25.00, X: -53.77, Type: "Trading Post" },
             { Y: 26.03, X: -52.33, Type: "Transmission Tower/Camp", Region: "Camp Iiyaza" },
             { Y: 53.95, X: -13.14, Type: "Portal" }
+        ]
+    }
+}
+
+function ZED11V()
+{
+    return {
+        Messages: ["ZED-11 V", "", "0C84:0082:0D59:010B", "510B0355A485"],
+        POI: [
+            { Y: 26.42, X: 26.12, Type: "Ancient Plaque" },
+            { Y: 27.55, X: 25.50, Type: "Manufacturing", Region: "Ginton's Quagmire" },
+            { Y: 27.80, X: 26.11, Region: "Iheme Grassland" },
+            { Y: 30.29, X: 25.21, Type: "Drop Pod", Region: "Lossos Valley" },
+            { Y: 31.08, X: 24.98, Type: "Trade Terminal", Region: "The Riltonsia Praire" },
+            { Y: 31.63, X: 24.04, Type: "Local Trade Center", Region: "Negwoolefka Floodplain" },
+            { Y: 33.31, X: 22.89, Type: "Crashed Freighter" },
+            { Y: 34.72, X: 22.87, Type: "Transmission Tower", Region: "Maxen's Great Reaches" },
+            { Y: 37.63, X: 23.34, Type: "Local Trade Center/Camp", Region: "Aethor Enclave" },
+            { Y: 39.55, X: 23.79, Type: "Manufacturing", Region: "Sigatan Forest" },
+            { Y: 42.30, X: 24.52, Type: "Comms Tower/Camp", Region: "Adhurca Post" },
+            { Y: 60.55, X: 25.47, Type: "Drop Pod", Region: "Memanda's Bounty" },
+            { Y: 63.83, X: 23.27, Region: "Ixousal's Orchard" },
+            { Y: 67.78, X: 20.19, Type: "Camp", Region: "The Kroteus Pasture" },
+            { Y: 69.15, X: 19.43, Type: "Abandoned Building", Region: "Hyasta Grasslands" },
+            { Y: 70.79, X: 18.70, Type: "Trade Terminal", Region: "Overt Jungle" },
+            { Y: 71.10, X: 18.19, Type: "Resourse Depo", Region: "The Eafornca Flats" },
+            { Y: 72.60, X: 18.94, Type: "Trading Post" },
+            { Y: 74.96, X: 20.06, Type: "Beacon" },
+            { Y: 84.82, X: 15.52, Region: "Uadam Forest" }
         ]
     }
 }
