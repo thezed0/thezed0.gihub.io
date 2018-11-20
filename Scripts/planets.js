@@ -361,7 +361,7 @@ function ZED11VI()
 function ZED11V()
 {
     return {
-        Messages: ["ZED-11 V", "", "0C84:0082:0D59:010B", "510B0355A485"],
+        Messages: ["ZED-11 V", "Humid", "0C84:0082:0D59:010B", "510B0355A485"],
         POI: [
             { Y: 26.42, X: 26.12, Type: "Ancient Plaque" },
             { Y: 27.55, X: 25.50, Type: "Manufacturing", Region: "Ginton's Quagmire" },
@@ -379,10 +379,39 @@ function ZED11V()
             { Y: 67.78, X: 20.19, Type: "Camp", Region: "The Kroteus Pasture" },
             { Y: 69.15, X: 19.43, Type: "Abandoned Building", Region: "Hyasta Grasslands" },
             { Y: 70.79, X: 18.70, Type: "Trade Terminal", Region: "Overt Jungle" },
-            { Y: 71.10, X: 18.19, Type: "Resourse Depo", Region: "The Eafornca Flats" },
+            { Y: 71.10, X: 18.19, Type: "Resource Depot", Region: "The Eafornca Flats" },
             { Y: 72.60, X: 18.94, Type: "Trading Post" },
             { Y: 74.96, X: 20.06, Type: "Beacon" },
             { Y: 84.82, X: 15.52, Region: "Uadam Forest" }
+        ]
+    }
+}
+
+function ZED11IV()
+{
+    return {
+        Messages: ["ZED-11 IV", "", "0C84:0082:0D59:010B", "410B0355A485"],
+        POI: [
+            { Y: 33.74, X: -99.62, Type: "Abandoned Building", Region: "Point Linogor" },
+            { Y: 31.92, X: -100.02, Type: "Drop Pod", Region: "Yersk Badlands" },
+            { Y: 31.58, X: -100.42, Type: "Monolith" },
+            { Y: 29.23, X: -98.79, Type: "Resource Depot", Region: "Kuybiys Bonefield" },
+            { Y: 28.59, X: -98.78, Region: "Namenn's Graveyard" },
+            { Y: 27.68, X: -98.38, Type: "Abandoned Building", Region: "Lekha Crater IV" },
+            { Y: 24.72, X: -96.29, Type: "Beacon" },
+            { Y: 21.24, X: -94.21, Type: "Drop Pod", Region: "Olskoga Desert" },
+            { Y: 18.30, X: -92.53, Region: "Plyugi Desert" },
+            { Y: 17.92, X: -92.96, Type: "Camp", Region: "Kelepikin Reach" },
+            { Y: 16.00, X: -91.69, Type: "Trade Terminal", Region: "Atyurnye's Drift" },
+            { Y: 15.23, X: -91.69, Type: "Camp", Region: "Eralsk Crossing" },
+            { Y: 10.82, X: -89.16, Type: "Beacon" },
+            { Y: 7.54, X: -88.74, Type: "Drop Pod", Region: "Ulovo Bonefield" },
+            { Y: 6.76, X: -88.75, Type: "Manufacturing", Region: "Lost Plains of Ishcoh" },
+            { Y: -33.33, X: -72.47, Type: "Local Trade Center", Region: "Udomaysk's Drift" },
+            { Y: -43.14, X: -66.45, Type: "Resource Depot", Region: "Mamoin Bonefield" },
+            { Y: -45.91, X: -64.83, Type: "Observatory", Region: "The Yungrat" },
+            { Y: -47.79, X: -62.99, Type: "Portal" },
+            { Y: -7.07, X: -20.58, Type: "Ancient Ruins" }
         ]
     }
 }
