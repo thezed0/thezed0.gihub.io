@@ -904,7 +904,113 @@ function ZED16II()
     }
 }
 
-/*
-1-humid
-1a-airless
- */
+function ZED16Ia()
+{
+    return {
+        Messages: ["ZED-16 Ia", "Foaming", "0C84:0082:0D59:00CC", "20CC0355A485"],
+        POI: [
+            { Y: -10.99, X: -23.08, Type: "Portal" },
+            { Y: -11.19, X: -21.64, Type: "Boundary Failure", Region: "Dusumm Dale" },
+            { Y: 61.81, X: -16.17, Type: "Boundary Failure", Region: "Nayvi XIX"}
+        ]
+    };
+}
+
+function ZED16I()
+{
+    return {
+        Messages: ["ZED-16 I", "Humid", "0C84:0082:0D59:00CC", "10CC0355A485"],
+        POI: [
+            { Y: 38.32, X: -164.46, Type: "Transmission Tower", Region: "Lisagonar Crossing" },
+            { Y: 38.27, X: -164.06, Type: "Ancient Ruins" },
+            { Y: 38.34, X: -163.67, Type: "Drop Pod", Region: "The Ewyom Wildwood" },
+            { Y: 39.39, X: -163.30, Type: "Comms Tower/Camp", Region: "Point Edesed" },
+            { Y: 40.30, X: -163.89, Type: "Manufacturing", Region: "Lemben Basin" },
+            { Y: 40.27, X: -163.68, Type: "Camp", Region: "Oadtown Bog" },
+            { Y: 40.91, X: -164.07, Type: "Camp", Region: "Codya Swamplands" },
+            { Y: 41.02, X: -164.07, Type: "Camp", Region: "The Nofleekmang" },
+            { Y: 41.37, X: -164.08, Type: "Observatory/Camp", Region: "Camp Wicokychyne" },
+            { Y: 42.48, X: -164.08, Type: "Manufacturing", Region: "Elgran Thicket" },
+            { Y: 43.02, X: -164.06, Type: "Monolith" },
+            { Y: 43.16, X: -164.26, Type: "Comms Tower", Region: "Autiata Mire" },
+            { Y: 44.15, X: -164.53, Region: "Huseaum Lowlands" },
+            { Y: 44.70, X: -164.65, Type: "Ancient Ruins" },
+            { Y: 56.47, X: -162.96, Type: "Crashed Freighter" },
+            { Y: 67.50, X: -164.62, Type: "Trade Terminal", Region: "Nagra Meadow" },
+            { Y: 68.37, X: -163.93, Type: "Camp", Region: "Guadam Jungle" },
+            { Y: 68.55, X: -163.79, Type: "Camp", Region: "Point Riborn" },
+            { Y: 69.13, X: -163.87, Type: "Transmission Tower", Region: "Utonsas Grove" },
+            { Y: 70.98, X: -165.23, Type: "Drop Pod", Region: "Stoke Grassland" },
+            { Y: 75.00, X: -163.34, Type: "Trading Post" },
+            { Y: 76.45, X: -163.28, Type: "Manufacturing", Region: "Pecor Moor" },
+            { Y: 82.80, X: -163.17, Type: "Resource Depot", Region: "Annoc Bog" },
+            { Y: 83.98, X: -159.65, Region: "Egreg's Quagmire" },
+            { Y: 84.57, X: -164.39, Type: "Resource Depot", Region: "The Vale of Aiadusi" },
+            { Y: 88.79, X: -58.54, Type: "Trading Post" },
+            { Y: 89.69, X: 47.39, Type: "Local Trade Center", Region: "Yumpiumfi X" },
+            { Y: 88.07, X: -139.38, Region: "Tehilt Glade" },
+            { Y: 73.27, X: -135.98, Region: "The Necti Morass" },
+            { Y: 68.40, X: -134.67, Type: "Abandoned Building", Region: "Great Plains of Lokesiw" },
+            { Y: 58.24, X: -134.76, Type: "Ancient Ruins" },
+            { Y: 57.50, X: -135.00, Region: "Dojibo's Bounty" },
+            { Y: 55.94, X: -134.78, Region: "The Focae Levels" },
+            { Y: 53.47, X: -134.60, Type: "Trade Terminal", Region: "Gojyot Swamplands" },
+            { Y: 49.56, X: -134.48, Type: "Drop Pod", Region: "Eslien Mire" },
+            { Y: 47.42, X: -134.52, Type: "Transmission Tower/Camp", Region: "Lumirf Enclave" },
+            { Y: 47.07, X: -134.51, Type: "Trading Post" },
+            { Y: 47.09, X: -133.91, Type: "Abandoned Building", Region: "Elfor Grasslands" },
+            { Y: 47.56, X: -132.90, Type: "Transmission Tower/Camp", Region: "Totne Station" },
+            { Y: 47.60, X: -131.75, Type: "Grave" },
+            { Y: 47.58, X: -131.11, Type: "Camp", Region: "Eepheu Thicket" },
+            { Y: 47.18, X: -131.31, Region: "The Corop Morass" },
+            { Y: 46.40, X: -131.41, Type: "Beacon" },
+            { Y: 43.29, X: -131.23, Type: "Trade Terminal", Region: "Tenhamas Woods" },
+            { Y: 42.82, X: -131.17, Type: "Abandoned Building", Region: "Kamash Swamp" },
+            { Y: 37.94, X: -131.06, Region: "Libuqueri Woods" },
+            { Y: 37.16, X: -130.73, Type: "Crashed Freighter" },
+            { Y: 36.04, X: -130.97, Region: "Yerentasi Grove" },
+            { Y: 35.43, X: -131.21, Type: "Local Trade Center", Region: "Kumbayek Rainforest" },
+            { Y: 34.47, X: -131.44, Type: "Beacon" },
+            { Y: 33.81, X: -131.20, Region: "Imall's Quagmire" },
+            { Y: 33.69, X: -130.97, Type: "Camp", Region: "Atrianc Forest" }
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
