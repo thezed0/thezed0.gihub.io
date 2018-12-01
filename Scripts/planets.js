@@ -977,40 +977,69 @@ function ZED16I()
     }
 }
 
+function ZED17III()
+{
+    return {
+        Messages: ["ZED-17 III", "Bleak", "0668:007B:0EC3:0019", ""],
+        POI: [
+            { Y: -54.95, X: -141.44, Type: "Local Trade Center/Camp", Region: "Loark Encampment" },
+            { Y: -55.11, X: -141.23, Type: "Crashed Freighter" },
+            { Y: -54.37, X: -139.94, Type: "Drop Pod", Region: "Izily's Great Reaches" },
+            { Y: -53.99, X: -139.57, Type: "Observatory/Camp", Region: "Utokot Encampment" },
+            { Y: -53.85, X: -139.85, Type: "Trade Terminal", Region: "Lost Plains of Hochezhed" },
+            { Y: -53.97, X: -140.15, Type: "Drop Pod", Region: "The Vale of Huyaros" },
+            { Y: -53.04, X: -140.75, Type: "Abandoned Building", Region: "Lost Plains of Rypol" },
+            { Y: -51.17, X: -141.11, Type: "Camp", Region: "Upavl Slopes" },
+            { Y: -50.71, X: -141.00, Type: "Local Trade Center/Camp", Region: "Etushko Encampment" },
+            { Y: -49.75, X: -141.26, Type: "Observatory/Camp", Region: "Noykhac Enclave" },
+            { Y: -48.65, X: -140.59, Type: "Camp", Region: "Myachnym Badlands" },
+            { Y: -47.66, X: -141.06, Type: "Monolith" },
+            { Y: -46.65, X: -141.89, Type: "Trade Terminal", Region: "The Kopyevsk" },
+            { Y: -45.87, X: -142.73, Type: "Trade Terminal", Region: "Windswept Plains of Ukovo" },
+            { Y: -43.60, X: -144.00, Type: "Observatory/Camp", Region: "Nekursko Outpost" },
+            { Y: -42.86, X: -144.16, Type: "Beacon" },
+            { Y: -43.00, X: -144.58, Type: "Resource Depot", Region: "Dedos Wasteland" },
+            { Y: -44.81, X: -144.61, Type: "Local Trade Center", Region: "Puysahliski Crossing" },
+            { Y: -44.22, X: -144.81, Type: "Beacon" },
+            { Y: -44.75, X: -145.38, Type: "Local Trade Center/Camp", Region: "Lakule Post" },
+            { Y: -44.40, X: -145.84, Type: "Manufacturing", Region: "The Davle Flats" },
+            { Y: -43.64, X: -146.91, Type: "Crashed Freighter" },
+            { Y: -43.41, X: -147.19, Type: "Large Artifact Crate" },
+            { Y: -42.98, X: -147.76, Type: "Crashed Freighter" },
+            { Y: -41.17, X: -149.06, Type: "Manufacturing", Region: "The Rumozh Levels" },
+            { Y: -40.65, X: -149.16, Type: "Ancient Plaque" },
+            { Y: -40.30, X: -149.38, Type: "Camp", Region: "Rorech Hill XI" },
+            { Y: -40.17, X: -148.98, Type: "Comms Tower/Camp", Region: "Sasov Platform" },
+            { Y: -39.19, X: -148.96, Type: "Trade Terminal", Region: "Solvyoc XIV" },
+            { Y: -38.54, X: -148.75, Type: "Ancient Ruins" },
+            { Y: -38.31, X: -148.97, Type: "Local Trade Center/Camp", Region: "Nizhn Encampment" },
+            { Y: -37.49, X: -149.18, Type: "Manufacturing", Region: "Ukshant Wasteland" },
+            { Y: -36.08, X: -150.23, Type: "Manufacturing", Region: "Ashie Bonefield" },
+            { Y: -35.71, X: -150.61, Type: "Monolith" },
+            { Y: -35.19, X: -151.06, Type: "Comms Tower", Region: "Rachinov Hill" },
+            { Y: -34.90, X: -150.64, Type: "Comms Tower/Camp", Region: "Urzhok Enclave" },
+            { Y: -34.04, X: -151.06, Type: "Manufacturing", Region: "Point Ipkin" },
+            { Y: -33.58, X: -151.25, Type: "Beacon" },
+            { Y: -32.31, X: -151.70, Type: "Transmission Tower", Region: "Kovsk Basin" },
+            { Y: -30.18, X: -152.55, Type: "Beacon" },
+            { Y: -29.95, X: -152.33, Type: "Beacon" },
+            { Y: -29.35, X: -153.01, Type: "Manufacturing", Region: "Suzdaln Basin" },
+            { Y: -28.54, X: -153.66, Type: "Beacon" },
+            { Y: -27.61, X: -153.88, Region: "Point Hitagiru" },
+            { Y: -25.83, X: -155.03, Type: "Camp", Region: "Nenikak Bonefield" },
+            { Y: -24.54, X: -155.95, Type: "Camp", Region: "Hopyory Badlands" },
+            { Y: -23.95, X: -156.17, Type: "Drop Pod", Region: "Vostvo Sector VI" },
+            { Y: -22.29, X: -156.66, Type: "Manufacturing", Region: "Adskog Desert" },
+            { Y: -21.89, X: -156.87, Type: "Trade Terminal", Region: "The Vale of Rachek" },
+            { Y: -21.33, X: -157.59, Type: "Camp", Region: "Gurusanyu Dustbowl" },
+            { Y: -20.98, X: -158.31, Type: "Manufacturing", Region: "Olkovsegem Desert" },
+            { Y: 55.38, X: 169.91, Type: "Portal" }
+        ]
+    }
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+ 1 - icy
+ 2 - torrid
+ */
