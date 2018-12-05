@@ -1,7 +1,7 @@
 function ZED01II()
 {
     return {
-        Messages: ["ZED-01 II", "Charred", "0C84:0082:0D59:0137"],
+        Messages: ["ZED-01 II", "Charred", "0C84:0082:0D59:0137", "21470355A485"],
         POI: [
             { Y: -67.73, X: 31.84, Type: "Resource Depot", Region: 'The Vale of Niratsuk' },
             { Y: -66.78, X: 31.88, Type: "Drop Pod", Region: "Jiidaka Floodplain" },
@@ -980,7 +980,7 @@ function ZED16I()
 function ZED17III()
 {
     return {
-        Messages: ["ZED-17 III", "Bleak", "0668:007B:0EC3:0019", ""],
+        Messages: ["ZED-17 III", "Bleak", "0668:007B:0EC3:0019", "3019FC6C4E69"],
         POI: [
             { Y: -54.95, X: -141.44, Type: "Local Trade Center/Camp", Region: "Loark Encampment" },
             { Y: -55.11, X: -141.23, Type: "Crashed Freighter" },
@@ -1038,8 +1038,115 @@ function ZED17III()
     }
 }
 
+function ZED17II()
+{
+    return {
+        Messages: ["ZED-17 II", "Torrid", "0668:007B:0EC3:0019", "2019FC6C4E69"],
+        POI: [
+            { Y: 36.30, X: -78.36, Type: "Monolith" },
+            { Y: 36.34, X: -78.77, Type: "Grave" },
+            { Y: 35.37, X: -77.16, Type: "Drop Pod", Region: "Tomanaiag's Wilds" },
+            { Y: 32.61, X: -75.18, Type: "Drop Pod", Region: "Plains of Oshino" },
+            { Y: 30.42, X: -73.98, Type: "Transmission Tower/Camp", Region: "Point Ogoribe" },
+            { Y: 30.74, X: -74.39, Region: "Arutosato Sector XI" },
+            { Y: 30.79, X: -74.78, Type: "Beacon" },
+            { Y: 29.86, X: -74.40, Type: "Camp", Region: "Airak Plains" },
+            { Y: 29.80, X: -74.00, Type: "Distress Beacon" },
+            { Y: 28.61, X: -74.36, Type: "Trading Post" },
+            { Y: 27.65, X: -74.39, Region: "The Okyot" },
+            { Y: 27.70, X: -74.79, Type: "Trade Terminal", Region: "The Hobaya" },
+            { Y: 26.92, X: -73.62, Region: "Uttsu Dale" },
+            { Y: 22.68, X: -71.32, Region: "The Ashihi" },
+            { Y: 21.56, X: -70.56, Type: "Beacon" },
+            { Y: 20.56, X: -70.56, Type: "Local Trade Center", Region: "Ganei Floodplain" },
+            { Y: 14.28, X: -69.44, Type: "Ancient Ruins" },
+            { Y: 12.79, X: -69.09, Type: "Camp", Region: "Yazaw Bonefield" },
+            { Y: 9.66, X: -68.11, Type: "Trading Post" },
+            { Y: 9.29, X: -67.98, Type: "Beacon" },
+            { Y: 6.16, X: -66.56, Type: "Drop Pod", Region: "Point Nazaifu" },
+            { Y: 4.97, X: -65.50, Type: "Trade Terminal", Region: "Jinoh's Graveyard" },
+            { Y: 4.19, X: -65.15, Type: "Beacon" },
+            { Y: 1.91, X: -63.77, Type: "Local Trade Center/Camp", Region: "Imasait Outpost" },
+            { Y: 0.01, X: -62.77, Region: "Attegere Crossing" },
+            { Y: -2.91, X: -60.49, Type: "Camp", Region: "The Adoman Expanse" },
+            { Y: -6.42, X: -58.60, Type: "Comms Tower/Camp", Region: "Usono Station" },
+            { Y: -10.20, X: -57.70, Type: "Camp", Region: "Sugai Desert" },
+            { Y: -12.55, X: -55.08, Type: "Abandoned Building", Region: "Nawat Crossing" },
+            { Y: -13.67, X: -53.94, Type: "Comms Tower/Camp", Region: "Wazak Platform" },
+            { Y: -14.27, X: -53.68, Type: "Manufacturing", Region: "Point Ijonag" },
+            { Y: -16.96, X: -52.86, Type: "Beacon" },
+            { Y: -18.98, X: -52.59, Type: "Observatory/Camp", Region: "Goriok Encampment" },
+            { Y: -19.82, X: -52.35, Type: "Abandoned Building", Region: "Uitachi Bonefield" },
+            { Y: -21.22, X: -51.03, Type: "Transmission Tower/Camp", Region: "Gujolan Station" },
+            { Y: -22.30, X: -50.78, Region: "Kukanu Crossing" },
+            { Y: -26.04, X: -48.36, Type: "Camp", Region: "Tonam Badlands" },
+            { Y: -26.64, X: -48.59, Type: "Crashed Freighter" },
+            { Y: -26.80, X: -48.35, Type: "Comms Tower", Region: "The Atoma Flats" },
+            { Y: -27.86, X: -47.89, Type: "Transmission Tower", Region: "Aguchi V" },
+            { Y: -27.53, X: -46.97, Type: "Drop Pod", Region: "The Vale of Eppumil" },
+            { Y: -27.63, X: -46.51, Type: "Portal" }
+        ]
+    }
+}
 
-/*
- 1 - icy
- 2 - torrid
- */
+function ZED17I()
+{
+    return {
+        Messages: ["ZED-17 I", "Icy", "0668:007B:0EC3:0019", "1019FC6C4E69"],
+        POI: [
+            { Y: -0.36, X: -147.13, Type: "Local Trade Center", Region: "Telich XVIII" },
+            { Y: -0.36, X: -148.02, Type: "Manufacturing", Region: "Otskiye Sector IV" },
+            { Y: 0.72, X: -148.60, Type: "Beacon" },
+            { Y: 0.36, X: -149.27, Type: "Manufacturing", Region: "Yomazyv Forest" },
+            { Y: 1.46, X: -150.49, Region: "Ozelsk Moor" },
+            { Y: 1.85, X: -151.80, Type: "Camp", Region: "Uzhnekand Heath" },
+            { Y: 3.03, X: -154.11, Region: "The Ovets Expanse" },
+            { Y: 5.38, X: -156.19, Type: "Ancient Plaque" },
+            { Y: 6.24, X: -158.37, Type: "Abandoned Builidng", Region: "Windswept Plains of Ovodstuven" },
+            { Y: 6.62, X: -158.73, Type: "Trading Post" },
+            { Y: 8.21, X: -159.08, Region: "Ivnoya's Great Reaches" },
+            { Y: 8.18, X: -158.74, Type: "Abandoned Building", Region: "Vozyorsk Grove" },
+            { Y: 8.61, X: -159.46, Type: "Resource Depot", Region: "Ouzen Forest" },
+            { Y: 11.54, X: -163.27, Type: "Manufacturing", Region: "Great Plains of Noyet" },
+            { Y: 15.20, X: -166.37, Type: "Crashed Freighter" },
+            { Y: 18.75, X: -169.22, Type: "Manufacturing", Region: "Great Plains of Lidovouz" },
+            { Y: 20.27, X: -170.03, Type: "Trading Post" },
+            { Y: 23.34, X: -174.13, Type: "Drop Pod", Region: "Great Plains of Iglashi" },
+            { Y: 24.12, X: -175.82, Type: "Comms Tower/Camp", Region: "Kremkh Enclave" },
+            { Y: 23.77, X: -176.24, Type: "Local Trade Center/Camp", Region: "Noarmiinp Post" },
+            { Y: 24.50, X: -177.51, Type: "Observatory/Camp", Region: "Bakovs Post" },
+            { Y: 25.91, X: -179.57, Type: "Ancient Ruins" },
+            { Y: 26.23, X: -179.62, Type: "Observatory/Camp", Region: "Adnichn Woodland" },
+            { Y: 26.59, X: 179.59, Type: "Ancient Ruins" },
+            { Y: 27.23, X: 177.89, Type: "Monolith" },
+            { Y: 27.86, X: 176.63, Type: "Beacon" },
+            { Y: 27.86, X: 176.19, Type: "Comms Tower/Camp", Region: "Shenkin Station" },
+            { Y: 30.14, X: 170.80, Type: "Trade Terminal", Region: "Ainastvo Dale" },
+            { Y: 31.27, X: 169.56, Type: "Camp", Region: "Nilov's Weald" },
+            { Y: 33.27, X: 165.93, Type: "Abandoned Building", Region: "Avyurb's Weald" },
+            { Y: 35.62, X: 162.82, Type: "Trade Terminal", Region: "The Evelskyv Ranges" },
+            { Y: 37.38, X: 159.41, Type: "Manufacturing", Region: "The Urazn" },
+            { Y: 37.60, X: 157.97, Type: "Trade Terminal", Region: "Iubovkaz Flats VI" },
+            { Y: 37.63, X: 156.89, Type: "Resource Depot", Region: "Erovs Basin" },
+            { Y: 38.21, X: 155.11, Type: "Abandoned Building", Region: "Hivkaz Glacier" },
+            { Y: 39.05, X: 151.11, Type: "Trade Terminal", Region: "Mitseng Grove" },
+            { Y: 39.62, X: 150.79, Type: "Drop Pod", Region: "Lenyev Woodland" },
+            { Y: 39.59, X: 149.81, Type: "Comms Tower/Camp", Region: "Point Alave" },
+            { Y: 39.54, X: 148.26, Type: "Local Trade Center", Region: "Ice Station Urilsk" },
+            { Y: 40.36, X: 146.22, Type: "Beacon" },
+            { Y: 41.00, X: 144.89, Region: "The Limen Ranges" },
+            { Y: 41.51, X: 143.16, Type: "Observatory/Camp", Region: "Ubtso Post" },
+            { Y: 41.57, X: 142.15, Type: "Camp", Region: "Konay Thicket" },
+            { Y: 41.43, X: 140.01, Type: "Trade Terminal", Region: "Lodoml Plateau" },
+            { Y: 41.49, X: 139.47, Type: "Ancient Ruins" },
+            { Y: 41.28, X: 135.23, Type: "Transmission Tower/Camp", Region: "Niselts Post" },
+            { Y: 41.14, X: 135.51, Type: "Camp", Region: "The Kushinsky Pasture" },
+            { Y: 41.67, X: 131.80, Type: "Trading Post" },
+            { Y: 42.50, X: 130.34, Type: "Abandoned Building", Region: "Windswept Plains of Natoryaz" },
+            { Y: 42.62, X: 128.95, Type: "Ancient Ruins" },
+            { Y: 41.95, X: 129.36, Type: "Crashed Freighter" },
+            { Y: 40.76, X: 133.20, Type: "Grave" },
+            { Y: 31.72, X: 116.54, Type: "Ancient Ruins" }
+        ]
+    }
+}
