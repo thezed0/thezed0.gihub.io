@@ -407,7 +407,7 @@ function ZED11V()
 function ZED11IV()
 {
     return {
-        Messages: ["ZED-11 IV", "", "0C84:0082:0D59:010B", "410B0355A485"],
+        Messages: ["ZED-11 IV", "Wind-swept", "0C84:0082:0D59:010B", "410B0355A485"],
         POI: [
             { Y: 33.74, X: -99.62, Type: "Abandoned Building", Region: "Point Linogor" },
             { Y: 31.92, X: -100.02, Type: "Drop Pod", Region: "Yersk Badlands" },
@@ -429,6 +429,35 @@ function ZED11IV()
             { Y: -45.91, X: -64.83, Type: "Observatory", Region: "The Yungrat" },
             { Y: -47.79, X: -62.99, Type: "Portal" },
             { Y: -7.07, X: -20.58, Type: "Ancient Ruins" }
+        ]
+    }
+}
+
+function ZED11III()
+{
+    return {
+        Messages: ["ZED-11 III", "Toxic", "0C84:0082:0D59:010B", "310B0355A485"],
+        POI: [
+            { Y: 23.40, X: -28.60, Type: "Observatory/Camp", Region: "Hazell Outpost" },
+            { Y: 23.88, X: -29.20, Type: "Beacon" },
+            { Y: 24.38, X: -31.09, Type: "Monolith" },
+            { Y: 27.44, X: -31.70, Type: "Beacon" },
+            { Y: 28.94, X: -32.32, Type: "Drop Pod", Region: "Valuxiamu Sector VIII" },
+            { Y: 30.65, X: -32.04, Type: "Transmission Tower/Camp", Region: "Hesineum Enclave" },
+            { Y: 32.62, X: -31.41, Type: "Drop Pod", Region: "Ogourdonoe Fen" },
+            { Y: 36.38, X: -31.15, Type: "Observatory/Camp", Region: "Calashe Enclave" },
+            { Y: 36.25, X: -32.33, Type: "Camp", Region: "Plains of Unkhovda" },
+            { Y: 35.65, X: -33.54, Type: "Manufacturing", Region: "Point Exium" },
+            { Y: 35.60, X: -35.84, Type: "Observatory/Camp", Region: "Unpow Station" },
+            { Y: 35.49, X: -36.08, Type: "Camp", Region: "Aishoumai Wetlands" },
+            { Y: 34.67, X: -37.16, Type: "Camp", Region: "Barubb Wetlands" },
+            { Y: 34.96, X: -38.20, Type: "Grave" },
+            { Y: 35.05, X: -37.94, Type: "Monolith" },
+            { Y: 36.37, X: -37.93, Type: "Beacon" },
+            { Y: 38.76, X: -38.29, Type: "Trade Terminal", Region: "Tosenn XIX" },
+            { Y: 39.52, X: -38.58, Type: "Abandoned Builing", Region: "Inanhota Floodplain" },
+            { Y: 42.88, X: -38.31, Type: "Manufacturing", Region: "Duanni Plains" },
+            { Y: 46.35, X: -37.45, Type: "Transmission Tower/Camp", Region: "Rolagaxu Post"}
         ]
     }
 }
