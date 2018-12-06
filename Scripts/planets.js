@@ -28,11 +28,23 @@ function ZED01II()
             { Y: -12.34, X: 74.24, Type: "Comms Tower/Camp", Region: "Point Moriyam" },
             { Y: 1.82, X: -43.72, Type: "Monolith" },
             { Y: 25.28, X: -108.62, Type: "Abandoned Building", Region: "Point Borider" },
-            { Y: -0.42, X: 10.39, Type: "Trading Post" }
+            { Y: -0.42, X: 10.39, Type: "Trading Post" },
+            { Y: -4.47, X: 31.45, Type: "Ancient Plaque" }
         ],
         Shores: [
             [{ Y: -67.77, X: 31.96 }, { Y: -67.76, X: 31.95 }, { Y: -67.76, X: 31.93 }, { Y: -67.74, X: 31.92 }, { Y: -67.74, X: 31.96 },
             { Y: -67.73, X: 31.96 }, { Y: - 67.72, X: 31.93 }, { Y: -67.70, X: 32.01 }, { Y: -67.69, X: 32.01 }, { Y: -67.68, X: 31.99 }]]
+    };
+}
+
+function ZED01I()
+{
+    return {
+        Messages: ["ZED-01 I", "", "0C84:0082:0D59:0137", "11470355A485"],
+        POI: [
+            { Y: 22.84, X: -162.83, Type: "Portal" },
+            { Y: 33.34, X: -169.62, Type: "Boundary Failure", Region: "Hoendis IV" }
+        ]
     };
 }
 
