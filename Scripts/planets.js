@@ -1,7 +1,7 @@
 function ZED01II()
 {
     return {
-        Messages: ["ZED-01 II", "Charred", "0C84:0082:0D59:0137", "21470355A485"],
+        Messages: ["ZED-01 II", "Charred", "0C84:0082:0D59:0137", "21370355A485"],
         POI: [
             { Y: -67.73, X: 31.84, Type: "Resource Depot", Region: 'The Vale of Niratsuk' },
             { Y: -66.78, X: 31.88, Type: "Drop Pod", Region: "Jiidaka Floodplain" },
@@ -40,7 +40,7 @@ function ZED01II()
 function ZED01I()
 {
     return {
-        Messages: ["ZED-01 I", "", "0C84:0082:0D59:0137", "11470355A485"],
+        Messages: ["ZED-01 I", "", "0C84:0082:0D59:0137", "11370355A485"],
         POI: [
             { Y: 22.84, X: -162.83, Type: "Portal" },
             { Y: 33.34, X: -169.62, Type: "Boundary Failure", Region: "Hoendis IV" }
@@ -1188,6 +1188,67 @@ function ZED17I()
             { Y: 41.95, X: 129.36, Type: "Crashed Freighter" },
             { Y: 40.76, X: 133.20, Type: "Grave" },
             { Y: 31.72, X: 116.54, Type: "Ancient Ruins" }
+        ]
+    }
+}
+
+function ZED18I()
+{
+    return {
+        Messages: ["ZED-18 I", "Glacial", "0C84:0082:0D59:00CD", "10CD0355A485"],
+        POI: [
+            { Y: -39.61, X: -82.56, Type: "Trading Post" },
+            { Y: -38.86, X: -83.63, Type: "Ancient Plaque" },
+            { Y: -38.52, X: -83.63, Type: "Distress Beacon" },
+            { Y: -38.70, X: -83.91, Type: "Beacon" },
+            { Y: -38.89, X: -84.46, Type: "Resource Depot", Region: "The Zuhyegorba Praire" },
+            { Y: -39.39, X: -84.18, Region: "Spiysk Snowplain" },
+            { Y: -42.76, X: -82.81, Type: "Grave" },
+            { Y: -44.02, X: -82.55, Type: "Abandoned Building", Region: "Frozen Plains of Namensk" },
+            { Y: -45.34, X: -82.95, Type: "Drop Pod", Region: "Banov's Weald" },
+            { Y: -45.49, X: -82.91, Type: "Beacon" },
+            { Y: -47.44, X: -83.63, Type: "Beacon" },
+            { Y: -47.07, X: -85.81, Type: "Local Trade Center/Camp", Region: "Camp Vaross" },
+            { Y: -46.93, X: -85.54, Type: "Resource Depot", Region: "Frozen Wastes of Madyz" },
+            { Y: -49.73, X: -85.73, Type: "Drop Pod", Region: "Mountains of Uksha" },
+            { Y: -49.90, X: -85.70, Type: "Beacon" },
+            { Y: -48.21, X: -89.07, Type: "Local Trade Center/Camp", Region: "Point Eksper" },
+            { Y: -50.64, X: -89.66, Type: "Beacon" },
+            { Y: -50.96, X: -90.00, Type: "Observatory", Region: "Lekule Scrubland" },
+            { Y: -53.65, X: -82.03, Type: "Transmission Tower/Camp", Region: "Huvst Post" },
+            { Y: -53.85, X: -81.98, Region: "Revoy Scrubland" },
+            { Y: -55.12, X: -79.17, Type: "Camp", Region: "Sesura's Last Stand" },
+            { Y: -55.80, X: -76.37, Type: "Comms Tower", Region: "Katavl's Weald" },
+            { Y: -56.48, X: -73.84, Type: "Camp", Region: "Zilyud X" },
+            { Y: -56.93, X: -72.66, Type: "Camp", Region: "Sovskyv VII" },
+            { Y: -57.07, X: -70.75, Region: "The Pavna" },
+            { Y: -57.00, X: -68.06, Type: "Manufacturing", Region: "Yokinest Grasslands" },
+            { Y: -56.89, X: -66.30, Region: "Nosti's Weald" },
+            { Y: -57.18, X: -62.67, Type: "Trade Terminal", Region: "Rukakh's Last Stand" },
+            { Y: -57.86, X: -60.88, Type: "Camp", Region: "Talashie Forest" },
+            { Y: -58.94, X: -54.53, Type: "Camp", Region: "Point Riozers" },
+            { Y: -59.02, X: -53.24, Type: "Transmission Tower/Camp", Region: "Zuhchyokh Platform" },
+            { Y: -59.59, X: -46.00, Type: "Beacon" },
+            { Y: -60.18, X: -44.66, Type: "Beacon" },
+            { Y: -60.14, X: -41.91, Type: "Beacon" },
+            { Y: -60.06, X: -36.79, Type: "Comms Tower", Region: "The Xigorsko Pasture" },
+            { Y: -58.87, X: -28.85, Type: "Camp", Region: "Mountains of Idzhantu" },
+            { Y: -58.89, X: -26.78, Type: "Drop Pod", Region: "Sotsky Heath" },
+            { Y: -58.05, X: -23.38, Type: "Ancient Ruins" },
+            { Y: -60.16, X: -23.98, Type: "Drop Pod", Region: "The Lermeys Praire" },
+            { Y: -62.25, X: -24.02, Type: "Local Trade Center", Region: "The Sudzh" },
+            { Y: -63.44, X: -24.10, Type: "Camp", Region: "Ice Station Nugury" },
+            { Y: -64.36, X: -24.50, Region: "Lakhos Basin" },
+            { Y: -65.39, X: -27.10, Region: "Kalapa Forest" },
+            { Y: -65.59, X: -27.40, Type: "Monolith" },
+            { Y: -67.58, X: -28.09, Type: "Trade Terminal", Region: "Ice Station Nayevoz" },
+            { Y: -68.63, X: -29.76, Type: "Resource Depot", Region: "Lanech Grasslands" },
+            { Y: -69.21, X: -32.49, Type: "Resource Depot", Region: "Tigor Ice Crust" },
+            { Y: -70.16, X: -33.51, Type: "Camp", Region: "Frozen Wastes of Fremy" },
+            { Y: -71.41, X: -37.45, Type: "Abandoned Building", Region: "Hinac Point" },
+            { Y: -75.92, X: -47.36, Type: "Beacon" },
+            { Y: -76.70, X: -53.47, Type: "Manufacturing", Region: "Unyak Ice Field" },
+            { Y: -45.35, X: -176.05, Type: "Grave" }
         ]
     }
 }
