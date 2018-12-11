@@ -474,6 +474,35 @@ function ZED11III()
     }
 }
 
+function ZED11II()
+{
+    return {
+        Messages: ["ZED-11 II", "Isotopic", "0C84:0082:0D59:010B", "210B0355A485"],
+        POI: [
+            { Y: 32.95, X: 74.05, Region: "Haagentf Floodplain" },
+            { Y: 32.56, X: 73.28, Region: "Great Plains of Atchu" },
+            { Y: 31.83, X: 72.33, Type: "Manufacturing", Region: "Nedlewi Sector XVI" },
+            { Y: 29.31, X: 69.15, Type: "Artifact Crate" },
+            { Y: 29.10, X: 68.78, Type: "Trade Terminal", Region: "Eutha Flats XVII" },
+            { Y: 27.04, X: 66.45, Region: "Plains of Lavert" },
+            { Y: 23.84, X: 64.20, Type: "Beacon" },
+            { Y: 22.67, X: 63.02, Type: "Camp", Region: "Windswept Plains of Gutoniab" },
+            { Y: 20.92, X: 61.38, Type: "Abandoned Building", Region: "Dromy Moor" },
+            { Y: 20.54, X: 61.05, Type: "Transmission Tower/Camp", Region: "Echlo Outpost" },
+            { Y: 20.36, X: 60.90, Type: "Drop Pod", Region: "Witheat Swamplands" },
+            { Y: 19.38, X: 59.94, Type: "Camp", Region: "Slienusca Floodplain" },
+            { Y: 18.26, X: 59.17, Type: "Abandoned Building", Region: "Point Caisatyx" },
+            { Y: 9.76, X: 51.66, Type: "Abandoned Building", Region: "Lamonto's Wilds" },
+            { Y: 8.38, X: 50.63, Type: "Beacon" },
+            { Y: 5.10, X: 47.74, Type: "Local Trade Center/Camp", Region: "Camp Hemou" },
+            { Y: 0.91, X: 43.93, Region: "Nastere Bog" },
+            { Y: 0.61, X: 43.60, Type: "Drop Pod", Region: "Magase's Graveyard" },
+            { Y: -39.36, X: -1.67, Type: "Ancient Ruins" },
+            { Y: 13.27, X: -149.18, Type: "Local Trade Center", Region: "Babyl Sector XVI"}
+        ]
+    };
+}
+
 function ZED13I()
 {
     return {
