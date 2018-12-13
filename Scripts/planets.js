@@ -1252,3 +1252,44 @@ function ZED18I()
         ]
     }
 }
+
+function ZED19V()
+{
+    return {
+        Messages: ["ZED-19 V", "Paradise", "0C84:0082:0D59:0032", "60320355A485"],
+        POI: [
+            { Y: 0.41, X: 167.60, Region: "Losso Heath" },
+            { Y: 1.22, X: 166.02, Type: "Monolith" },
+            { Y: 1.23, X: 167.20, Region: "Loterdia Jungle" },
+            { Y: 1.65, X: 169.40, Type: "Abandoned Building", Region: "Sarae Floodplain" },
+            { Y: 1.66, X: 172.06, Type: "Camp", Region: "Ilwauk Crossing" },
+            { Y: 1.87, X: 172.88, Type: "Abandoned Building", Region: "Toneho Valley" },
+            { Y: 2.93, X: 176.85, Type: "Ancient Ruins" },
+            { Y: 2.72, X: 178.30, Type: "Abandoned Building", Region: "Adramlin Scrubland" },
+            { Y: 2.93, X: 178.94, Type: "Camp", Region: "Hiyadhur Flats VI" },
+            { Y: 3.57, X: -177.92, Type: "Comms Tower/Camp", Region: "Ruduen Post" },
+            { Y: 3.77, X: -176.87, Type: "Manufacturing", Region: "The Tiber Praire" },
+            { Y: 3.97, X: -176.45, Type: "Camp", Region: "Wigton Woodland" },
+            { Y: 4.17, X: -175.61, Type: "Drop Pod", Region: "Plains of Riseuxoi" },
+            { Y: 7.22, X: -155.58, Type: "Camp", Region: "Cucriapus Swamplands" },
+            { Y: 7.98, X: -150.41, Region: "Gaeont Plains" },
+            { Y: 8.37, X: -148.71, Type: "Camp", Region: "The Rocero Flats" },
+            { Y: 8.33, X: -148.25, Type: "Manufacturing", Region: "Rotcolc XIII" },
+            { Y: 9.00, X: -146.32, Type: "Trade Terminal", Region: "Irosair Meadows" },
+            { Y: 8.61, X: -145.73, Type: "Beacon" },
+            { Y: 8.90, X: -145.44, Type: "Portal" },
+            { Y: 9.05, X: -150.42, Type: "Drop Pod", Region: "The Vale of Irentreb" },
+            { Y: 8.25, X: -154.04, Type: "Comms Tower", Region: "Wiliynd Woodland" },
+            { Y: 8.05, X: -156.80, Region: "Itrig Grassland" },
+            { Y: 5.39, X: -172.10, Type: "Abandoned Building", Region: "Wintiag Valley" }
+        ]
+    }
+}
+
+/*
+ * 1 - rocky
+ * 2 - toxic
+ * 3 -paradise (s)
+ * 4 - irradiated
+ * 4a - capped
+ */
