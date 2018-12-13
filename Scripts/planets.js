@@ -101,7 +101,7 @@ function ZED07III()
             { Y: 87.86, X: -101.44, Type: "Trade Terminal", Region: "Mades Grove" },
             { Y: 86.11, X: 102.76, Type: "Portal" }
         ]
-    }
+    };
 }
 
 function ZED07II()
@@ -499,6 +499,35 @@ function ZED11II()
             { Y: 0.61, X: 43.60, Type: "Drop Pod", Region: "Magase's Graveyard" },
             { Y: -39.36, X: -1.67, Type: "Ancient Ruins" },
             { Y: 13.27, X: -149.18, Type: "Local Trade Center", Region: "Babyl Sector XVI"}
+        ]
+    };
+}
+
+function ZED11I()
+{
+    return {
+        Messages: ["ZED-11 I", "Charred", "0C84:0082:0D59:010B", "110B0355A485"],
+        POI: [
+            { Y: 10.98, X: 177.49, Type: "Trade Terminal", Region: "Shimej Dale" },
+            { Y: 11.78, X: 178.05, Type: "Drop Pod", Region: "Aritaibaiu VI" },
+            { Y: 12.30, X: 176.92, Type: "Manufacturing", Region: "Nitaka X" },
+            { Y: 13.59, X: 174.72, Type: "Monolith" },
+            { Y: 12.79, X: 174.14, Type: "Observatory", Region: "The Miawar" },
+            { Y: 11.71, X: 173.32, Type: "Observatory", Region: "Nemura Dale" },
+            { Y: 6.61, X: 173.90, Type: "Trade Terminal", Region: "The Bamai Flats" },
+            { Y: 6.34, X: 174.44, Type: "Camp", Region: "The Misumin" },
+            { Y: 4.14, X: 174.15, Type: "Abandoned Building", Region: "Windswept Plains of Joets" },
+            { Y: 3.32, X: 174.18, Type: "Monolith" },
+            { Y: 1.65, X: 174.18, Type: "Ancient Ruins" },
+            { Y: 0.00, X: 173.63, Type: "Beacon" },
+            { Y: 0.83, X: 171.97, Type: "Local Trade Center/Camp", Region: "Gaokazuna Enclave" },
+            { Y: 0.27, X: 171.42, Type: "Manufacturing", Region: "Numat Desert" },
+            { Y: -0.82, X: 171.71, Type: "Beacon" },
+            { Y: 1.64, X: 170.07, Type: "Camp", Region: "Akyus's Graveyard" },
+            { Y: 2.71, X: 167.40, Type: "Comms Tower", Region: "The Hichibari" },
+            { Y: 2.99, X: 167.65, Type: "Manufacturing", Region: "Sojar Badlands" },
+            { Y: 3.28, X: 169.80, Type: "Camp", Region: "Etagaeont Flats XIII" },
+            { Y: 5.48, X: 172.54, Type: "Trading Post" }
         ]
     };
 }
