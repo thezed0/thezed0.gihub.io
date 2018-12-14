@@ -1344,10 +1344,26 @@ function ZED19V()
     }
 }
 
+function ZED19IVa()
+{
+    return {
+        Messages: ["ZED-19 IVa", "Capped", "0C84:0082:0D59:0032", "50320355A485"],
+        POI: [
+            { Y: -8.47, X: 11.85, Type: "Boundry Failure", Region: "Edlegu's Great Reaches" },
+            { Y: 13.54, X: 5.06, Type: "Boundry Failure", Region: "Plains of Orjudio" },
+            { Y: 22.94, X: 1.60, Type: "Boundry Failure", Region: "Peumero Flats IX" },
+            { Y: 74.38, X: 12.93, Type: "Boundry Failure", Region: "Lauru Moor" },
+            { Y: 84.82, X: 1.12, Type: "Boundry Failure", Region: "The Urnedale" },
+            { Y: 85.02, X: 134.41, Type: "Boundry Failure", Region: "Point Iloffac" },
+            { Y: 66.62, X: 140.53, Type: "Boundry Failure", Region: "Point Davalen" },
+            { Y: -26.57, X: 141.62, Type: "Boundry Failure", Region: "Arect Crossing" }
+        ]
+    }
+}
+
 /*
  * 1 - rocky
  * 2 - toxic
  * 3 -paradise (s)
  * 4 - irradiated
- * 4a - capped
  */
