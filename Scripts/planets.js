@@ -1356,7 +1356,62 @@ function ZED19IVa()
             { Y: 84.82, X: 1.12, Type: "Boundry Failure", Region: "The Urnedale" },
             { Y: 85.02, X: 134.41, Type: "Boundry Failure", Region: "Point Iloffac" },
             { Y: 66.62, X: 140.53, Type: "Boundry Failure", Region: "Point Davalen" },
-            { Y: -26.57, X: 141.62, Type: "Boundry Failure", Region: "Arect Crossing" }
+            { Y: -26.57, X: 141.62, Type: "Boundry Failure", Region: "Arect Crossing" },
+            { Y: -85.15, X: 136.42, Type: "Boundry Failure", Region: "Point Yormen" }
+        ]
+    }
+}
+
+function ZED19IV()
+{
+    return {
+        Messages: ["ZED-19 IV", "Irradiated", "0C84:0082:0D59:0032", "40320355A485"],
+        POI: [
+            { Y: -21.22, X: -88.95, Type: "Beacon" },
+            { Y: -22.47, X: -88.74, Type: "Local Trade Center/Camp", Region: "Budaph Outpost" },
+            { Y: -22.83, X: -87.91, Type: "Resource Depot", Region: "Camiev Dustbowl" },
+            { Y: -23.01, X: -87.90, Type: "Ancient Ruins" },
+            { Y: -22.99, X: -87.27, Type: "Local Trade Center/Camp", Region: "Theele Enclave" },
+            { Y: -23.34, X: -86.86, Type: "Trade Terminal", Region: "Windswept Plains of Nickli" },
+            { Y: -23.51, X: -86.43, Type: "Crashed Freighter" },
+            { Y: -23.49, X: -85.60, Region: "The Sebrid" },
+            { Y: -24.56, X: -82.28, Type: "Observatory/Camp", Region: "Tesborou Platform" },
+            { Y: -24.89, X: -81.87, Type: "Comms Tower/Camp", Region: "Point Relle" },
+            { Y: -25.52, X: -81.05, Type: "Manufacturing", Region: "Urgamig Crossing" },
+            { Y: -26.16, X: -80.23, Type: "Trading Post" },
+            { Y: -26.62, X: -79.83, Type: "Beacon" },
+            { Y: -26.87, X: -79.01, Type: "Comms Tower/Camp", Region: "Geshn Station" },
+            { Y: -27.03, X: -78.81, Type: "Beacon" },
+            { Y: -27.18, X: -78.61, Type: "Resource Depot", Region: "Yuzanth Dustbowl" },
+            { Y: -27.74, X: -77.61, Type: "Beacon" },
+            { Y: -28.14, X: -75.22, Type: "Beacon" },
+            { Y: -28.24, X: -74.84, Type: "Manufacturing", Region: "Onicea Mire" },
+            { Y: -28.52, X: -74.44, Type: "Beacon" },
+            { Y: -28.43, X: -73.67, Region: "The Icrote Expanse" },
+            { Y: -29.00, X: -71.19, Type: "Observatory/Camp", Region: "Nuthin Enclave" },
+            { Y: -29.30, X: -70.08, Type: "Camp", Region: "Point Hexhama" },
+            { Y: -29.35, X: -69.51, Type: "Transmission Tower/Camp", Region: "Defortc Outpost" },
+            { Y: -29.49, X: -69.33, Region: "Glingham Wastes" },
+            { Y: -29.71, X: -68.06, Type: "Camp", Region: "Vadorion's Drift" },
+            { Y: -30.12, X: -65.58, Type: "Camp", Region: "Zachurs Badlands" },
+            { Y: -30.16, X: -65.06, Type: "Manufacturing", Region: "Ahame Plains" },
+            { Y: -30.26, X: -64.89, Type: "Abandoned Building", Region: "Great Plains of Ukhum" },
+            { Y: -30.77, X: -63.35, Type: "Transmission Tower/Camp", Region: "Smajo Station" },
+            { Y: -31.04, X: -62.69, Type: "Camp", Region: "Moleig Wetlands" },
+            { Y: -31.19, X: -62.50, Type: "Observatory", Region: "Point Ajordele" },
+            { Y: -31.61, X: -61.06, Type: "Trade Terminal", Region: "Uxfal Sands" },
+            { Y: -32.16, X: -59.17, Type: "Transmission Tower", Region: "Alkap's Graveyard" },
+            { Y: -32.80, X: -56.90, Region: "Javiev Swamp" },
+            { Y: -33.21, X: -53.64, Type: "Local Trade Center/Camp", Region: "Ifnal Outpost" },
+            { Y: -33.18, X: -53.50, Type: "Crashed Freighter" },
+            { Y: -33.26, X: -53.10, Type: "Manufacturing", Region: "Awten Flats IX" },
+            { Y: -33.26, X: -52.44, Type: "Local Trade Center", Region: "Beyther Sands" },
+            { Y: -33.23, X: -50.76, Type: "Manufacturing", Region: "Point Esthe" },
+            { Y: -33.26, X: -48.81, Type: "Camp", Region: "Point Lukka" },
+            { Y: -33.50, X: -47.30, Type: "Manufacturing", Region: "Windswept Plains of Niumf" },
+            { Y: -33.71, X: -43.73, Type: "Manufacturing", Region: "Iapulom VI" },
+            { Y: -33.86, X: -41.10, Type: "Manufacturing", Region: "Iegona Wastes" },
+            { Y: -30.80, X: -9.57, Type: "Ancient Ruins" }
         ]
     }
 }
@@ -1365,5 +1420,4 @@ function ZED19IVa()
  * 1 - rocky
  * 2 - toxic
  * 3 -paradise (s)
- * 4 - irradiated
  */
