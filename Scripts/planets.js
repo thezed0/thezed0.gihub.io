@@ -532,6 +532,35 @@ function ZED11I()
     };
 }
 
+function ZED12V()
+{
+    return {
+        Messages: ["ZED-12 V", "Toxic Anomaly", "0C84:0082:0D59:0136", "51360355A485"],
+        POI: [
+            { Y: 0.00, X: 135.14, Region: "Vistra Dale" },
+            { Y: 0.20, X: 135.00, Region: "Dixiezh's Great Reaches" },
+            { Y: 0.59, X: 134.72, Type: "Ancient Ruins" },
+            { Y: -2.42, X: 134.16, Type: "Observatory", Region: "Empenwor Dale" },
+            { Y: -19.62, X: 127.13, Type: "Comms Tower/Camp", Region: "Niworksuw Station" },
+            { Y: -19.42, X: 126.25, Type: "Manufacturing", Region: "Vandore Flats XVIII" },
+            { Y: -17.56, X: 126.42, Region: "Utumu Marsh" },
+            { Y: -15.46, X: 126.79, Type: "Abandoned Building", Region: "Robith Moor" },
+            { Y: -15.39, X: 127.14, Type: "Abandoned Building", Region: "Peion XVII" },
+            { Y: -15.25, X: 126.78, Type: "Observatory/Camp", Region: "Amdusias Outpost" },
+            { Y: -14.42, X: 127.84, Type: "Camp", Region: "Xumoutiiq" },
+            { Y: -21.34, X: 126.43, Type: "Drop Pod", Region: "Nuwan Mire" },
+            { Y: -22.46, X: 125.87, Type: "Transmission Tower/Camp", Region: "Oorsissi Post" },
+            { Y: -28.77, X: 124.96, Type: "Distress Beacon" },
+            { Y: -29.75, X: 124.58, Type: "Monolith" },
+            { Y: -27.50, X: 122.42, Type: "Beacon" },
+            { Y: -27.01, X: 107.52, Type: "Manufacturing", Region: "The Maslem Morass" },
+            { Y: -20.49, X: 80.36, Type: "Camp", Region: "Yorki Wetlands" },
+            { Y: -19.67, X: 78.75, Type: "Abandoned Building", Region: "Iasus Plateau" },
+            { Y: 32.92, X: -9.10, Type: "Portal" }
+        ]
+    };
+}
+
 function ZED13I()
 {
     return {
