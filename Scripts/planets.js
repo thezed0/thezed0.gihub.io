@@ -1416,6 +1416,35 @@ function ZED19IV()
     }
 }
 
+function ZED19III()
+{
+    return {
+        Messages: ["ZED-19 III", "Paradise", "0C84:0082:0D59:0032", "30320355A485"],
+        POI: [
+            { Y: -56.15, X: 153.99, Region: "The Tuynet Wildlands" },
+            { Y: -58.15, X: 154.11, Type: "Abandoned Building", Region: "The Esmoss Wildlands" },
+            { Y: -59.79, X: 155.44, Type: "Local Trade Center", Region: "The Tonia Morass" },
+            { Y: -62.81, X: 156.41, Type: "Camp", Region: "Mekionehou Jungle" },
+            { Y: -64.58, X: 158.20, Type: "Beacon" },
+            { Y: -67.73, X: 159.00, Type: "Local Trade Center/Camp", Region: "Ogata Outpost" },
+            { Y: -68.06, X: 158.58, Region: "Tesyala Lowlands" },
+            { Y: -69.70, X: 159.10, Type: "Local Trade Center/Camp", Region: "Teosa Post" },
+            { Y: -74.50, X: 158.20, Region: "Nitwitn Heath" },
+            { Y: -74.36, X: 156.80, Region: "Ursto Swamplands" },
+            { Y: -73.85, X: 156.17, Type: "Abandoned Building", Region: "Tableyt Woods" },
+            { Y: -78.12, X: 155.39, Type: "Abandoned Building", Region: "Cubusher Meadows" },
+            { Y: -84.73, X: 151.40, Region: "Effer's Last Stand" },
+            { Y: -85.36, X: 5.25, Type: "Beacon" },
+            { Y: -80.77, X: 5.08, Type: "Local Trade Center/Camp", Region: "Camp Ikasur" },
+            { Y: -78.71, X: 6.25, Type: "Camp", Region: "THe Didish Praire" },
+            { Y: -78.31, X: 6.01, Type: "Manufacturing", Region: "Ogust XIV" },
+            { Y: -77.50, X: 5.67, Type: "Crashed Freighter" },
+            { Y: -69.39, X: 4.50, Type: "Beacon" },
+            { Y: -71.59, X: -6.44, Type: "Local Trade Center", Region: "Syraciksb Fields" }
+        ]
+    }
+}
+
 /*
  * 1 - rocky
  * 2 - toxic
