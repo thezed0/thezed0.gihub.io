@@ -40,10 +40,12 @@ function ZED01II()
 function ZED01I()
 {
     return {
-        Messages: ["ZED-01 I", "", "0C84:0082:0D59:0137", "11370355A485"],
+        Messages: ["ZED-01 I", "Cabled", "0C84:0082:0D59:0137", "11370355A485"],
         POI: [
             { Y: 22.84, X: -162.83, Type: "Portal" },
-            { Y: 33.34, X: -169.62, Type: "Boundary Failure", Region: "Hoendis IV" }
+            { Y: 33.34, X: -169.62, Type: "Boundary Failure", Region: "Hoendis IV" },
+            { Y: 37.69, X: -169.21, Type: "Boundary Failure", Region: "Lenonach Crossing" },
+            { Y: -40.43, X: -24.17, Type: "Distress Beacon" }
         ]
     };
 }
@@ -1474,8 +1476,64 @@ function ZED19III()
     }
 }
 
-/*
- * 1 - rocky
- * 2 - toxic
- * 3 -paradise (s)
- */
+function ZED19II()
+{
+    return {
+        Messages: ["ZED-19 II", "Toxic", "0C84:0082:0D59:0032", "20320355A485"],
+        POI: [
+            { Y: 30.24, X: 156.40, Type: "Crashed Freighter" },
+            { Y: 30.33, X: 156.84, Type: "Observatory/Camp", Region: "Rugan Encampment" },
+            { Y: 30.66, X: 155.70, Region: "Iijin Sector X" },
+            { Y: 31.16, X: 153.65, Region: "Plains of Amling" },
+            { Y: 30.93, X: 153.43, Type: "Monolith" },
+            { Y: 31.34, X: 153.66, Type: "Grave" },
+            { Y: 33.18, X: 153.87, Type: "Comms Tower", Region: "Amcombal Flats VII" },
+            { Y: 33.85, X: 154.55, Type: "Trade Terminal", Region: "Idian Sector VII" },
+            { Y: 34.08, X: 154.77, Type: "Local Trade Center/Camp", Region: "Golag Enclave" },
+            { Y: 35.98, X: 154.99, Type: "Local Trade Center", Region: "The Zuendin Expanse" },
+            { Y: 36.14, X: 154.98, Type: "Abandoned Building", Region: "Jiaqun Flats XII" },
+            { Y: 36.48, X: 155.00, Type: "Local Trade Center/Camp", Region: "Wuweifa Platform" },
+            { Y: 36.90, X: 155.46, Type: "Comms Tower", Region: "Uguanogshi Fen" },
+            { Y: 36.79, X: 155.70, Type: "Beacon" },
+            { Y: 37.13, X: 154.99, Type: "Transmission Tower/Camp", Region: "Nopinn Station" },
+            { Y: 37.43, X: 155.00, Type: "Camp", Region: "Plains of Uguan" },
+            { Y: 38.02, X: 154.77, Type: "Local Trade Center/Camp", Region: "Siunn Post" },
+            { Y: 38.23, X: 155.01, Type: "Beacon" },
+            { Y: 39.85, X: 155.45, Type: "Camp", Region: "Aozho Mire" },
+            { Y: 40.34, X: 155.70, Type: "Trade Terminal", Region: "Oguan's Quagmire" }
+        ]
+    }
+}
+
+function ZED19I()
+{
+    return {
+        Messages: ["ZED-19 I", "Rocky", "0C84:0082:0D59:0032", "10320355A485"],
+        POI: [
+            { Y: 4.69, X: 50.75, Type: "Local Trade Center/Camp", Region: "Camp Shivat" },
+            { Y: 3.22, X: 50.13, Type: "Beacon" },
+            { Y: 4.02, X: 50.39, Type: "Abandoned Builidng", Region: "The Gansk" },
+            { Y: 4.05, X: 50.75, Type: "Local Trade Center/Camp", Region: "Mestashiem Post" },
+            { Y: 3.80, X: 49.15, Type: "Crashed Freighter" },
+            { Y: 3.80, X: 49.04, Region: "Napokhla Crossing" },
+            { Y: 3.89, X: 48.09, Type: "Comms Tower/Camp", Region: "Luchesh Platform" },
+            { Y: 4.04, X: 48.09, Type: "Observatory/Camp", Region: "Niati Platform" },
+            { Y: 3.95, X: 46.62, Type: "Camp", Region: "Zalichno View" },
+            { Y: 3.90, X: 45.75, Type: "Drop Pod", Region: "Lost Plains of Latyrun" },
+            { Y: 3.60, X: 44.26, Region: "Ozzhe Wasteland" },
+            { Y: 3.47, X: 43.93, Type: "Beacon" },
+            { Y: 3.24, X: 42.47, Type: "Camp", Region: "Yotegrads Dustbowl" },
+            { Y: 3.40, X: 42.47, Type: "Camp", Region: "Labon's Drift" },
+            { Y: 3.11, X: 42.02, Type: "Resource Depot", Region: "Myonn Crossing" },
+            { Y: 3.14, X: 41.55, Type: "Beacon" },
+            { Y: 3.01, X: 40.96, Type: "Drop Pod", Region: "Otkin Crossing" },
+            { Y: 3.03, X: 40.48, Type: "Beacon" },
+            { Y: 3.04, X: 40.23, Type: "Camp", Region: "Konay's Wilds" },
+            { Y: 3.03, X: 40.35, Type: "Trade Terminal", Region: "Point Arinob" },
+            { Y: -3.35, X: -86.65, Type: "Ancient Ruins" },
+            { Y: -3.14, X: -86.65, Type: "Beacon" },
+            { Y: -3.33, X: -87.07, Type: "Abandoned Building", Region: "Mebovk Wasteland" },
+            { Y: -3.56, X: -87.69, Type: "Ancient Ruins" }
+        ]
+    }
+}
