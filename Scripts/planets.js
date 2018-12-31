@@ -1,7 +1,7 @@
 function ZED01II()
 {
     return {
-        Messages: ["ZED-01 II", "Charred", "0C84:0082:0D59:0137", "21370355A485"],
+        Messages: ["ZED-01 II", "Charred", "Large", "0C84:0082:0D59:0137", "21370355A485"],
         POI: [
             { Y: -67.73, X: 31.84, Type: "Resource Depot", Region: 'The Vale of Niratsuk' },
             { Y: -66.78, X: 31.88, Type: "Drop Pod", Region: "Jiidaka Floodplain" },
@@ -40,7 +40,7 @@ function ZED01II()
 function ZED01I()
 {
     return {
-        Messages: ["ZED-01 I", "Cabled", "0C84:0082:0D59:0137", "11370355A485"],
+        Messages: ["ZED-01 I", "Cabled", "Small", "0C84:0082:0D59:0137", "11370355A485"],
         POI: [
             { Y: 22.84, X: -162.83, Type: "Portal" },
             { Y: 33.34, X: -169.62, Type: "Boundary Failure", Region: "Hoendis IV" },
@@ -1537,3 +1537,38 @@ function ZED19I()
         ]
     }
 }
+
+function ZED20IV()
+{
+    return {
+        Messages: ["ZED-20 IV", "Freezing", "Large", "0C83:0082:0D59:001D", "401D0355A484"],
+        POI: [
+            { Y: 15.87, X: -166.02, Type: "Ancient Plaque" },
+            { Y: 15.85, X: -165.62, Type: "Beacon" },
+            { Y: 14.68, X: -168.42, Type: "Local Trade Center/Camp", Region: "Umensk Enclave" },
+            { Y: 16.74, X: -167.81, Region: "The Enburg Flats" },
+            { Y: 17.47, X: -167.61, Type: "Trade Terminal", Region: "Kazhad Ice Sheet" },
+            { Y: 19.33, X: -167.81, Type: "Large Artifact Crate" },
+            { Y: 19.50, X: -167.60, Type: "Monolith" },
+            { Y: 20.04, X: -167.62, Type: "Camp", Region: "Lemya Lowlands" },
+            { Y: 19.94, X: -166.23, Type: "Manufacturing", Region: "Ilans Forest" },
+            { Y: 21.13, X: -165.42, Type: "Beacon" },
+            { Y: 21.82, X: -165.24, Type: "Comms Tower/Camp", Region: "Ebnya Outpost" },
+            { Y: 22.66, X: -165.04, Region: "Rybinoy Snowplain" },
+            { Y: 23.06, X: -165.65, Type: "Abandoned Building", Region: "The Mebayevs Praire" },
+            { Y: 23.40, X: -165.65, Type: "Abandoned Building", Region: "Uyski Grove" },
+            { Y: 24.26, X: -165.62, Type: "Beacon" },
+            { Y: 24.24, X: -165.42, Type: "Ancient Plaque" },
+            { Y: 26.88, X: -165.42, Type: "Beacon" },
+            { Y: 27.52, X: -165.43, Type: "Trade Terminal", Region: "Amchasa Grove" },
+            { Y: 27.71, X: -165.62, Type: "Beacon" },
+            { Y: 28.00, X: -165.42, Type: "Large Artificat Crate" }
+        ]
+    };
+}
+
+/*
+ 1 - High Energy
+ 2 - Glacial
+ 3 - Gamma-Intensive
+ */
