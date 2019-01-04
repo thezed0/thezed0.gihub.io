@@ -29,7 +29,12 @@ function ZED01II()
             { Y: 1.82, X: -43.72, Type: "Monolith" },
             { Y: 25.28, X: -108.62, Type: "Abandoned Building", Region: "Point Borider" },
             { Y: -0.42, X: 10.39, Type: "Trading Post" },
-            { Y: -4.47, X: 31.45, Type: "Ancient Plaque" }
+            { Y: -4.47, X: 31.45, Type: "Ancient Plaque" },
+            { Y: 23.03, X: -106.73, Type: "Abandoned Building", Region: "Ishiwamib Sector VI" },
+            { Y: 26.00, X: -106.72, Type: "Trade Terminal", Region: "Yurihon Plateau" },
+            { Y: 27.66, X: -107.68, Type: "Abandoned Builidng", Region: "Point Ahoko" },
+            { Y: 28.32, X: -111.41, Type: "Trade Terminal", Region: "Lost Plains of Bibar" },
+            { Y: 28.95, X: -110.31, Type: "Resource Depot", Region: "Rozawate's Graveyard" }
         ],
         Shores: [
             [{ Y: -67.77, X: 31.96 }, { Y: -67.76, X: 31.95 }, { Y: -67.76, X: 31.93 }, { Y: -67.74, X: 31.92 }, { Y: -67.74, X: 31.96 },
@@ -1533,7 +1538,8 @@ function ZED19I()
             { Y: -3.35, X: -86.65, Type: "Ancient Ruins" },
             { Y: -3.14, X: -86.65, Type: "Beacon" },
             { Y: -3.33, X: -87.07, Type: "Abandoned Building", Region: "Mebovk Wasteland" },
-            { Y: -3.56, X: -87.69, Type: "Ancient Ruins" }
+            { Y: -3.56, X: -87.69, Type: "Ancient Ruins" },
+            { Y: 1.54, X: 42.59, Type: "Beacon" }
         ]
     }
 }
@@ -1567,8 +1573,36 @@ function ZED20IV()
     };
 }
 
+function ZED20III()
+{
+    return {
+        Messages: ["ZED-20 III", "Gamma-Intensive", "Large", "0C83:0082:0D59:001D", "301D0355A484"],
+        POI: [
+            { Y: -19.27, X: 76.81, Type: "Camp", Region: "The Hethryto" },
+            { Y: -19.13, X: 77.41, Type: "Trade Terminal", Region: "Mytili Wasteland" },
+            { Y: -18.01, X: 77.20, Type: "Beacon" },
+            { Y: -17.03, X: 76.41, Type: "Resource Depot", Region: "Zavitusi Floodplain" },
+            { Y: -13.48, X: 77.60, Region: "Great Plains of Yusnome" },
+            { Y: -12.34, X: 77.81, Type: "Observatory", Region: "Ootle's Quagmire" },
+            { Y: 17.12, X: 78.01, Type: "Trade Terminal", Region: "Neriet Bonefield" },
+            { Y: 19.14, X: 78.01, Type: "Abandoned Building", Region: "Eycit Crossing" },
+            { Y: 19.51, X: 78.01, Type: "Manufacturing", Region: "Puscuse Swamplands" },
+            { Y: 20.29, X: 78.61, Type: "Trade Terminal", Region: "Great Plains of Iouxfalm" },
+            { Y: 20.26, X: 78.41, Type: "Abandoned Building", Region: "Giosc Fen" },
+            { Y: 23.51, X: 79.02, Type: "Resource Depot", Region: "The Uveroc Morass" },
+            { Y: 25.53, X: 78.61, Type: "Drop Pod", Region: "The Agjyotiris Morass" },
+            { Y: 25.84, X: 78.41, Type: "Camp", Region: "Stminste's Drift" },
+            { Y: 26.72, X: 79.01, Type: "Drop Pod", Region: "Dersforna Basin" },
+            { Y: 27.17, X: 78.82, Type: "Abandoned Building", Region: "Didock Basin" },
+            { Y: 28.15, X: 78.61, Region: "Broug Plateau" },
+            { Y: 29.17, X: 79.42, Region: "Oulsa's Graveyard" },
+            { Y: 31.80, X: 79.82, Type: "Beacon" },
+            { Y: 33.26, X: 79.83, Type: "Camp", Region: "Onfie's Quagmire" }
+        ]
+    };
+}
+
 /*
  1 - High Energy
  2 - Glacial
- 3 - Gamma-Intensive
  */
