@@ -1602,7 +1602,38 @@ function ZED20III()
     };
 }
 
+function ZED20II()
+{
+    return {
+        Messages: ["ZED-20 II", "Glacial", "Small", "0C83:0082:0D59:001D", "201D0355A484"],
+        POI: [
+            { Y: 43.33, X: 98.77, Type: "Transmission Tower", Region: "Ulyos Ice Field" },
+            { Y: 43.36, X: 104.82, Type: "Manufacturing", Region: "The Uduton Praire" },
+            { Y: 42.68, X: 106.77, Region: "Kogony Forest" },
+            { Y: 42.83, X: 107.16, Type: "Resource Depot", Region: "Gaetsk Forest" },
+            { Y: 42.80, X: 108.69, Type: "Drop Pod", Region: "Ibirsk Ice Crust" },
+            { Y: 42.44, X: 113.80, Type: "Comms Tower", Region: "Irsky Woodland" },
+            { Y: 42.49, X: 116.35, Type: "Trading Post" },
+            { Y: 41.97, X: 117.58, Type: "Resource Depot", Region: "The Amonc" },
+            { Y: 41.79, X: 119.02, Region: "Uvant Thicket" },
+            { Y: 41.67, X: 120.26, Type: "Large Artifact Crate" },
+            { Y: 41.45, X: 120.05, Type: "Abandoned Building", Region: "Ivkaza Woodland" },
+            { Y: 41.33, X: 119.88, Type: "Camp", Region: "Hinovi Snowplain" },
+            { Y: 41.35, X: 121.21, Type: "Transmission Tower", Region: "The Kiyev Praire" },
+            { Y: 41.05, X: 122.97, Type: "Monolith" },
+            { Y: 40.78, X: 124.38, Type: "Local Trade Center/Camp", Region: "Gaets Post" },
+            { Y: 40.42, X: 124.30, Type: "Crashed Freighter" },
+            { Y: 39.58, X: 128.33, Type: "Resource Depot", Region: "The Lesos Praire" },
+            { Y: 39.72, X: 128.55, Type: "Trade Terminal", Region: "The Vustver Praire" },
+            { Y: 39.94, X: 131.25, Type: "Camp", Region: "Frozen Wastes of Sobiaz" },
+            { Y: 39.73, X: 131.28, Type: "Beacon" },
+            { Y: 6.95, X: -167.19, Type: "Trading Post" },
+            { Y: -13.93, X: -53.40, Type: "Grave" },
+            { Y: -22.71, X: 90.83, Type: "Portal" }
+        ]
+    };
+}
+
 /*
  1 - High Energy
- 2 - Glacial
  */
