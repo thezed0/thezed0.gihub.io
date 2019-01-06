@@ -55,6 +55,21 @@ function ZED01I()
     };
 }
 
+function ZED02I()
+{
+    return {
+        Messages: ["ZED-02 I", "Ossified", "Medium", "0C84:0082:0D59:010A", "110A0355A485"],
+        POI: [
+            { Y: 59.11, X: -177.19, Type: "Portal" },
+            { Y: 55.57, X: -176.78, Type: "Boundary Failure", Region: "Fomanesgr Dale" },
+            { Y: 46.91, X: -175.26, Type: "Boundary Failure", Region: "Tifere Crossing" },
+            { Y: 40.06, X: -174.76, Type: "Boundary Failure", Region: "The Otosa" },
+            { Y: 76.31, X: 175.36, Type: "Boundary Failure", Region: "Ovamendum XIII" },
+            { Y: 74.78, X: 177.89, Type: "Boundary Failure", Region: "Mountains of Fuman" }
+        ]
+    };
+}
+
 function ZED06I()
 {
     return {
@@ -1385,15 +1400,15 @@ function ZED19IVa()
     return {
         Messages: ["ZED-19 IVa", "Capped", "0C84:0082:0D59:0032", "50320355A485"],
         POI: [
-            { Y: -8.47, X: 11.85, Type: "Boundry Failure", Region: "Edlegu's Great Reaches" },
-            { Y: 13.54, X: 5.06, Type: "Boundry Failure", Region: "Plains of Orjudio" },
-            { Y: 22.94, X: 1.60, Type: "Boundry Failure", Region: "Peumero Flats IX" },
-            { Y: 74.38, X: 12.93, Type: "Boundry Failure", Region: "Lauru Moor" },
-            { Y: 84.82, X: 1.12, Type: "Boundry Failure", Region: "The Urnedale" },
-            { Y: 85.02, X: 134.41, Type: "Boundry Failure", Region: "Point Iloffac" },
-            { Y: 66.62, X: 140.53, Type: "Boundry Failure", Region: "Point Davalen" },
-            { Y: -26.57, X: 141.62, Type: "Boundry Failure", Region: "Arect Crossing" },
-            { Y: -85.15, X: 136.42, Type: "Boundry Failure", Region: "Point Yormen" }
+            { Y: -8.47, X: 11.85, Type: "Boundary Failure", Region: "Edlegu's Great Reaches" },
+            { Y: 13.54, X: 5.06, Type: "Boundary Failure", Region: "Plains of Orjudio" },
+            { Y: 22.94, X: 1.60, Type: "Boundary Failure", Region: "Peumero Flats IX" },
+            { Y: 74.38, X: 12.93, Type: "Boundary Failure", Region: "Lauru Moor" },
+            { Y: 84.82, X: 1.12, Type: "Boundary Failure", Region: "The Urnedale" },
+            { Y: 85.02, X: 134.41, Type: "Boundary Failure", Region: "Point Iloffac" },
+            { Y: 66.62, X: 140.53, Type: "Boundary Failure", Region: "Point Davalen" },
+            { Y: -26.57, X: 141.62, Type: "Boundary Failure", Region: "Arect Crossing" },
+            { Y: -85.15, X: 136.42, Type: "Boundary Failure", Region: "Point Yormen" }
         ]
     }
 }
@@ -1634,6 +1649,33 @@ function ZED20II()
     };
 }
 
-/*
- 1 - High Energy
- */
+function ZED20I()
+{
+    return {
+        Messages: ["ZED-20 I", "High Energy", "Medium", "0C83:0082:0D59:001D", "101D0355A484"],
+        POI: [
+            { Y: -41.03, X: 38.64, Type: "Manufacturing", Region: "Itria Mire" },
+            { Y: -41.34, X: 38.59, Type: "Distress Beacon" },
+            { Y: -41.13, X: 41.40, Type: "Beacon" },
+            { Y: -40.85, X: 43.46, Type: "Manufacturing", Region: "Goraymr's Wilds" },
+            { Y: -40.52, X: 45.84, Type: "Camp", Region: "Heimorpe's Quagmire" },
+            { Y: -40.34, X: 45.50, Type: "Beacon" },
+            { Y: -40.51, X: 45.50, Type: "Resource Depot", Region: "Loreus Marsh" },
+            { Y: -40.16, X: 47.16, Type: "Drop Pod", Region: "Hupri's Great Reaches" },
+            { Y: -39.99, X: 48.13, Type: "Camp", Region: "Yaspri Badlands" },
+            { Y: -40.05, X: 48.31, Type: "Beacon" },
+            { Y: -39.92, X: 50.09, Type: "Local Trade Center/Camp", Region: "Iauehilian Encampment" },
+            { Y: -39.41, X: 50.68, Type: "Trading Post" },
+            { Y: -39.39, X: 50.98, Region: "The Ovian Levels" },
+            { Y: -39.41, X: 52.12, Type: "Camp", Region: "Postosa Marsh" },
+            { Y: -39.41, X: 53.27, Type: "Camp", Region: "Osalexi Valley" },
+            { Y: -39.65, X: 54.33, Type: "Resource Depot", Region: "Ibour Plateau" },
+            { Y: -39.67, X: 54.01, Type: "Trade Terminal", Region: "Dunaean's Last Stand" },
+            { Y: -39.84, X: 54.06, Type: "Camp", Region: "Renoni Bog" },
+            { Y: -39.97, X: 54.43, Type: "Camp", Region: "Windswept Plains of Uwaitchesm" },
+            { Y: -40.12, X: 54.49, Type: "Trade Terminal", Region: "Hutahu X" },
+            { Y: -40.13, X: 55.34, Type: "Crashed Freighter" },
+            { Y: -8.75, X: 115.20, Type: "Ancient Ruins" }
+        ]
+    };
+}
