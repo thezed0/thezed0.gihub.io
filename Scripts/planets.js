@@ -55,6 +55,36 @@ function ZED01I()
     };
 }
 
+function ZED02II()
+{
+    return {
+        Messages: ["ZED-02 II", "Blighted", "Large", "0C84:0082:0D59:010A", "210A0355A485"],
+        POI: [
+            { Y: 16.87, X: -94.20, Type: "Portal" },
+            { Y: 18.17, X: -95.86, Type: "Manufacturing", Region: "The Bidunhu Morass" },
+            { Y: 18.54, X: -96.06, Type: "Manufacturing", Region: "Wesonque Marsh" },
+            { Y: 19.09, X: -96.48, Type: "Local Trade Center/Camp", Region: "Nafenyan Station" },
+            { Y: 19.61, X: -97.10, Type: "Beacon" },
+            { Y: 20.98, X: -98.95, Region: "Incer Bog" },
+            { Y: 21.86, X: -99.77, Type: "Observatory/Camp", Region: "Cegneu Encampment" },
+            { Y: 22.53, X: -99.98, Type: "Drop Pod", Region: "Gadezh Swamp" },
+            { Y: 22.87, X: -100.38, Type: "Transmission Tower/Camp", Region: "Akous Enclave" },
+            { Y: 23.03, X: -100.59, Type: "Camp", Region: "The Atogq" },
+            { Y: 23.56, X: -100.38, Region: "The Huglu Morass" },
+            { Y: 24.68, X: -101.60, Type: "Camp", Region: "Shianab Swamplands" },
+            { Y: 25.29, X: -102.39, Type: "Comms Tower/Camp", Region: "Yuelinhe Outpost" },
+            { Y: 25.68, X: -103.60, Type: "Camp", Region: "Ambrial Crossing" },
+            { Y: 25.86, X: -103.60, Type: "Observatory", Region: "Mulai Sector V" },
+            { Y: 26.61, X: -104.39, Type: "Abandoned Building", Region: "Jeyg Swamp" },
+            { Y: 27.05, X: -104.58, Type: "Trade Terminal", Region: "Ebrong Marsh" },
+            { Y: 27.33, X: -104.97, Type: "Drop Pod", Region: "Edzang Swamp" },
+            { Y: 28.41, X: -106.53, Type: "Camp", Region: "Modonqu Crossing" },
+            { Y: 28.59, X: -106.54, Type: "Abandoned Building", Region: "Obeib Swamplands" },
+            { Y: 41.19, X: 162.11, Type: "Manufacturing", Region: "Naogando Marsh" }
+        ]
+    };
+}
+
 function ZED02I()
 {
     return {
