@@ -55,6 +55,35 @@ function ZED01I()
     };
 }
 
+function ZED02IIa()
+{
+    return {
+        Messages: ["ZED-02 IIa", "Frozen", "Moon", "0C84:0082:0D59:010A", "310A0355A485"],
+        POI: [
+            { Y: 74.38, X: 167.07, Type: "Portal" },
+            { Y: 83.74, X: 146.27, Type: "Drop Pod", Region: "Erzhu Crossing" },
+            { Y: 86.07, X: 116.23, Type: "Comms Tower", Region: "Windswept Plains of Olzahno" },
+            { Y: 80.04, X: -58.95, Type: "Camp", Region: "Luyalu Flats VI" },
+            { Y: 70.75, X: -58.75, Type: "Abandoned Building", Region: "The Drugor Levels" },
+            { Y: 67.19, X: -59.72, Type: "Drop Pod", Region: "Bodars Ice Sheet" },
+            { Y: 58.62, X: -63.45, Type: "Beacon" },
+            { Y: 53.38, X: -63.43, Type: "Camp", Region: "Yosskoi Valley" },
+            { Y: 48.21, X: -61.71, Type: "Trade Terminal", Region: "Zeyan Moor" },
+            { Y: 44.14, X: -58.08, Type: "Trading Post" },
+            { Y: 43.41, X: -59.03, Type: "Camp", Region: "Gadac XI" },
+            { Y: 41.72, X: -51.57, Region: "The Ondro Flats" },
+            { Y: 37.45, X: -45.96, Type: "Drop Pod", Region: "The Rekulovk Levels" },
+            { Y: 36.60, X: -45.88, Type: "Camp", Region: "Yaksano Woodland" },
+            { Y: 33.23, X: -45.78, Type: "Transmission Tower/Camp", Region: "Camp Zenshich" },
+            { Y: 30.96, X: -44.99, Region: "Blizzard Point XIX" },
+            { Y: 30.09, X: -45.00, Type: "Drop Pod", Region: "Hevist Flats VIII" },
+            { Y: 26.65, X: -45.88, Type: "Camp", Region: "Izdrarey Crossing" },
+            { Y: 27.93, X: -43.20, Type: "Grave" },
+            { Y: 24.56, X: -44.25, Type: "Local Trade Center/Camp", Region: "Camp Piysk" }
+        ]
+    };
+}
+
 function ZED02II()
 {
     return {
@@ -1709,3 +1738,11 @@ function ZED20I()
         ]
     };
 }
+
+/*
+1 - Overgrown / Large
+1a - Dead
+1b - Toxic
+2 - Pillared / Medium
+3 - Overgrown / Large
+ */
