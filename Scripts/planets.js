@@ -672,6 +672,35 @@ function ZED12V()
     };
 }
 
+function ZED12IV()
+{
+    return {
+        Messages: ["ZED-12 IV", "Acrid", "0C84:0082:0D59:0136", "41360355A485"],
+        POI: [
+            { Y: -33.70, X: -24.90, Type: "Observatory/Camp", Region: "Idaob Platform" },
+            { Y: -34.35, X: -25.57, Type: "Camp", Region: "Ikoupis Wetlands" },
+            { Y: -37.90, X: -25.20, Region: "Sibia Wetlands" },
+            { Y: -37.98, X: -25.89, Type: "Monolith" },
+            { Y: -35.38, X: -26.56, Type: "Ancient Plaque" },
+            { Y: -34.55, X: -26.90, Region: "Xumotsus Sector VI" },
+            { Y: -31.70, X: -27.92, Type: "Camp", Region: "Asanql Wetlands" },
+            { Y: -32.30, X: -27.59, Type: "Local Trade Center/Camp", Region: "Ojiazho Platform" },
+            { Y: -30.52, X: -28.23, Type: "Artifact Crate" },
+            { Y: -25.93, X: -29.54, Type: "Local Trade Center/Camp", Region: "Ijinjin Outpost" },
+            { Y: -25.04, X: -29.55, Type: "Local Trade Center", Region: "Toban Hills" },
+            { Y: -20.63, X: -29.84, Type: "Trade Terminal", Region: "Nogguolinxi Marsh" },
+            { Y: -16.88, X: -30.82, Type: "Abandoned Building", Region: "Uilin Slopes" },
+            { Y: -15.49, X: -31.09, Region: "Mount Goicang" },
+            { Y: -15.53, X: -30.78, Type: "Grave" },
+            { Y: -12.39, X: -31.40, Region: "Eonaog Crossing" },
+            { Y: -3.90, X: -32.34, Type: "Transmission Tower/Camp", Region: "Raqenzemar Station" },
+            { Y: 1.41, X: -32.34, Type: "Trading Post" },
+            { Y: 3.21, X: -32.01, Type: "Drop Pod", Region: "The Owshe Morass" },
+            { Y: 62.74, X: -36.87, Type: "Portal" }
+        ]
+    };
+}
+
 function ZED13I()
 {
     return {
