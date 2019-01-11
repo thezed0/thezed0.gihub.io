@@ -55,6 +55,36 @@ function ZED01I()
     };
 }
 
+function ZED02III()
+{
+    return {
+        Messages: ["ZED-02 III", "Scalding", "Medium", "0C84:0082:0D59:010A", "410A0355A485"],
+        POI: [
+            { Y: 1.01, X: -43.72, Region: "The Nekyot" },
+            { Y: 1.79, X: -44.15, Region: "The Aritt" },
+            { Y: 2.39, X: -44.01, Type: "Resource Depot", Region: "Lost Plains of Hichichi" },
+            { Y: 2.59, X: -44.16, Type: "Camp", Region: "Noomor Desert" },
+            { Y: 4.40, X: -43.87, Type: "Drop Pod", Region: "Ennuma Sector VIII" },
+            { Y: 4.59, X: -44.02, Type: "Trade Terminal", Region: "Totanoya VII" },
+            { Y: 5.77, X: -44.05, Type: "Abandoned Building", Region: "Nemuraka's Drift" },
+            { Y: 6.41, X: -43.72, Type: "Monolith" },
+            { Y: 9.97, X: -43.57, Type: "Beacon" },
+            { Y: 10.65, X: -43.03, Type: "Abandoned Building", Region: "Oranon's Wilds" },
+            { Y: 12.44, X: -42.84, Type: "Trade Terminal", Region: "Uozul XIII" },
+            { Y: 13.44, X: -42.70, Type: "Camp", Region: "The Aitos Expanse" },
+            { Y: 15.20, X: -42.56, Type: "Manufacturing", Region: "Joetsu Plains" },
+            { Y: 15.36, X: -42.70, Type: "Camp", Region: "Ugaminoha Crossing" },
+            { Y: 15.99, X: -43.28, Type: "Trading Post" },
+            { Y: 16.68, X: -43.43, Region: "Point Ginoku" },
+            { Y: 17.23, X: -43.43, Type: "Trade Terminal", Region: "The Radomac" },
+            { Y: 17.52, X: -43.74, Type: "Manufacturing", Region: "Aimitac Dale" },
+            { Y: 17.97, X: -44.16, Type: "Trading Post" },
+            { Y: 18.80, X: -44.31, Type: "Camp", Region: "Atotak Crossing" },
+            { Y: 29.39, X: 10.44, Type: "Portal" }
+        ]
+    };
+}
+
 function ZED02IIa()
 {
     return {
@@ -1739,10 +1769,40 @@ function ZED20I()
     };
 }
 
+//astl1
+function futts13S9()
+{
+    return {
+        Messages: ["Futts 13/S9", "Overgrown", "Large", "0C83:0082:0D59:007A", "507A0355A484"],
+        POI: [
+            { Y: 9.79, X: -144.33, Type: "Drop Pod", Region: "The Rabaton Morass" },
+            { Y: 9.61, X: -144.21, Type: "Abandoned Building", Region: "Icyon's Weald" },
+            { Y: 9.43, X: -144.05, Type: "Drop Pod", Region: "Tegem Lowlands" },
+            { Y: 10.27, X: -144.18, Type: "Ancient Plaque" },
+            { Y: 10.45, X: -144.33, Type: "Camp", Region: "Okkin Plateau" },
+            { Y: 11.33, X: -144.77, Type: "Abandoned Building", Region: "The Nueli Flats" },
+            { Y: 11.90, X: -145.31, Type: "Camp", Region: "Omyaz Flats IX" },
+            { Y: 12.75, X: -145.45, Type: "Trade Terminal", Region: "Forthi Swamplands" },
+            { Y: 13.34, X: -145.03, Type: "Trade Terminal", Region: "The Mesbo Pasture" },
+            { Y: 13.78, X: -144.75, Type: "Camp", Region: "Lamber Wetlands" },
+            { Y: 14.32, X: -145.04, Type: "Local Trade Center/Camp", Region: "Asilv Encampment" },
+            { Y: 14.64, X: -145.02, Type: "Beacon" },
+            { Y: 15.25, X: -144.88, Type: "Trade Terminal", Region: "Plains of Gloss" },
+            { Y: 15.44, X: -145.02, Region: "The Naghamn Expanse" },
+            { Y: 17.70, X: -145.31, Region: "Rudsom Rainforest" },
+            { Y: 18.11, X: -145.03, Region: "Adfor's Great Reaches" },
+            { Y: 20.17, X: -145.31, Type: "Drop Pod", Region: "Aiusau Flats XII" },
+            { Y: 20.69, X: -145.60, Type: "Camp", Region: "Hacat Jungle" },
+            { Y: 22.45, X: -146.02, Type: "Beacon" },
+            { Y: 22.60, X: -146.02, Type: "Ancient Plaque" },
+            { Y: 22.74, X: -146.02, Region: "The Beyzancen Morass" }
+        ]
+    };
+}
+
 /*
 1 - Overgrown / Large
 1a - Dead
 1b - Toxic
 2 - Pillared / Medium
-3 - Overgrown / Large
  */
