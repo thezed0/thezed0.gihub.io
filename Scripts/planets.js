@@ -55,6 +55,35 @@ function ZED01I()
     };
 }
 
+function ZED02IV()
+{
+    return {
+        Messages: ["ZED-02 IV", "Verdant", "Small", "0C84:0082:0D59:010A", "510A0355A485"],
+        POI: [
+            { Y: -17.21, X: -20.53, Type: "Portal" },
+            { Y: -10.96, X: -19.81, Region: "The Ditonroun Morass" },
+            { Y: -7.92, X: -19.13, Type: "Abandoned Building", Region: "Obush Fen" },
+            { Y: -5.56, X: -19.10, Type: "Local Trade Center/Camp", Region: "Yelvia Enclave" },
+            { Y: -3.19, X: -18.69, Type: "Beacon" },
+            { Y: -2.42, X: -17.57, Type: "Camp", Region: "Beulahak Grove" },
+            { Y: 0.00, X: -17.17, Type: "Drop Pod", Region: "Beyzou Woodland" },
+            { Y: 1.62, X: -16.81, Type: "Local Trade Center/Camp", Region: "Horiman Outpost" },
+            { Y: 4.42, X: -16.78, Region: "Ponsf Scrubland" },
+            { Y: 5.22, X: -16.83, Type: "Observatory", Region: "Naleycit Floodplain" },
+            { Y: 11.08, X: -17.96, Type: "Manufacturing", Region: "The Yesosovia Everglades" },
+            { Y: 12.66, X: -17.22, Type: "Abandoned Building", Region: "The Twhit Wildlands" },
+            { Y: 13.43, X: -17.18, Type: "Camp", Region: "Toumisii Swamp" },
+            { Y: 21.64, X: -18.71, Type: "Camp", Region: "Fofiel Fen" },
+            { Y: 22.00, X: -18.69, Type: "Beacon" },
+            { Y: 24.70, X: -18.72, Type: "Transmission Tower/Camp", Region: "Laytony Platform" },
+            { Y: 25.38, X: -18.32, Type: "Trade Terminal", Region: "Hudaka Fields" },
+            { Y: 28.56, X: -18.32, Type: "Trade Terminal", Region: "The Enbri Pasture" },
+            { Y: 30.78, X: -17.57, Type: "Camp", Region: "The Macclet Praire" },
+            { Y: 31.72, X: -17.16, Type: "Beacon" }
+        ]
+    };
+}
+
 function ZED02III()
 {
     return {
@@ -1829,9 +1858,27 @@ function futts13S9()
     };
 }
 
+function anarrminor()
+{
+    return {
+        Messages: ["Anarr Minor", "Pillared", "Medium", "0C83:0082:0D59:007A", "407A0355A484"],
+        POI: [
+            { Y: 32.78, X: 7.99, Type: "Boundary Failure", Region: "Aamatusio's Lookout" },
+            { Y: 36.34, X: 7.72, Type: "Boundary Failure", Region: "Himosyn XV" },
+            { Y: 38.30, X: 7.17, Type: "Boundary Failure", Region: "Urtussu IX" },
+            { Y: 40.58, X: 7.44, Type: "Boundary Failure", Region: "The Adator" },
+            { Y: 55.47, X: 8.96, Type: "Boundary Failure", Region: "Retusweeke Hills" },
+            { Y: 56.38, X: 9.70, Type: "Boundary Failure", Region: "The Muous" },
+            { Y: 56.92, X: 10.33, Type: "Boundary Failure", Region: "Idripu XVI" },
+            { Y: 62.92, X: 12.09, Type: "Boundary Failure", Region: "Biumv Hill" },
+            { Y: 65.76, X: 11.23, Type: "Boundary Failure", Region: "Lurucer Sector XIV" },
+            { Y: 68.53, X: 12.88, Type: "Boundary Failure", Region: "Acleniu Pass" }
+        ]
+    };
+}
+
 /*
 1 - Overgrown / Large
 1a - Dead
 1b - Toxic
-2 - Pillared / Medium
  */
