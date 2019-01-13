@@ -1828,7 +1828,7 @@ function ZED20I()
 }
 
 //astl1
-function futts13S9()
+function Futts13S9()
 {
     return {
         Messages: ["Futts 13/S9", "Overgrown", "Large", "0C83:0082:0D59:007A", "507A0355A484"],
@@ -1858,7 +1858,7 @@ function futts13S9()
     };
 }
 
-function anarrminor()
+function AnarrMinor()
 {
     return {
         Messages: ["Anarr Minor", "Pillared", "Medium", "0C83:0082:0D59:007A", "407A0355A484"],
@@ -1877,8 +1877,46 @@ function anarrminor()
     };
 }
 
+function BryenneV()
+{
+    return {
+        Messages: ["Bryenne V", "Toxic", "Moon", "0C83:0082:0D59:007A", "307A0355A484"],
+        POI: [
+            { Y: -19.91, X: 37.22, Type: "Ancient Ruins" },
+            { Y: -14.07, X: 41.29, Region: "Omndi's Great Reaches" },
+            { Y: -10.94, X: 44.96, Region: "Miehanc Crossing" },
+            { Y: -7.25, X: 56.31, Type: "Camp", Region: "Eumseog Basin" },
+            { Y: -3.00, X: 60.06, Region: "Umqi'iluo Lowlands" },
+            { Y: 0.01, X: 65.54, Type: "Beacon" },
+            { Y: 1.56, X: 73.15, Type: "Manufacturing", Region: "Iyorxunf's Great Reaches" },
+            { Y: 0.01, X: 73.13, Type: "Ancient Plaque" },
+            { Y: 3.36, X: 78.04, Type: "Drop Pod", Region: "The Hejiu" },
+            { Y: 3.42, X: 81.39, Type: "Drop Pod", Region: "Zemminust Moor" },
+            { Y: 8.02, X: 111.63, Type: "Trading Post" },
+            { Y: 1.51, X: 119.79, Type: "Trading Post" },
+            { Y: 3.14, X: 114.46, Region: "Windswept Plains of Hoshyueyuan" },
+            { Y: 9.89, X: 124.87, Type: "Beacon" },
+            { Y: 11.39, X: 132.28, Type: "Trade Terminal", Region: "Aoanse Dale" },
+            { Y: 19.44, X: 146.30, Region: "Zouchang Lowlands" },
+            { Y: 22.48, X: 155.55, Type: "Beacon" },
+            { Y: 25.05, X: 164.45, Type: "Manufacturing", Region: "The Kugkamb" },
+            { Y: 27.74, X: -164.90, Type: "Transmission Tower", Region: "Eitunxio Moor" },
+            { Y: 33.48, X: -161.59, Type: "Beacon" },
+            { Y: 41.14, X: -154.30, Type: "Local Trade Center/Camp", Region: "Alingyin Station" }
+        ]
+    };
+}
+
+function DudockpoU28()
+{
+    return {
+        Messages: ["Dudockpo U28", "Dead", "Moon", "0C83:0082:0D59:007A", "207A0355A484"],
+        POI: [
+            { Y: 36.95, X: -22.00, Type: "Distress Beacon" }
+        ]
+    };
+}
+
 /*
 1 - Overgrown / Large
-1a - Dead
-1b - Toxic
  */
