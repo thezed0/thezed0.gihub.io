@@ -1917,6 +1917,67 @@ function DudockpoU28()
     };
 }
 
+function CodyXIV()
+{
+    return {
+        Messages: ["Cody XIV", "Overgrown", "Large", "0C83:0082:0D59:007A", "107A0355A484"],
+        POI: [
+            { Y: -26.14, X: 179.35, Type: "Comms Tower/Camp", Region: "Ucrawli Station" },
+            { Y: -25.46, X: 179.16, Region: "Plains of Pagal" },
+            { Y: -23.71, X: 178.94, Type: "Trading Post" },
+            { Y: -23.37, X: 178.71, Type: "Abandoned Building", Region: "Teyni Floodplain" },
+            { Y: -22.65, X: 178.32, Type: "Beacon" },
+            { Y: -22.66, X: 178.53, Region: "Great Plains of Ougentaan" },
+            { Y: -19.73, X: 177.48, Type: "Drop Pod", Region: "Elpharab Heath" },
+            { Y: -18.79, X: 177.06, Type: "Beacon" },
+            { Y: -19.73, X: 177.68, Type: "Local Trade Center/Camp", Region: "Ildoneya Outpost" },
+            { Y: -19.17, X: 177.69, Type: "Beacon" },
+            { Y: -21.38, X: 176.85, Type: "Resource Depot", Region: "Erpenriers Crossing" },
+            { Y: -17.63, X: 176.02, Region: "Stwit's Great Reaches" },
+            { Y: -17.26, X: 176.01, Type: "Camp", Region: "Lubbockh XII" },
+            { Y: -16.29, X: 175.59, Type: "Manufacturing", Region: "Point Gatreal" },
+            { Y: -12.95, X: 175.39, Region: "Dolardon Scrubland" },
+            { Y: -12.16, X: 175.38, Type: "Camp", Region: "The Moshu Morass" },
+            { Y: -8.51, X: 174.96, Type: "Manufacturing", Region: "Mimas Meadow" },
+            { Y: -7.46, X: 173.51, Type: "Comms Tower/Camp", Region: "Ehoug Enclave" },
+            { Y: -7.46, X: 173.31, Type: "Resource Depot", Region: "Zawar Swamplands" },
+            { Y: -7.25, X: 172.88, Type: "Local Trade Center/Camp", Region: "Dajibo Enclave" },
+            { Y: -7.02, X: 172.28, Type: "Ancient Ruins" }
+        ]
+    };
+}
+
+function ZED21IV()
+{
+    return {
+        Messages: ["ZED-21 IV", "Incandescent", "Small", "0C83:0082:0D59:0045", "40450355A484"],
+        POI: [
+            { Y: -38.51, X: -163.27, Type: "Abandoned Building", Region: "The Yohar Flats" },
+            { Y: -42.52, X: -163.62, Type: "Monolith" },
+            { Y: -34.22, X: -166.80, Type: "Abandoned Building", Region: "Zaifu Crossing" },
+            { Y: -28.09, X: -168.78, Region: "Lost Plains of Iigaya" },
+            { Y: -25.21, X: -170.01, Type: "Crashed Freighter" },
+            { Y: -24.84, X: -169.98, Type: "Portal" },
+            { Y: -23.91, X: -171.26, Type: "Manufacturing", Region: "Owasennum's Drift" },
+            { Y: -18.83, X: -170.82, Region: "Marumat Lowlands" },
+            { Y: -17.36, X: -171.23, Region: "The Jieda Levels" },
+            { Y: -17.37, X: -171.64, Type: "Drop Pod", Region: "Gaokaza Floodplain" },
+            { Y: -17.01, X: -172.07, Type: "Camp", Region: "Kochi Wastes" },
+            { Y: -7.32, X: -166.39, Type: "Transmission Tower/Camp", Region: "Camp Nihon" },
+            { Y: -8.93, X: -166.39, Type: "Manufacturing", Region: "Robeokawat Plateau" },
+            { Y: -7.52, X: -160.94, Region: "The Andabay Flats" },
+            { Y: 33.97, X: -170.03, Type: "Transmission Tower/Camp", Region: "Nirak Outpost" },
+            { Y: 34.09, X: -168.41, Type: "Abandoned Building", Region: "Windswept PLains of Uuragiu" },
+            { Y: 37.58, X: -167.96, Type: "Beacon" },
+            { Y: 41.17, X: -167.17, Type: "Trade Terminal", Region: "Hobarakar's Graveyard" },
+            { Y: 41.82, X: -166.76, Type: "Ancient Ruins" },
+            { Y: 67.50, X: -163.47, Type: "Crashed Freighter" }
+        ]
+    };
+}
+
 /*
-1 - Overgrown / Large
+ 1 - High Energy / Medium
+ 2 - Scorched / Large
+ 3 - Dead / Medium
  */
