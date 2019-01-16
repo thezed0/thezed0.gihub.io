@@ -1976,8 +1976,17 @@ function ZED21IV()
     };
 }
 
+function ZED21III()
+{
+    return {
+        Messages: ["ZED-21 III", "Dead", "Medium", "0C83:0082:0D59:0045", "30450355A484"],
+        POI: [
+            { Y: -45.53, X: 22.38, Type: "Distress Beacon" }
+        ]
+    };
+}
+
 /*
  1 - High Energy / Medium
  2 - Scorched / Large
- 3 - Dead / Medium
  */
