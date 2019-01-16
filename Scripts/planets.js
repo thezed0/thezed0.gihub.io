@@ -671,6 +671,35 @@ function ZED12IV()
     };
 }
 
+function ZED12III()
+{
+    return {
+        Messages: ["ZED-12 III", "Hiemal", "0C84:0082:0D59:0136", "31360355A485"],
+        POI: [
+            { Y: -29.72, X: 155.70, Type: "Drop Pod", Region: "Trenyevka Basin" },
+            { Y: -31.36, X: 159.49, Type: "Camp", Region: "Syess Ice Sheet" },
+            { Y: -32.03, X: 159.01, Type: "Trade Terminal", Region: "Esveto Crossing" },
+            { Y: -32.35, X: 158.77, Type: "Monolith" },
+            { Y: -32.68, X: 158.53, Region: "Teyug Scrubland" },
+            { Y: -34.91, X: 158.03, Type: "Camp", Region: "Plains of Slavg" },
+            { Y: -36.03, X: 158.53, Type: "Drop Pod", Region: "Doros Sector XV" },
+            { Y: -37.64, X: 158.28, Type: "Crashed Freighter" },
+            { Y: -38.12, X: 158.29, Type: "Trade Terminal", Region: "The Yefremyac Ranges" },
+            { Y: -39.23, X: 158.26, Type: "Manufacturing", Region: "Rezni Flats XVIII" },
+            { Y: -39.79, X: 155.05, Type: "Beacon" },
+            { Y: -37.59, X: 155.68, Type: "Local Trade Center", Region: "Mansi Woods" },
+            { Y: -37.91, X: 155.68, Type: "Camp", Region: "Renoeg Scrubland" },
+            { Y: -42.60, X: 156.86, Region: "Baray Valley" },
+            { Y: -44.31, X: 156.84, Type: "Beacon" },
+            { Y: -44.92, X: 156.92, Type: "Crashed Freighter" },
+            { Y: -45.68, X: 156.87, Type: "Grave" },
+            { Y: -47.54, X: 156.58, Type: "Manufacturing", Region: "Elokh Snowplain" },
+            { Y: -51.70, X: 157.23, Type: "Resource Depot", Region: "The Otiamiat Praire" },
+            { Y: -56.07, X: 157.51, Type: "Local Trade Center/Camp", Region: "Olevkaz Station"}
+        ]
+    };
+}
+
 function ZED13I()
 {
     return {
