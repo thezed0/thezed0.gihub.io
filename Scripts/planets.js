@@ -759,6 +759,35 @@ function ZED12III()
     };
 }
 
+function ZED12II()
+{
+    return {
+        Messages: ["ZED-12 II", "Planetary Anomaly", "0C84:0082:0D59:0136", "21360355A485"],
+        POI: [
+            { Y: 52.36, X: 124.74, Type: "Monolith" },
+            { Y: 52.94, X: 124.92, Type: "Camp", Region: "The Imarsa Flats" },
+            { Y: 55.55, X: 125.25, Type: "Trading Post" },
+            { Y: 57.90, X: 125.73, Type: "Beacon" },
+            { Y: 57.80, X: 125.98, Type: "Observatory", Region: "Susosolca Crossing" },
+            { Y: 56.43, X: 123.50, Type: "Local Trade Center/Camp", Region: "Ahrist Post" },
+            { Y: 56.58, X: 122.97, Type: "Manufacturing", Region: "The Aberkha Morass" },
+            { Y: 58.89, X: 123.11, Type: "Trade Terminal", Region: "Ertone View" },
+            { Y: 58.83, X: 122.63, Type: "Camp", Region: "The Tavirg Mountains" },
+            { Y: 61.06, X: 123.37, Type: "Camp", Region: "Urusa Fen" },
+            { Y: 62.36, X: 123.56, Type: "Observatory", Region: "Yokjav Peak" },
+            { Y: 64.56, X: 122.10, Type: "Trade Terminal", Region: "Shleywo Bog" },
+            { Y: 66.14, X: 121.46, Type: "Drop Pod", Region: "Ulphippis Swamplands" },
+            { Y: 67.78, X: 122.54, Type: "Beacon" },
+            { Y: 71.10, X: 122.33, Region: "Deusi Floodplain" },
+            { Y: 71.62, X: 124.21, Type: "Trade Terminal", Region: "Vonnacus Plateau" },
+            { Y: 73.41, X: 124.46, Type: "Camp", Region: "Point Arqeq" },
+            { Y: 77.32, X: 127.05, Type: "Drop Pod", Region: "Uuletic Basin" },
+            { Y: 78.20, X: 127.87, Region: "Sozop Crossing" },
+            { Y: 78.42, X: 153.43, Type: "Drop Pod", Region: "Yargospe Moor" }
+        ]
+    };
+}
+
 function ZED13I()
 {
     return {
