@@ -1986,7 +1986,64 @@ function ZED21III()
     };
 }
 
+function ZED21II()
+{
+    return {
+        Messages: ["ZED-21 II", "Scorched", "Large", "0C83:0082:0D59:0045", "20450355A484"],
+        POI: [
+            { Y: 11.96, X: -151.22, Type: "Drop Pod", Region: "Sehara Dustbowl" },
+            { Y: 12.45, X: -150.90, Type: "Trade Terminal", Region: "Kugost Sands" },
+            { Y: 13.49, X: -150.90, Type: "Trading Post" },
+            { Y: 14.01, X: -150.91, Type: "Abandoned Building", Region: "Ekinoomo Crossing" },
+            { Y: 14.19, X: -150.89, Type: "Monolith" },
+            { Y: 14.17, X: -150.74, Region: "Anumag Valley" },
+            { Y: 14.32, X: -150.57, Region: "Unabae Desert" },
+            { Y: 14.82, X: -150.43, Type: "Transmission Tower/Camp", Region: "Nonojos Encampment" },
+            { Y: 15.73, X: -149.79, Type: "Trade Terminal", Region: "Lost Plains of Rotos" },
+            { Y: 16.28, X: -149.01, Type: "Grave" },
+            { Y: 17.60, X: -149.02, Type: "Local Trade Center/Camp", Region: "Runom Platform" },
+            { Y: 18.57, X: -149.00, Type: "Beacon" },
+            { Y: 19.22, X: -149.02, Type: "Comms Tower", Region: "Aizur X" },
+            { Y: 20.46, X: -148.86, Type: "Comms Tower", Region: "Kochiotar Crater IV" },
+            { Y: 20.87, X: -148.55, Type: "Trade Terminal", Region: "Yatsu Badlands" },
+            { Y: 21.95, X: -148.55, Type: "Camp", Region: "Degaur Badlands" },
+            { Y: 21.99, X: -148.71, Type: "Camp", Region: "Ikikawago Sands" },
+            { Y: 23.21, X: -148.70, Type: "Trade Terminal", Region: "Yokuku Desert" },
+            { Y: 23.58, X: -149.01, Type: "Drop Pod", Region: "Himantak Crater XIX" },
+            { Y: 23.73, X: -149.03, Type: "Local Trade Center", Region: "Point Ujima" }
+        ]
+    };
+}
+
+function ZED21I()
+{
+    return {
+        Messages: ["ZED-21 I", "High Energy", "Medium", "0C83:0082:0D59:0045", "10450355A484"],
+        POI: [
+            { Y: 58.33, X: 115.15, Type: "Drop Pod", Region: "Adnin XVIII" },
+            { Y: 58.57, X: 114.92, Type: "Observatory", Region: "Ahris Swamp" },
+            { Y: 58.98, X: 115.32, Type: "Beacon" },
+            { Y: 59.96, X: 119.13, Type: "Local Trade Center/Camp", Region: "Edmoutiegl Outpost" },
+            { Y: 58.23, X: 116.54, Type: "Observatory/Camp", Region: "Ebornburf Post" },
+            { Y: 57.79, X: 116.55, Type: "Manufacturing", Region: "The Yonemondelp" },
+            { Y: 55.88, X: 117.30, Region: "The Yocerb Morass" },
+            { Y: 56.03, X: 117.47, Type: "Manufacturing", Region: "Ticoll Mire" },
+            { Y: 54.43, X: 117.07, Type: "Observatory", Region: "Mahab Wasteland" },
+            { Y: 54.13, X: 116.74, Type: "Camp", Region: "The Cambea Morass" },
+            { Y: 53.40, X: 116.40, Type: "Crashed Freighter" },
+            { Y: 51.76, X: 115.93, Region: "Kaholbu's Quagmire" },
+            { Y: 50.99, X: 115.15, Type: "Trading Post" },
+            { Y: 50.77, X: 115.34, Region: "Idosieni's Graveyard" },
+            { Y: 49.96, X: 115.67, Region: "Akkurth Bog" },
+            { Y: 49.60, X: 116.42, Type: "Grave" },
+            { Y: 48.65, X: 117.26, Type: "Manufacturing", Region: "Rakansi Crater VI" },
+            { Y: 47.96, X: 117.25, Type: "Transmission Tower", Region: "Itcit Mire" },
+            { Y: 47.90, X: 117.53, Type: "Camp", Region: "Tross Wetlands" },
+            { Y: 47.01, X: 117.63, Type: "Abandoned Building", Region: "Jukta Dustbowl" }
+        ]
+    };
+}
+
 /*
  1 - High Energy / Medium
- 2 - Scorched / Large
  */
