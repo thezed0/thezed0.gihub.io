@@ -730,6 +730,64 @@ function ZED12IV()
     };
 }
 
+function ZED12III()
+{
+    return {
+        Messages: ["ZED-12 III", "Hiemal", "0C84:0082:0D59:0136", "31360355A485"],
+        POI: [
+            { Y: -29.72, X: 155.70, Type: "Drop Pod", Region: "Trenyevka Basin" },
+            { Y: -31.36, X: 159.49, Type: "Camp", Region: "Syess Ice Sheet" },
+            { Y: -32.03, X: 159.01, Type: "Trade Terminal", Region: "Esveto Crossing" },
+            { Y: -32.35, X: 158.77, Type: "Monolith" },
+            { Y: -32.68, X: 158.53, Region: "Teyug Scrubland" },
+            { Y: -34.91, X: 158.03, Type: "Camp", Region: "Plains of Slavg" },
+            { Y: -36.03, X: 158.53, Type: "Drop Pod", Region: "Doros Sector XV" },
+            { Y: -37.64, X: 158.28, Type: "Crashed Freighter" },
+            { Y: -38.12, X: 158.29, Type: "Trade Terminal", Region: "The Yefremyac Ranges" },
+            { Y: -39.23, X: 158.26, Type: "Manufacturing", Region: "Rezni Flats XVIII" },
+            { Y: -39.79, X: 155.05, Type: "Beacon" },
+            { Y: -37.59, X: 155.68, Type: "Local Trade Center", Region: "Mansi Woods" },
+            { Y: -37.91, X: 155.68, Type: "Camp", Region: "Renoeg Scrubland" },
+            { Y: -42.60, X: 156.86, Region: "Baray Valley" },
+            { Y: -44.31, X: 156.84, Type: "Beacon" },
+            { Y: -44.92, X: 156.92, Type: "Crashed Freighter" },
+            { Y: -45.68, X: 156.87, Type: "Grave" },
+            { Y: -47.54, X: 156.58, Type: "Manufacturing", Region: "Elokh Snowplain" },
+            { Y: -51.70, X: 157.23, Type: "Resource Depot", Region: "The Otiamiat Praire" },
+            { Y: -56.07, X: 157.51, Type: "Local Trade Center/Camp", Region: "Olevkaz Station"}
+        ]
+    };
+}
+
+function ZED12II()
+{
+    return {
+        Messages: ["ZED-12 II", "Planetary Anomaly", "0C84:0082:0D59:0136", "21360355A485"],
+        POI: [
+            { Y: 52.36, X: 124.74, Type: "Monolith" },
+            { Y: 52.94, X: 124.92, Type: "Camp", Region: "The Imarsa Flats" },
+            { Y: 55.55, X: 125.25, Type: "Trading Post" },
+            { Y: 57.90, X: 125.73, Type: "Beacon" },
+            { Y: 57.80, X: 125.98, Type: "Observatory", Region: "Susosolca Crossing" },
+            { Y: 56.43, X: 123.50, Type: "Local Trade Center/Camp", Region: "Ahrist Post" },
+            { Y: 56.58, X: 122.97, Type: "Manufacturing", Region: "The Aberkha Morass" },
+            { Y: 58.89, X: 123.11, Type: "Trade Terminal", Region: "Ertone View" },
+            { Y: 58.83, X: 122.63, Type: "Camp", Region: "The Tavirg Mountains" },
+            { Y: 61.06, X: 123.37, Type: "Camp", Region: "Urusa Fen" },
+            { Y: 62.36, X: 123.56, Type: "Observatory", Region: "Yokjav Peak" },
+            { Y: 64.56, X: 122.10, Type: "Trade Terminal", Region: "Shleywo Bog" },
+            { Y: 66.14, X: 121.46, Type: "Drop Pod", Region: "Ulphippis Swamplands" },
+            { Y: 67.78, X: 122.54, Type: "Beacon" },
+            { Y: 71.10, X: 122.33, Region: "Deusi Floodplain" },
+            { Y: 71.62, X: 124.21, Type: "Trade Terminal", Region: "Vonnacus Plateau" },
+            { Y: 73.41, X: 124.46, Type: "Camp", Region: "Point Arqeq" },
+            { Y: 77.32, X: 127.05, Type: "Drop Pod", Region: "Uuletic Basin" },
+            { Y: 78.20, X: 127.87, Region: "Sozop Crossing" },
+            { Y: 78.42, X: 153.43, Type: "Drop Pod", Region: "Yargospe Moor" }
+        ]
+    };
+}
+
 function ZED13I()
 {
     return {
