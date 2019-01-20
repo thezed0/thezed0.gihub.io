@@ -2102,6 +2102,66 @@ function ZED21I()
     };
 }
 
+function ZED22IIa()
+{
+    return {
+        Messages: ["ZED-22 IIa", "Glacial", "Moon", "0C83:0082:0D59:023C", "323C0355A484"],
+        POI: [
+            { Y: 56.04, X: -35.89, Type: "Ancient Ruins" },
+            { Y: 56.46, X: -43.10, Type: "Camp", Region: "Buturi Glacier" },
+            { Y: 59.11, X: -44.80, Type: "Trading Post" },
+            { Y: 64.66, X: -39.79, Type: "Beacon" },
+            { Y: 53.18, X: -43.20, Type: "Transmission Tower/Camp", Region: "Piont Inesh" },
+            { Y: 51.58, X: -43.47, Type: "Beacon" },
+            { Y: 45.50, X: -44.90, Type: "Local Trade Center/Camp", Region: "Pikarg Enclave" },
+            { Y: 43.77, X: -33.06, Type: "Abandoned Building", Region: "The Egkouss Flats" },
+            { Y: 43.39, X: -23.68, Type: "Distress Beacon" },
+            { Y: 36.97, X: -23.04, Type: "Resource Depot", Region: "Gonart Ice Crust" },
+            { Y: 31.54, X: -23.00, Type: "Large Artifact Crate" },
+            { Y: 29.63, X: -20.09, Type: "Camp", Region: "Frozen Wastes of Tegrads" },
+            { Y: 31.09, X: -18.49, Type: "Drop Pod", Region: "The Bukhov Expanse" },
+            { Y: 39.29, X: -15.32, Type: "Crashed Freighter" },
+            { Y: 45.05, X: -13.95, Type: "Camp", Region: "The Ismans" },
+            { Y: 54.71, X: -9.88, Region: "Frozen Plains of Yelikalac" },
+            { Y: 60.07, X: -2.58, Type: "Abandoned Building", Region: "Akork Floodplain" },
+            { Y: 58.75, X: -2.91, Region: "Frozen Wastes of Kulini" },
+            { Y: 68.50, X: 0.21, Type: "Camp", Region: "Frozen Plains of Zinovos" },
+            { Y: 73.37, X: 24.04, Region: "The Etomu Drifts" },
+            { Y: 74.82, X: 26.55, Type: "Ancient Plaque" }
+        ]
+    };
+}
+
+function ZED22II()
+{
+    return {
+        Messages: ["ZED-22 II", "Corrosive", "Large", "0C83:0082:0D59:023C", "223C0355A484"],
+        POI: [
+            { Y: 35.90, X: -113.20, Region: "Ujeril Fen" },
+            { Y: 35.87, X: -113.38, Type: "Monolith" },
+            { Y: 36.37, X: -113.38, Type: "Drop Pod", Region: "The Uininq Levels" },
+            { Y: 36.88, X: -113.91, Type: "Resource Depot", Region: "Fudinghu Marsh" },
+            { Y: 38.01, X: -114.26, Region: "Ugkaral Mire" },
+            { Y: 38.44, X: -114.43, Type: "Beacon" },
+            { Y: 38.65, X: -114.09, Type: "Local Trade Center", Region: "Rilangzu's Last Stand" },
+            { Y: 39.06, X: -114.26, Type: "Resource Depot", Region: "Urcon Mire" },
+            { Y: 39.12, X: -114.62, Type: "Abandoned Building", Region: "Piany's Quagmire" },
+            { Y: 39.30, X: -114.78, Type: "Camp", Region: "Abyail VI" },
+            { Y: 40.16, X: -115.46, Type: "Transmission Tower", Region: "Point Neluen" },
+            { Y: 40.18, X: -115.30, Type: "Drop Pod", Region: "Yuaniw Flats IX" },
+            { Y: 39.93, X: -115.47, Type: "Camp", Region: "The Uyunf Expanse" },
+            { Y: 42.35, X: -117.00, Type: "Manufacturing", Region: "Amnyan Swamplands" },
+            { Y: 42.91, X: -117.35, Type: "Comms Tower/Camp", Region: "Dolmas Outpost" },
+            { Y: 43.46, X: -117.72, Type: "Beacon" },
+            { Y: 43.55, X: -117.82, Type: "Trade Terminal", Region: "The Graoh Morass" },
+            { Y: 43.25, X: -118.15, Type: "Comms Tower/Camp", Region: "Yuhbe Outpost" },
+            { Y: 43.43, X: -118.36, Type: "Manufacturing", Region: "The Rigoga" },
+            { Y: 43.67, X: -118.63, Region: "Paggaid Fen" },
+            { Y: 72.74, X: -158.62, Type: "Portal" }
+        ]
+    };
+}
+
 /*
- 1 - High Energy / Medium
+ 1 - Airless / Small
  */
