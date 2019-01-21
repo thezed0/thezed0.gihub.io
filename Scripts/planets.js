@@ -2162,6 +2162,43 @@ function ZED22II()
     };
 }
 
-/*
- 1 - Airless / Small
- */
+function ZED22I()
+{
+    return {
+        Messages: ["ZED-22 I", "Airless", "Small", "0C83:0082:0D59:023C", "123C0355A484"],
+        POI: [
+            { Y: 28.65, X: 130.69, Type: "Distress Beacon" }
+        ]
+    };
+}
+
+function ZED23I()
+{
+    return {
+        Messages: ["ZED-23 I", "Icebound", "Medium", "0C83:0082:0D59:022F", "122F0355A484"],
+        POI: [
+            { Y: 8.72, X: -38.01, Type: "Trading Post" },
+            { Y: 10.19, X: -39.55, Type: "Manufacturing", Region: "The Bolsky Pasture" },
+            { Y: 10.30, X: -40.20, Type: "Comms Tower", Region: "Ozdus Ice Field" },
+            { Y: 10.53, X: -40.03, Type: "Beacon" },
+            { Y: 8.87, X: -41.63, Type: "Local Trade Center/Camp", Region: "Camp Oukoy" },
+            { Y: 8.85, X: -41.81, Type: "Observatory", Region: "The Bikino Ranges" },
+            { Y: 9.25, X: -41.77, Type: "Crashed Freighter" },
+            { Y: 9.36, X: -42.41, Type: "Manufacturing", Region: "Arech Woodland" },
+            { Y: 9.91, X: -42.69, Type: "Trade Terminal", Region: "The Uturi Flats" },
+            { Y: 10.72, X: -43.73, Type: "Drop Pod", Region: "Yezhel Grasslands" },
+            { Y: 10.77, X: -43.44, Type: "Camp", Region: "Zadokin Woodland" },
+            { Y: 11.03, X: -44.16, Type: "Camp", Region: "Asavyaz Ice Sheet" },
+            { Y: 11.33, X: -44.58, Type: "Crashed Freighter" },
+            { Y: 12.09, X: -45.27, Type: "Transmission Tower/Camp", Region: "Zahdut Post" },
+            { Y: 6.13, X: -40.37, Type: "Comms Tower/Camp", Region: "Pravdars Enclave" },
+            { Y: 5.28, X: -40.36, Type: "Camp", Region: "Ataysk Grasslands" },
+            { Y: 4.69, X: -39.88, Type: "Local Trade Center/Camp", Region: "Point Derzh" },
+            { Y: 3.65, X: -39.36, Region: "Ice Station Odete" },
+            { Y: 2.83, X: -38.53, Type: "Drop Pod", Region: "The Toyrnya" },
+            { Y: 2.41, X: -37.85, Type: "Camp", Region: "Eobkh Grove" },
+            { Y: -3.51, X: -32.65, Type: "Distress Beacon" },
+            { Y: 42.36, X: -124.19, Type: "Transmission Tower", Region: "Trogocha Glacier" }
+        ]
+    };
+}
