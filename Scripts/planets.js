@@ -2202,3 +2202,69 @@ function ZED23I()
         ]
     };
 }
+
+function ZED24V()
+{
+    return {
+        Messages: ["ZED-24 V", "Wind-swept", "Large", "0C84:0083:0D59:007B", "507B0455A485"],
+        POI: [
+            { Y: 52.00, X: 26.45, Type: "Trade Terminal", Region: "Plains of Egdano" },
+            { Y: 50.28, X: 25.31, Type: "Ancient Ruins" },
+            { Y: 50.17, X: 25.21, Type: "Monolith" },
+            { Y: 49.82, X: 24.91, Type: "Transmission Tower/Camp", Region: "Suspolot Station" },
+            { Y: 49.44, X: 24.28, Type: "Local Trade Center", Region: "Great Plains of Nodelendele" },
+            { Y: 48.24, X: 23.21, Type: "Camp", Region: "Windswept Plains of Oemurobe" },
+            { Y: 47.92, X: 22.92, Type: "Beacon" },
+            { Y: 47.56, X: 22.87, Region: "Ravdi Wastes" },
+            { Y: 46.46, X: 21.74, Type: "Camp", Region: "Plains of Lidovur" },
+            { Y: 45.41, X: 21.13, Region: "Lost Plains of Hulyokm" },
+            { Y: 45.09, X: 20.45, Type: "Camp", Region: "Mertsevoz's Great Reaches" },
+            { Y: 45.29, X: 20.60, Type: "Local Trade Center", Region: "Yubakhu Wastes" },
+            { Y: 45.39, X: 20.65, Type: "Monolith" },
+            { Y: 44.51, X: 20.00, Region: "Latiyskyvi VIII" },
+            { Y: 32.31, X: 9.36, Type: "Beacon" },
+            { Y: 32.34, X: 8.95, Type: "Beacon" },
+            { Y: 32.21, X: 8.73, Type: "Manufacturing", Region: "Ogalyn Bonefield" },
+            { Y: 29.20, X: 7.91, Type: "Comms Tower/Camp", Region: "Levsky Encampment" },
+            { Y: 28.11, X: 7.30, Region: "The Heduto Flats" },
+            { Y: 27.13, X: 7.08, Type: "Abandoned Building", Region: "Alzam Badlands" },
+            { Y: 18.73, X: 5.66, Type: "Portal" }
+        ]
+    };
+}
+
+function ZED24IV()
+{
+    return {
+        Messages: ["ZED-24 IV", "Supercritical", "Medium", "0C84:0083:0D59:007B", "407B0455A485"],
+        POI: [
+            { Y: -53.32, X: -4.15, Type: "Observatory/Camp", Region: "Narynat Encampment" },
+            { Y: -52.92, X: -8.49, Type: "Ancient Plaque" },
+            { Y: -51.65, X: -8.85, Type: "Transmission Tower/Camp", Region: "Rijira Encampment" },
+            { Y: -51.63, X: -9.17, Type: "Grave" },
+            { Y: -51.49, X: -8.78, Region: "Thaleph's Wilds" },
+            { Y: -49.72, X: -9.90, Region: "Stiusal's Quagmire" },
+            { Y: -49.09, X: -9.68, Region: "Sufortis XIII" },
+            { Y: -48.15, X: -9.38, Type: "Trading Post" },
+            { Y: -48.18, X: -9.09, Type: "Manufacturing", Region: "Niriynt Desert" },
+            { Y: -47.71, X: -9.22, Type: "Drop Pod", Region: "Nobeat Sector XIX" },
+            { Y: -46.42, X: -8.24, Type: "Manufacturing", Region: "Naheilad Mire" },
+            { Y: -44.56, X: -8.31, Type: "Camp", Region: "Laforc Sector XVII" },
+            { Y: -43.68, X: -8.87, Type: "Abandoned Building", Region: "The Chlor Morass" },
+            { Y: -42.78, X: -9.11, Type: "Drop Pod", Region: "Saffha Swamp" },
+            { Y: -40.79, X: -9.12, Type: "Manufacturing", Region: "Thyosiato's Graveyard" },
+            { Y: -37.63, X: -9.34, Type: "Local Trade Center/Camp", Region: "Wivernest Station" },
+            { Y: -36.58, X: -11.52, Type: "Beacon" },
+            { Y: -36.03, X: -11.79, Type: "Crash Freighter" },
+            { Y: -35.79, X: -12.34, Type: "Camp", Region: "Hacancin Swamplands" },
+            { Y: -33.34, X: -12.85, Type: "Beacon" }
+        ]
+    };
+}
+
+/*
+ 1 - Desert / Medium
+ 2 - Gamma-Intensive / Large
+ 3 - Barren / Small
+ 4 - Supercritical / Medium
+ */
