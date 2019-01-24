@@ -788,6 +788,38 @@ function ZED12II()
     };
 }
 
+function ZED12I()
+{
+    return {
+        Messages: ["ZED-12 I", "Verdant", "0C84:0082:0D59:0136", "11360355A485"],
+        POI: [
+            { Y: -1.57, X: 127.49, Type: "Observatory", Region: "Xoleya Wetlands" },
+            { Y: -1.36, X: 126.42, Type: "Camp", Region: "The Vale of Ottsibur" },
+            { Y: -1.57, X: 126.24, Type: "Ancient Plaque" },
+            { Y: -1.79, X: 126.24, Region: "Mopend's Quagmire" },
+            { Y: -3.50, X: 128.18, Type: "Drop Pod", Region: "Munium Clearing" },
+            { Y: -4.15, X: 128.35, Type: "Local Trade Center/Camp", Region: "Point Cukhil" },
+            { Y: -4.92, X: 129.53, Type: "Beacon" },
+            { Y: -6.08, X: 130.83, Region: "Ennec Fields" },
+            { Y: -11.17, X: 131.15, Type: "Trade Terminal", Region: "Imetru Sector XVI" },
+            { Y: -11.68, X: 130.51, Region: "The Zaviksh Morass" },
+            { Y: -13.50, X: 125.88, Type: "Drop Pod", Region: "The Auehil Expanse" },
+            { Y: -14.63, X: 124.20, Type: "Trade Terminal", Region: "Nuclet Wetlands" },
+            { Y: -16.04, X: 122.26, Type: "Comms Tower", Region: "Rockto Woodland" },
+            { Y: -16.98, X: 120.63, Type: "Comms Tower/Camp", Region: "Camp Iuchurch" },
+            { Y: -17.14, X: 120.84, Region: "Garden XIX" },
+            { Y: -17.32, X: 119.81, Type: "Trade Terminal", Region: "The Romac Morass" },
+            { Y: -18.18, X: 118.53, Type: "Beacon" },
+            { Y: -18.75, X: 116.34, Type: "Drop Pod", Region: "Iberoy Glade" },
+            { Y: -22.95, X: 18.52, Type: "Ancient Ruins" },
+            { Y: -27.64, X: -98.29, Type: "Monolith" },
+            { Y: 0.68, X: 121.86, Type: "Abandoned Building", Region: "Gilly Plateau" },
+            { Y: 0.45, X: 121.85, Type: "Transmission Tower/Camp", Region: "Daiad Station" },
+            { Y: 24.88, X: 127.83, Type: "Distress Beacon" }
+        ]
+    }
+}
+
 function ZED13I()
 {
     return {
