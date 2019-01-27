@@ -2294,9 +2294,91 @@ function ZED24IV()
     };
 }
 
-/*
- 1 - Desert / Medium
- 2 - Gamma-Intensive / Large
- 3 - Barren / Small
- 4 - Supercritical / Medium
- */
+function ZED24III()
+{
+    return {
+        Messages: ["ZED-24 III", "Barren", "Small", "0C84:0083:0D59:007B", "307B0455A485"],
+        POI: [
+            { Y: 58.92, X: -90.71, Type: "Drop Pod", Region: "Robinogr Dustbowl" },
+            { Y: 58.32, X: -90.69, Type: "Camp", Region: "Windswept Plains of Voybrasa" },
+            { Y: 56.21, X: -90.62, Type: "Ancient Ruins" },
+            { Y: 55.63, X: -91.23, Region: "Point Inyagilets" },
+            { Y: 54.49, X: -92.96, Type: "Camp", Region: "Egemang Wastes" },
+            { Y: 54.49, X: -92.37, Type: "Resource Depot", Region: "Oural Wasteland" },
+            { Y: 53.12, X: -91.68, Type: "Beacon" },
+            { Y: 50.54, X: -91.03, Type: "Camp", Region: "Kozeli XV" },
+            { Y: 50.06, X: -90.49, Type: "Observatory/Camp", Region: "Rilskyvi Post" },
+            { Y: 45.23, X: -90.83, Type: "Comms Tower/Camp", Region: "Evdarkin Post" },
+            { Y: 40.96, X: -91.27, Type: "Manufacturing", Region: "The Vale of Sialn " },
+            { Y: 40.68, X: -92.11, Type: "Beacon" },
+            { Y: 39.97, X: -92.11, Type: "Transmission Tower", Region: "Vunyevo Sands" },
+            { Y: 39.46, X: -92.12, Region: "Rasens Sector VII" },
+            { Y: 38.95, X: -92.53, Type: "Trade Terminal", Region: "Amoin's Wilds" },
+            { Y: 38.43, X: -92.53, Type: "Resource Depot", Region: "Nusinovou's Drift" },
+            { Y: 35.76, X: -92.54, Region: "Point Denpokr" },
+            { Y: 35.20, X: -92.11, Type: "Monolith" },
+            { Y: 32.28, X: -92.52, Region: "Stoviti Wastes" },
+            { Y: 31.67, X: -92.95, Type: "Beacon" }
+        ]
+    };
+}
+
+function ZED24II()
+{
+    return {
+        Messages: ["ZED-24 II", "Gamma-Intensive", "Large", "0C84:0083:0D59:007B", "207B0455A485"],
+        POI: [
+            { Y: -15.29, X: 144.18, Type: "Trade Terminal", Region: "Sotapond Desert" },
+            { Y: -15.23, X: 143.91, Type: "Resource Depot", Region: "Great Plains of Bradl" },
+            { Y: -15.08, X: 143.91, Region: "Guhwort Lowlands" },
+            { Y: -14.92, X: 143.91, Type: "Resource Depot", Region: "Dapardo Moor" },
+            { Y: -14.55, X: 143.63, Type: "Camp", Region: "Ribridger Sands" },
+            { Y: -14.58, X: 143.77, Type: "Drop Pod", Region: "Point Fielder" },
+            { Y: -14.12, X: 143.90, Type: "Comms Tower/Camp", Region: "Point Lishawki" },
+            { Y: -14.14, X: 144.03, Type: "Comms Tower/Camp", Region: "Point Egoria" },
+            { Y: -12.71, X: 144.06, Type: "Trading Post" },
+            { Y: -12.18, X: 143.90, Type: "Transmission Tower/Camp", Region: "Anshel Post" },
+            { Y: -12.29, X: 143.50, Type: "Crashed Freighter" },
+            { Y: -11.46, X: 143.36, Region: "Arrowbo Bog" },
+            { Y: -10.60, X: 142.95, Type: "Camp", Region: "Hicaras Badlands" },
+            { Y: -9.56, X: 142.42, Type: "Local Trade Center", Region: "Lost Plains of Aciusa" },
+            { Y: -9.12, X: 142.82, Type: "Transmission Tower", Region: "Point Durhamsey" },
+            { Y: -8.73, X: 142.30, Type: "Trade Terminal", Region: "Ecara's Quagmire" },
+            { Y: -8.57, X: 142.28, Type: "Local Trade Center", Region: "Relani's Graveyard" },
+            { Y: -8.40, X: 142.15, Type: "Abandoned Building", Region: "Thorsida's Drift" },
+            { Y: -8.18, X: 141.64, Type: "Resource Depot", Region: "Point Nubaya" },
+            { Y: -7.64, X: 141.26, Type: "Monolith" },
+            { Y: -5.35, X: 140.76, Type: "Ancient Plaque" }
+        ]
+    };
+}
+
+function ZED24I()
+{
+    return {
+        Messages: ["ZED-24 I", "Desert", "Medium", "0C84:0083:0D59:007B", "107B0455A485"],
+        POI: [
+            { Y: 2.46, X: 169.81, Type: "Drop Pod", Region: "Konay's Wilds" },
+            { Y: 2.46, X: 169.52, Tyep: "Abandoned Building", Region: "Renye's Graveyard" },
+            { Y: 2.75, X: 170.34, Type: "Transmission Tower/Camp", Region: "Olzahs Encampment" },
+            { Y: 3.02, X: 171.71, Type: "Ancient Plaque" },
+            { Y: 3.85, X: 171.99, Type: "Crashed Freighter" },
+            { Y: 4.40, X: 171.97, Type: "Manufacturing", Region: "Great Plains of Onovyulkin" },
+            { Y: 5.77, X: 172.52, Type: "Drop Pod", Region: "Point Olomay" },
+            { Y: 5.77, X: 172.23, Type: "Manufacturing", Region: "Aprelevka Crossing" },
+            { Y: 6.85, X: 171.69, Type: "Abandoned Building", Region: "Sesuri's Graveyard" },
+            { Y: 7.66, X: 171.44, Type: "Beacon" },
+            { Y: 7.94, X: 171.98, Type: "Trade Terminal", Region: "Gudet's Drift" },
+            { Y: 8.21, X: 171.98, Type: "Trade Terminal", Region: "Zamad's Wilds" },
+            { Y: 9.02, X: 172.26, Region: "The Habal" },
+            { Y: 9.81, X: 171.97, Type: "Camp", Region: "Gachiia Sands" },
+            { Y: 10.34, X: 171.72, Type: "Beacon" },
+            { Y: 11.40, X: 171.42, Type: "Manufacturing", Region: "Zelovsky Sector IX" },
+            { Y: 16.80, X: 170.88, Type: "Manufacturing", Region: "Liskol Bonefield" },
+            { Y: 17.76, X: 170.06, Type: "Observatory", Region: "Lilets Sector XII" },
+            { Y: 19.75, X: 170.61, Type: "Camp", Region: "Hinya V" },
+            { Y: 20.00, X: 170.63, Region: "Lost Plains of Plyov" },
+            { Y: 22.41, X: 171.15, Type: "Camp", Region: "The Oryazma" }
+        ]
+    };
+}
