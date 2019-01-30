@@ -2382,3 +2382,33 @@ function ZED24I()
         ]
     };
 }
+
+function ZED25III()
+{
+    return {
+        Messages: ["ZED-25 III", "Frothing", "Medium", "0C84:0083:0D59:011B", "111B0455A485"],
+        POI: [
+            { Y: 7.84, X: -43.29, Type: "Distress Beacon" }
+        ]
+    };
+}
+
+function ZED25II()
+{
+    return {
+        Messages: ["ZED-25 II", "Terraforming Catastrophe", "Small", "0C84:0083:0D59:011B", "211B0455A485"],
+        POI: [
+            { Y: -40.01, X: -140.51, Type: "Distress Beacon" }
+        ]
+    };
+}
+
+function ZED25I()
+{
+    return {
+        Messages: ["ZED-25 I", "Boiling", "Small", "0C84:0083:0D59:011B", "311B0455A485"],
+        POI: [
+            
+        ]
+    };
+}
