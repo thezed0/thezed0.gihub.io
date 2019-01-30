@@ -820,6 +820,42 @@ function ZED12I()
     }
 }
 
+function ZED13IV()
+{
+    return {
+        Messages: ["ZED-13 IV", "Airless", "0C84:0082:0D59:00F0", "50F00355A485"]
+    };
+}
+
+function ZED13III()
+{
+    return {
+        Messages: ["ZED-13 III", "Scorched", "0C84:0082:0D59:00F0", "40F00355A485"],
+        POI: [
+            { Y: -0.94, X: -32.66, Type: "Drop Pod", Region: "Asoes Lowlands" },
+            { Y: -1.87, X: -32.85, Type: "Trade Terminal", Region: "Arumoir Sector VII" },
+            { Y: -2.10, X: -33.06, Type: "Manufacturing", Region: "Nodaish Plateau" },
+            { Y: -2.78, X: -33.63, Region: "Ahayaseb's Drift" },
+            { Y: -3.48, X: -33.45, Type: "Camp", Region: "Oetsu Wasteland" },
+            { Y: -3.91, X: -34.01, Type: "Beacon" },
+            { Y: -3.88, X: -34.78, Type: "Manufacturing", Region: "Todai Crater VI" },
+            { Y: -5.71, X: -34.41, Type: "Local Trade Center/Camp", Region: "Marit Outpost" },
+            { Y: -5.51, X: -34.22, Type: "Abandoned Building", Region: "Tahara XII" },
+            { Y: -6.87, X: -34.21, Type: "Trade Terminal", Region: "Plains of Sasag" },
+            { Y: -7.30, X: -34.39, Type: "Crashed Freighter" },
+            { Y: -7.93, X: -34.96, Region: "Kuhashim Dale" },
+            { Y: -8.14, X: -35.15, Type: "Trade Terminal", Region: "Inohe Sector XIX" },
+            { Y: -8.62, X: -34.77, Type: "Resource Depot", Region: "Rotoma Bonefield" },
+            { Y: -9.53, X: -34.60, Type: "Camp", Region: "Muranoyam IX" },
+            { Y: -9.93, X: -34.96, Type: "Drop Pod", Region: "Saoka Bonefield" },
+            { Y: -10.82, X: -34.98, Type: "Manufacturing", Region: "Nitaa Wates" },
+            { Y: -11.86, X: -35.34, Type: "Camp", Region: "Roishi Moor" },
+            { Y: -45.10, X: -35.08, Type: "Monolith" },
+            { Y: -14.63, X: -41.61, Type: "Portal" }
+        ]
+    };
+}
+
 function ZED13I()
 {
     return {
