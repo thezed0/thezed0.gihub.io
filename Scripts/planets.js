@@ -856,6 +856,45 @@ function ZED13III()
     };
 }
 
+function ZED13IIa()
+{
+    return {
+        Messages: ["ZED-13 IIa", "Life-Incompatible", "0C84:0082:0D59:00F0", "30F00355A485"],
+        POI: [
+
+        ]
+    };
+}
+
+function ZED13II()
+{
+    return {
+        Messages: ["ZED-13 II", "Hyperborean", "0C84:0082:0D59:00F0", "20F00355A485"],
+        POI: [
+            { Y: -6.62, X: 68.42, Type: "Abandoned Building", Region: "Chuvsh Glacier" },
+            { Y: -6.97, X: 67.87, Region: "Frozen Plains of Truni" },
+            { Y: -7.16, X: 67.87, Type: "Ancient Plaque" },
+            { Y: -7.58, X: 68.42, Type: "Abandoned Building", Region: "Daymkar Ice Crust" },
+            { Y: -9.12, X: 68.78, Type: "Trade Terminal", Region: "Iglas XVIII" },
+            { Y: -9.70, X: 68.97, Type: "Ancient Ruins" },
+            { Y: -9.91, X: 69.15, Type: "Camp", Region: "Skrem Woodland" },
+            { Y: -10.50, X: 69.51, Type: "Ancient Ruins" },
+            { Y: -10.69, X: 69.51, Region: "Ice Station Agovomo" },
+            { Y: -12.01, X: 69.51, Region: "The Simov Pasture" },
+            { Y: -12.34, X: 68.96, Type: "Artifact Crate" },
+            { Y: -12.68, X: 68.42, Type: "Camp", Region: "Tivenno Forest" },
+            { Y: -13.21, X: 68.23, Type: "Ancient Ruins" },
+            { Y: -14.83, X: 67.88, Type: "Resource Depot", Region: "Napatou XIV" },
+            { Y: -15.88, X: 67.51, Type: "Comms Tower/Camp", Region: "Yusskog Outpost" },
+            { Y: -16.41, X: 67.52, Type: "Resource Depot", Region: "Amiatni Sector V" },
+            { Y: -16.99, X: 67.87, Type: "Manufacturing", Region: "Windswept Plains of Veshc" },
+            { Y: -17.58, X: 68.42, Region: "The Toneva Pasture" },
+            { Y: -19.62, X: 68.05, Type: "Trading Post" },
+            { Y: -19.78, X: 67.88, Type: "Crashed Freighter" }
+        ]
+    };
+}
+
 function ZED13I()
 {
     return {
