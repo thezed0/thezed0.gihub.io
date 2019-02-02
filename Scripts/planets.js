@@ -2448,3 +2448,61 @@ function ZED25I()
         ]
     };
 }
+
+function ZED26II()
+{
+    return {
+        Messages: ["ZED-26 II", "Planetary Anomoly", "Medium", "0C84:0083:0D59:0168", "21680455A485"],
+        POI: [
+            { Y: -31.39, X: -157.60, Type: "Local Trade Center/Camp", Region: "Mepost Encampment" },
+            { Y: -33.23, X: -158.54, Type: "Ancient Plaque" },
+            { Y: -34.48, X: -158.55, Type: "Camp", Region: "Mammona Plateau" },
+            { Y: -35.69, X: -158.54, Type: "Drop Pod", Region: "Windswept Plains of Uelich" },
+            { Y: -36.20, X: -158.54, Type: "Trade Terminal", Region: "Tesbury Mire" },
+            { Y: -36.91, X: -158.78, Region: "Ankarn Swamp" },
+            { Y: -39.21, X: -159.02, Region: "Geyrought Swamplands" },
+            { Y: -44.33, X: -159.15, Type: "Camp", Region: "Sangpor Wetlands" },
+            { Y: -51.33, X: -160.13, Type: "Trade Terminal", Region: "Oburf Fen" },
+            { Y: -53.09, X: -160.72, Type: "Transmission Tower", Region: "Point Vulopol" },
+            { Y: -53.19, X: -159.10, Type: "Beacon" },
+            { Y: -54.84, X: -158.56, Type: "Camp", Region: "Hireb Floodplain" },
+            { Y: -61.07, X: -157.26, Region: "Point Livermena" },
+            { Y: -62.34, X: -156.52, Type: "Trade Terminal", Region: "The Odsto" },
+            { Y: -65.35, X: -156.96, Region: "The Xianc" },
+            { Y: -65.65, X: -157.29, Type: "Ancient Plaque" },
+            { Y: -65.97, X: -157.61, Type: "Ancient Ruins" },
+            { Y: -67.96, X: -157.44, Type: "Beacon" },
+            { Y: -72.91, X: -158.69, Type: "Trade Terminal", Region: "Gidenh's Last Stand" },
+            { Y: -76.84, X: -159.27, Type: "Camp", Region: "Kepor Wetlands" }
+        ]
+    };
+}
+
+function ZED26I()
+{
+    return {
+        Messages: ["ZED-26 I", "Desolate", "Large", "0C84:0083:0D59:0168", "11680455A485"],
+        POI: [
+            { Y: -37.04, X: 0.61, Type: "Local Trade Center", Region: "Yakalit Floodplain" },
+            { Y: -35.68, X: 0.61, Type: "Local Trade Center", Region: "Vichn Desert" },
+            { Y: -35.82, X: 0.42, Region: "Elniko Dale" },
+            { Y: -33.54, X: 1.46, Type: "Comms Tower", Region: "Lost Plains of Ninov" },
+            { Y: -33.39, X: 1.47, Type: "Ancient Plaque" },
+            { Y: -33.54, X: 1.67, Type: "Trade Terminal", Region: "Yubereni Crater XIII" },
+            { Y: -33.10, X: 1.05, Region: "Eyugo Wasteland" },
+            { Y: -32.96, X: 0.83, Type: "Trade Terminal", Region: "Leskogaly's Drift" },
+            { Y: -32.21, X: 0.42, Type: "Beacon" },
+            { Y: -31.61, X: 0.63, Region: "Ukutyvk Dustbowl" },
+            { Y: -30.37, X: 0.41, Type: "Comms Tower/Camp", Region: "Tirui Station" },
+            { Y: -30.06, X: 0.20, Type: "Trade Terminal", Region: "Ratamill Wasteland" },
+            { Y: -28.79, X: 0.20, Type: "Comms Tower", Region: "Srskom Floodplain" },
+            { Y: -28.14, X: 0.41, Type: "Camp", Region: "Sinsk Crater XVIII" },
+            { Y: -27.48, X: 0.84, Type: "Beacon" },
+            { Y: -26.65, X: 0.40, Type: "Manufacturing", Region: "Windswept Plains of Povotr" },
+            { Y: -26.15, X: -0.43, Type: "Camp", Region: "Syserdo Desert" },
+            { Y: -24.43, X: -0.63, Type: "Drop Pod", Region: "Yutegr Wasteland" },
+            { Y: -24.25, X: -0.84, Type: "Ancient Plaque" },
+            { Y: -24.43, X: -0.43, Type: "Camp", Region: "Ungra's Drift" }
+        ]
+    };
+}
