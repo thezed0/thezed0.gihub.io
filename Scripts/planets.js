@@ -188,6 +188,22 @@ function ZED02I()
     };
 }
 
+function ZED03I()
+{
+    return {
+        Messages: ["ZED-03 I", "Breached", "Medium", "0C84:0082:0D59:010C", "110C0355A485"],
+        POI: [
+            { Y: 26.89, X: -170.37, Type: "Portal" },
+            { Y: 2.49, X: -35.35, Type: "Boundary Failure", Region: "Maleip XIII" },
+            { Y: 2.26, X: -35.34, Type: "Boundary Failure", Region: "The Icana" },
+            { Y: 1.71, X: -27.90, Type: "Boundary Failure", Region: "Ubjud Plains" },
+            { Y: 1.01, X: -24.55, Type: "Boundary Failure", Region: "The Wexal Expanse" },
+            { Y: 1.06, X: -16.77, Type: "Boundary Failure", Region: "Mitirunu Crossing" },
+            { Y: -4.23, X: 26.35, Type: "Distress Beacon" }
+        ]
+    };
+}
+
 function ZED06I()
 {
     return {
@@ -2542,6 +2558,36 @@ function ZED26I()
             { Y: -24.43, X: -0.63, Type: "Drop Pod", Region: "Yutegr Wasteland" },
             { Y: -24.25, X: -0.84, Type: "Ancient Plaque" },
             { Y: -24.43, X: -0.43, Type: "Camp", Region: "Ungra's Drift" }
+        ]
+    };
+}
+
+function ZED27I()
+{
+    return {
+        Messages: ["ZED-27 I", "Stellar Corruption", "Medium", "0C84:0083:0D59:00F8", "10F80455A485"],
+        POI: [
+            { Y: 39.67, X: -159.05, Type: "Local Trade Center", Region: "Cillangill Plains" },
+            { Y: 41.42, X: -158.78, Type: "Drop Pod", Region: "Jimovoye Bog" },
+            { Y: 41.38, X: -158.54, Region: "Rotisb Fen" },
+            { Y: 43.38, X: -157.91, Region: "The Tisiatety Flats" },
+            { Y: 44.27, X: -158.06, Type: "Camp", Region: "Dagma Dale" },
+            { Y: 44.34, X: -157.69, Type: "Large Artifact Crate" },
+            { Y: 44.29, X: -157.44, Type: "Crashed Freighter" },
+            { Y: 46.55, X: -158.03, Type: "Beacon" },
+            { Y: 46.74, X: -158.20, Type: "Beacon" },
+            { Y: 48.51, X: -158.08, Type: "Ancient Plaque" },
+            { Y: 66.21, X: -159.37, Type: "Beacon" },
+            { Y: 68.08, X: -160.28, Type: "Camp", Region: "Plains of Ritjens" },
+            { Y: 69.36, X: -158.13, Type: "Abandoned Building", Region: "Amici Floodplain" },
+            { Y: 73.05, X: -157.54, Region: "Lawatkin Swamp" },
+            { Y: 77.53, X: -160.82, Type: "Camp", Region: "The Kohou Morass" },
+            { Y: 79.13, X: -163.91, Type: "Camp", Region: "The Gweir" },
+            { Y: 83.34, X: -163.05, Type: "Beacon" },
+            { Y: 85.16, X: -166.72, Type: "Beacon" },
+            { Y: 87.63, X: -159.39, Type: "Beacon" },
+            { Y: 89.45, X: 89.96, Type: "Beacon" },
+            { Y: -17.88, X: 172.51, Type: "Local Trade Center", Region: "Wapip Plateau" }
         ]
     };
 }
