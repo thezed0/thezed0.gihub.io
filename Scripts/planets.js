@@ -2591,3 +2591,27 @@ function ZED27I()
         ]
     };
 }
+
+function ZED28V()
+{
+    return {
+        Messages: ["ZED-28 V", "Contoured", "Large", "0C84:0083:0D59:007A", "507A0455A485"],
+        POI: [
+            { Y: -58.55, X: 42.57, Type: "Boundary Failure", Region: "Miptus Crossing" },
+            { Y: -58.11, X: 39.02, Type: "Boundary Failure", Region: "Point Totta" },
+            { Y: -57.06, X: 33.23, Type: "Boundary Failure", Region: "Ubmon Sector XII" },
+            { Y: -46.39, X: 5.27, Type: "Boundary Failure", Region: "Ahyibl XVI" },
+            { Y: -36.13, X: -7.53, Type: "Boundary Failure", Region: "Foungi Sector XVII" },
+            { Y: -32.71, X: -9.99, Type: "Boundary Failure", Region: "Danur VIII" },
+            { Y: -29.35, X: -12.21, Type: "Boundary Failure", Region: "The Fidali" },
+            { Y: -29.29, X: -12.79, Type: "Distress Beacon" }
+        ]
+    };
+}
+
+/*
+ 1 - Paradise / Large
+ 2 - Dusty / Small
+ 3 - Dead / Medium
+ 4 - Caustic / Large
+ */
