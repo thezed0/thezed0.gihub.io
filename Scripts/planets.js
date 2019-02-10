@@ -204,6 +204,37 @@ function ZED03I()
     };
 }
 
+function ZED03II()
+{
+    return {
+        Messages: ["ZED-03 II", "Wind-swept", "Small", "0C84:0082:0D59:010C", "210C0355A485"],
+        POI: [
+            { Y: 11.29, X: 28.87, Type: "Monolith" },
+            { Y: 11.93, X: 29.49, Type: "Comms Tower/Camp", Region: "Aspiysk Station" },
+            { Y: 13.66, X: 29.51, Type: "Trade Terminal", Region: "The Digorn Flats" },
+            { Y: 18.73, X: 31.37, Type: "Observatory/Camp", Region: "Point Logda" },
+            { Y: 24.03, X: 32.58, Type: "Camp", Region: "Megion's Last Stand" },
+            { Y: 25.42, X: 32.89, Type: "Crashed Freighter" },
+            { Y: 26.97, X: 33.45, Type: "Abandoned Building", Region: "Kahval's Last Stand" },
+            { Y: 26.16, X: 29.83, Type: "Ancient Ruins" },
+            { Y: 25.47, X: 28.86, Type: "Camp", Region: "Egkounab's Wilds" },
+            { Y: 24.76, X: 27.87, Type: "Camp", Region: "Chkan's Drift" },
+            { Y: 25.44, X: 27.56, Type: "Trade Terminal", Region: "Domly Wasteland" },
+            { Y: 24.02, X: 25.18, Type: "Camp", Region: "The Kotel" },
+            { Y: 22.49, X: 20.18, Type: "Trade Terminal", Region: "Lost Plains of Suzdalm" },
+            { Y: 21.74, X: 17.92, Type: "Trade Terminal", Region: "Vanymitt Valley" },
+            { Y: 17.03, X: 7.12, Region: "Zihikhoti's Last Stand" },
+            { Y: 16.32, X: 5.46, Region: "Molot Sands" },
+            { Y: 15.20, X: 3.33, Type: "Observatory/Camp", Region: "Yoshevskyv Post" },
+            { Y: 13.23, X: -0.47, Type: "Abandoned Buildng", Region: "The Varovy Flats" },
+            { Y: 11.18, X: -5.46, Region: "Utury's Last Stand" },
+            { Y: 7.32, X: -13.68, Type: "Manufacturing Facility", Region: "Point Adrinovou" },
+            { Y: 6.48, X: -14.83, Type: "Ancient Ruins" },
+            { Y: 1.95, X: -23.45, Type: "Portal" }
+        ]
+    };
+}
+
 function ZED06I()
 {
     return {
