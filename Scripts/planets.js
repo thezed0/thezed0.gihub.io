@@ -2640,9 +2640,38 @@ function ZED28V()
     };
 }
 
+function ZED28IV()
+{
+    return {
+        Messages: ["ZED-28 IV", "Caustic", "Large", "0C84:0083:0D59:007A", "407A0455A485"],
+        POI: [
+            { Y: 47.82, X: -135.67, Type: "Transmission Tower", Region: "Zenme Plateau" },
+            { Y: 47.89, X: -135.83, Type: "Camp", Region: "The Jeyg" },
+            { Y: 48.13, X: -136.00, Type: "Resource Depot", Region: "Kehaan Dale" },
+            { Y: 48.22, X: -135.84, Type: "Camp", Region: "Inpu Mire" },
+            { Y: 48.22, X: -135.51, Type: "Camp", Region: "Putia Wetlands" },
+            { Y: 48.39, X: -135.52, Type: "Manufacturing", Region: "Xifen Marsh" },
+            { Y: 48.80, X: -136.02, Region: "Mengzang Swamplands" },
+            { Y: 49.64, X: -136.05, Region: "Gungog Wetlands" },
+            { Y: 49.91, X: -135.17, Type: "Beacon" },
+            { Y: 50.26, X: -134.46, Region: "Xabya Valley" },
+            { Y: 50.61, X: -133.75, Type: "Camp", Region: "Dagriasana Swamp" },
+            { Y: 50.43, X: -133.74, Type: "Ancient Plaque" },
+            { Y: 50.85, X: -132.44, Region: "Axilhunzo Bog" },
+            { Y: 51.57, X: -132.02, Type: "Manufacturing", Region: "Glaiyi Swamplands" },
+            { Y: 51.85, X: -132.18, Type: "Camp", Region: "Aruun Swamplands" },
+            { Y: 52.22, X: -132.52, Type: "Ancient Ruins" },
+            { Y: 53.07, X: -132.24, Type: "Comms Tower/Camp", Region: "Sibian Post" },
+            { Y: 53.24, X: -132.21, Type: "Distress Beacon" },
+            { Y: 53.43, X: -131.81, Type: "Camp", Region: "Aangd Bog" },
+            { Y: 53.58, X: -130.58, Region: "The Vale of Kuenni" },
+            { Y: 53.39, X: -130.61, Type: "Trade Terminal", Region: "The Agze Morass" }
+        ]
+    };
+}
+
 /*
  1 - Paradise / Large
  2 - Dusty / Small
  3 - Dead / Medium
- 4 - Caustic / Large
  */
