@@ -235,6 +235,23 @@ function ZED03II()
     };
 }
 
+function ZED03III()
+{
+    return {
+        Messages: ["ZED-03 III", "Fungal", "Small", "0C84:0082:0D59:010C", "310C0355A485"],
+        POI: [
+            { Y: -5.42, X: -86.23, Type: "Boundary Failure", Region: "Mount Yupusc" },
+            { Y: -13.59, X: -75.58, Type: "Boundary Failure", Region: "The Nurotho" },
+            { Y: -17.74, X: -71.33, Type: "Boundary Failure", Region: "Olcesiaru Point" },
+            { Y: -19.37, X: -69.83, Type: "Boundary Failure", Region: "Iochea View" },
+            { Y: -34.54, X: -40.50, Type: "Boundary Failure", Region: "Cocreate Hill" },
+            { Y: -37.75, X: -32.64, Type: "Boundary Failure", Region: "Cutanco Point" },
+            { Y: -35.64, X: 32.00, Type: "Distress Beacon" },
+            { Y: 5.27, X: 26.55, Type: "Portal" }
+        ]
+    };
+}
+
 function ZED06I()
 {
     return {
