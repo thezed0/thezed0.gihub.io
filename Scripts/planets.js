@@ -252,6 +252,36 @@ function ZED03III()
     };
 }
 
+function ZED03IV()
+{
+    return {
+        Messages: ["ZED-03 IV", "Irradiated", "Small", "0C84:0082:0D59:010C", "410C0355A485"],
+        POI: [
+            { Y: -25.69, X: 39.70, Type: "Portal" },
+            { Y: -27.99, X: 39.68, Type: "Observatory/Camp", Region: "Point Kataeang" },
+            { Y: -28.33, X: 39.47, Region: "Naleyak Swamp" },
+            { Y: -29.00, X: 39.72, Type: "Beacon" },
+            { Y: -34.05, X: 39.45, Type: "Camp", Region: "Lahasl Fen" },
+            { Y: -35.99, X: 39.44, Type: "Transmission Tower/Camp", Region: "Eytos Post" },
+            { Y: -36.53, X: 39.20, Type: "Camp", Region: "Egarizin Fen" },
+            { Y: -38.23, X: 39.12, Type: "Camp", Region: "Bicea's Last Stand" },
+            { Y: -38.56, X: 39.28, Type: "Distress Beacon" },
+            { Y: -39.03, X: 39.19, Type: "Beacon" },
+            { Y: -46.40, X: 38.08, Type: "Manufacturing", Region: "Welwy's Quagmire" },
+            { Y: -49.16, X: 37.71, Type: "Transmission Tower/Camp", Region: "Camp Rebrax" },
+            { Y: -50.31, X: 36.33, Type: "Local Trade Center", Region: "Edenveyk's Graveyard" },
+            { Y: -49.93, X: 36.47, Type: "Beacon" },
+            { Y: -50.49, X: 36.63, Type: "Observatory/Camp", Region: "Point Pompe" },
+            { Y: -50.61, X: 38.83, Region: "Iaueh Sector XIV" },
+            { Y: -50.42, X: 38.51, Region: "Great Plains of Wisvil" },
+            { Y: -50.26, X: 38.90, Type: "Beacon" },
+            { Y: -51.25, X: 37.18, Type: "Camp", Region: "Eyaks's Graveyard" },
+            { Y: -51.38, X: 34.12, Type: "Camp", Region: "Yaporix Lowlands" },
+            { Y: -50.86, X: 32.83, Type: "Grave" }
+        ]
+    };
+}
+
 function ZED06I()
 {
     return {
@@ -2687,8 +2717,47 @@ function ZED28IV()
     };
 }
 
+function ZED28III()
+{
+    return {
+        Messages: ["ZED-28 III", "Dead", "Medium", "0C84:0083:0D59:007A", "307A0455A485"],
+        POI: [
+            { Y: -29.34, X: -139.17, Type: "Distress Beacon" }
+        ]
+    };
+}
+
+function ZED28II()
+{
+    return {
+        Messages: ["ZED-28 II", "Dusty", "Small", "0C84:0083:0D59:007A", "207A0455A485"],
+        POI: [
+            { Y: -6.90, X: -165.58, Type: "Trade Terminal", Region: "Esensk Crater XIX" },
+            { Y: -5.29, X: -165.57, Region: "Kopino Wastes" },
+            { Y: -4.48, X: -165.57, Type: "Beacon" },
+            { Y: -5.68, X: -165.17, Type: "Monolith" },
+            { Y: -5.08, X: -158.37, Type: "Camp", Region: "Gubki Sands" },
+            { Y: -5.48, X: -158.73, Type: "Camp", Region: "The Kayansiys Levels" },
+            { Y: -4.47, X: -152.43, Region: "Kuyuzyls Dustbowl" },
+            { Y: -5.14, X: -150.81, Type: "Trade Terminal", Region: "Irkuta Badlands" },
+            { Y: -4.59, X: -147.15, Type: "Abandoned Building", Region: "Laking Crater XV" },
+            { Y: -3.90, X: -147.41, Type: "Camp", Region: "Igryan Desert" },
+            { Y: -4.11, X: -144.52, Type: "Camp", Region: "Point Rylask" },
+            { Y: -3.69, X: -142.88, Type: "Camp", Region: "Fateleuz's Drift" },
+            { Y: -3.30, X: -141.81, Type: "Crashed Freighter" },
+            { Y: -3.29, X: -141.30, Type: "Drop Pod", Region: "Ubkin Desert" },
+            { Y: -3.57, X: -140.52, Type: "Beacon" },
+            { Y: -3.20, X: -139.54, Type: "Beacon" },
+            { Y: -2.87, X: -139.06, Type: "Drop Pod", Region: "Altayga Highlands" },
+            { Y: -2.38, X: -134.57, Type: "Comms Tower/Camp", Region: "Fokin Outpost" },
+            { Y: -2.40, X: -134.37, Type: "Drop Pod", Region: "Lost Plains of Slavl" },
+            { Y: -2.51, X: -131.90, Type: "Beacon" },
+            { Y: 7.32, X: -14.45, Type: "Portal" },
+            { Y: 7.32, X: -14.05, Type: "Monolith" }
+        ]
+    };
+}
+
 /*
  1 - Paradise / Large
- 2 - Dusty / Small
- 3 - Dead / Medium
  */
