@@ -2758,6 +2758,66 @@ function ZED28II()
     };
 }
 
+function ZED28I()
+{
+    return {
+        Messages: ["ZED-28 I", "Paradise", "Large", "0C84:0083:0D59:007A", "107A0455A485"],
+        POI: [
+            { Y: -35.12, X: 108.26, Type: "Abandoned Building", Region: "Chmontiu Grasslands" },
+            { Y: -34.72, X: 108.07, Type: "Trading Post" },
+            { Y: -29.21, X: 108.63, Type: "Camp", Region: "Ansin Swamp" },
+            { Y: -27.71, X: 108.25, Region: "Taurence's Quagmire" },
+            { Y: -27.11, X: 108.06, Region: "The Plate Levels" },
+            { Y: -26.43, X: 108.44, Type: "Trade Terminal", Region: "Swort Sector XIII" },
+            { Y: -26.45, X: 108.24, Region: "Reatoneb Rainforest" },
+            { Y: -26.29, X: 108.24, Type: "Ancient Plaque" },
+            { Y: -26.05, X: 108.81, Region: "The Taplefk Morass" },
+            { Y: -25.50, X: 109.38, Type: "Resource Depot", Region: "The Soslem Morass" },
+            { Y: -24.63, X: 109.75, Type: "Trade Terminal", Region: "Throt Meadows" },
+            { Y: -24.20, X: 109.37, Type: "Local Trade Center/Camp", Region: "Point Justol" },
+            { Y: -24.03, X: 109.38, Region: "The Saburgan Morass" },
+            { Y: -23.04, X: 109.37, Type: "Observatory/Camp", Region: "Uptorri Platform" },
+            { Y: -22.02, X: 109.38, Type: "Camp", Region: "Ierfol Mire" },
+            { Y: -21.09, X: 109.93, Type: "Trade Terminal", Region: "The Telant Pasture" },
+            { Y: -18.65, X: 109.94, Type: "Trade Terminal", Region: "Bacuset X" },
+            { Y: -18.14, X: 109.94, Type: "Abandoned Building", Region: "The Riturnha Wildlands" },
+            { Y: -17.22, X: 110.12, Type: "Local Trade Center", Region: "Uphlasar Heath" },
+            { Y: -15.57, X: 110.31, Type: "Local Trade Center", Region: "Aklav's Seat" },
+            { Y: -14.80, X: 110.49, Region: "Oscow VIII" }
+        ]
+    };
+}
+
+function ZED29Ib()
+{
+    return {
+        Messages: ["ZED-29 Ib", "Temperate", "Moon", "0C84:0084:0D59:00B4", "30B40555A485"],
+        POI: [
+            { Y: 45.70, X: -68.14, Type: "Manufacturing", Region: "Gaylusha Gardens" },
+            { Y: 56.42, X: -65.78, Type: "Resource Depot", Region: "Neyung Fields" },
+            { Y: 60.09, X: -71.52, Region: "Windswept Plains of Elmas" },
+            { Y: 67.10, X: -68.94, Region: "Lexicol Bog" },
+            { Y: 70.55, X: -69.77, Type: "Comms Tower/Camp", Region: "Camp Eight" },
+            { Y: 78.00, X: -98.24, Type: "Camp", Region: "Wimexbo's Hunting Grounds" },
+            { Y: 65.80, X: 118.45, Type: "Trading Post" },
+            { Y: 66.41, X: 123.76, Type: "Distress Beacon" },
+            { Y: 69.96, X: 138.38, Type: "Grave" },
+            { Y: 68.92, X: 134.98, Type: "Ancient Plaque" },
+            { Y: 66.73, X: 129.28, Type: "Beacon" },
+            { Y: 54.55, X: 129.72, Type: "Manufacturing", Region: "Aspasaea Meadows" },
+            { Y: 46.40, X: 127.22, Type: "Trade Terminal", Region: "Ealietap's Last Stand" },
+            { Y: 45.01, X: 125.13, Region: "Noriss Wetlands" },
+            { Y: 28.06, X: 122.42, Type: "Observatory", Region: "The Grusc Morass" },
+            { Y: 20.86, X: 122.47, Type: "Local Trade Center", Region: "Nasbor Plains" },
+            { Y: 19.35, X: 123.69, Type: "Camp", Region: "Yawoodl Woodland" },
+            { Y: 8.59, X: 123.69, Type: "Trade Terminal", Region: "The Daswic" },
+            { Y: 4.23, X: 123.70, Type: "Camp", Region: "Shorlan Crossing" },
+            { Y: -1.44, X: 123.68, Region: "Orasei Sector XVI" }
+        ]
+    };
+}
+
 /*
- 1 - Paradise / Large
+ * 1 - Blighted / Large
+ * 1a - Glacial / Moon
  */
