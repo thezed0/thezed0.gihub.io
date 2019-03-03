@@ -2896,7 +2896,7 @@ function ZED30IVa()
             { Y: -43.01, X: 68.50, Type: "Camp", Region: "Palmba Dale" },
             { Y: -56.32, X: 71.46, Type: "Observatory/Camp", Region: "Camp Gediaue" },
             { Y: -59.22, X: 75.25, Type: "Beacon" },
-            { Y: -65.95, X: 70.28, Type: "Manufacturing Facility", Region: "Horsh Mire" },
+            { Y: -65.95, X: 70.28, Type: "Manufacturing", Region: "Horsh Mire" },
             { Y: -71.91, X: 68.19, Type: "Beacon" },
             { Y: -78.55, X: 26.12, Type: "Local Trade Center/Camp", Region: "Nilad Outpost" },
             { Y: -82.69, X: -135.03, Type: "Beacon" },
@@ -2908,10 +2908,55 @@ function ZED30IVa()
             { Y: -12.43, X: -133.22, Type: "Drop Pod", Region: "Ervind Flats XVIII" },
             { Y: -11.22, X: -133.23, Type: "Trade Terminal", Region: "Keviz Flats VII" },
             { Y: -8.52, X: -135.00, Type: "Grave" },
-            { Y: -6.10, X: -133.22, Type: "Manufacturing Facility", Region: "Sonja Swamplands" },
-            { Y: -0.01, X: -136.02, Type: "Manufacturing Facility", Region: "Ontengayls Sector XIX" },
+            { Y: -6.10, X: -133.22, Type: "Manufacturing", Region: "Sonja Swamplands" },
+            { Y: -0.01, X: -136.02, Type: "Manufacturing", Region: "Ontengayls Sector XIX" },
             { Y: 0.02, X: -134.14, Type: "Trade Terminal", Region: "Tilis Flats VI" },
-            { Y: 9.18, X: -130.33, Region: "Point Ohionniab" }
+            { Y: 9.18, X: -130.33, Region: "Point Ohionniab" },
+            { Y: 16.40, X: -103.65, Type: "Monolith" }
+        ]
+    };
+}
+
+function ZED30IV()
+{
+    return {
+        Messages: ["ZED-30 IV", "Flourishing", "Large", "0C83:0083:0D59:007A", "407A0455A484"],
+        POI: [
+            { Y: 9.34, X: 176.85, Type: "Drop Pod", Region: "Aroniana Woods" },
+            { Y: 10.77, X: 177.05, Type: "Camp", Region: "Buhoot Woodland" },
+            { Y: 10.97, X: 177.05, Type: "Manufacturing", Region: "Yutrinom Woodland" },
+            { Y: 11.37, X: 176.64, Type: "Drop Pod", Region: "Ticoloc Gardens" },
+            { Y: 11.58, X: 176.65, Region: "Oproustu Swamp" },
+            { Y: 12.38, X: 176.64, Type: "Crashed Freighter" },
+            { Y: 12.97, X: 176.64, Type: "Trade Terminal", Region: "Eunia Mire" },
+            { Y: 13.76, X: 176.22, Type: "Drop Pod", Region: "The Ospont Praire" },
+            { Y: 14.56, X: 177.04, Type: "Observatory", Region: "The Bawtenga" },
+            { Y: 15.53, X: 176.84, Type: "Manufacturing", Region: "Ciusa Grassland" },
+            { Y: 15.54, X: 177.29, Type: "Trading Post" },
+            { Y: 16.89, X: 177.06, Type: "Beacon" },
+            { Y: 17.66, X: 177.27, Type: "Trade Terminal", Region: "Bexham Bog" },
+            { Y: 18.41, X: 176.85, Type: "Resource Depot", Region: "Ipstep Grove" },
+            { Y: 19.91, X: 177.48, Region: "The Krily Ranges" },
+            { Y: 21.02, X: 177.48, Region: "Doverling Clearing" },
+            { Y: 21.75, X: 177.69, Type: "Drop Pod", Region: "The Barbanue Everglades" },
+            { Y: 22.28, X: 177.26, Type: "Manufacturing", Region: "Lilanke's Hunting Grounds" },
+            { Y: 22.82, X: 177.26, Type: "Camp", Region: "Piont Opard" },
+            { Y: 23.00, X: 177.27, Type: "Beacon" }
+        ]
+    };
+}
+
+function ZED30III()
+{
+    return {
+        Messages: ["ZED-30 III", "Shattered", "Medium", "0C83:0083:0D59:007A", "307A0455A484"],
+        POI: [
+            { Y: 19.77, X: 110.25, Type: "Boundary Failure", Region: "The Rizizama Flats" },
+            { Y: 13.66, X: 105.47, Type: "Boundary Failure", Region: "Asves Crossing" },
+            { Y: 4.36, X: 99.92, Type: "Boundary Failrue", Region: "Kaiunumb Moor" },
+            { Y: -5.55, X: 93.62, Type: "Boundary Failure", Region: "Letusce XIX" },
+            { Y: -7.75, X: 92.50, Type: "Boundary Failure", Region: "The Tauro Flats" },
+            { Y: -27.98, X: 75.58, Type: "Distress Beacon" }
         ]
     };
 }
@@ -2919,6 +2964,4 @@ function ZED30IVa()
 /*
  1 - Rainy / Medium
  2 - Arid / Medium
- 3 - Shattered / Medium
- 4 - Flourishing / Large
  */
