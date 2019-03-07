@@ -2961,7 +2961,63 @@ function ZED30III()
     };
 }
 
-/*
- 1 - Rainy / Medium
- 2 - Arid / Medium
- */
+function ZED30II()
+{
+    return {
+        Messages: ["ZED-30 II", "Arid", "Medium", "0C83:0083:0D59:007A", "207A0455A484"],
+        POI: [
+            { Y: -88.21, X: -141.47, Type: "Ancient Ruins" },
+            { Y: -86.62, X: -170.48, Type: "Drop Pod", Region: "Nagose's Wilds" },
+            { Y: -87.17, X: -168.16, Type: "Observatory/Camp", Region: "Bihir Post" },
+            { Y: -84.42, X: 174.42, Type: "Kawar's Drift" },
+            { Y: -83.60, X: 175.01, Type: "Beacon" },
+            { Y: -81.94, X: 174.18, Type: "Camp", Region: "Fukaya Wastes" },
+            { Y: -80.02, X: 173.66, Region: "Mukos Badlands" },
+            { Y: -71.55, X: 171.63, Type: "Beacon" },
+            { Y: -71.23, X: 170.23, Type: "Observatory", Region: "Eguro Badlands" },
+            { Y: -66.34, X: 170.43, Region: "Nidaisawa's Last Stand" },
+            { Y: -66.07, X: 169.93, Type: "Drop Pod", Region: "Masaitoig Desert" },
+            { Y: -65.16, X: 170.35, Type: "Trade Terminal", Region: "Echikug VIII" },
+            { Y: -61.31, X: 169.84, Type: "Observatory/Camp", Region: "Okyot Enclave" },
+            { Y: -60.22, X: 169.77, Type: "Local Trade Center/Camp", Region: "Esakadom Station" },
+            { Y: -56.32, X: 169.56, Type: "Observatory/Camp", Region: "Hoshuna Platform" },
+            { Y: -53.43, X: 169.06, Type: "Beacon" },
+            { Y: -52.50, X: 168.69, Type: "Beacon" },
+            { Y: -52.16, X: 168.83, Region: "Point Setag" },
+            { Y: -50.11, X: 168.95, Type: "Beacon" },
+            { Y: -49.31, X: 169.26, Type: "Beacon" },
+            { Y: -49.20, X: 169.68, Type: "Observatory/Camp", Region: "Gayas Post" },
+            { Y: 16.41, X: 167.92, Type: "Portal" }
+        ]
+    };
+}
+
+function ZED30I()
+{
+    return {
+        Messages: ["ZED-30 I", "Rainy", "Medium", "0C83:0083:0D59:007A", "107A0455A484"],
+        POI: [
+            { Y: -22.62, X: 138.82, Type: "Observatory", Region: "Kumbor Bog" },
+            { Y: -20.31, X: 139.01, Region: "The Westi Flats" },
+            { Y: -0.85, X: 139.48, Type: "Drop Pod", Region: "The Vettin" },
+            { Y: -0.64, X: 139.48, Type: "Camp", Region: "The Abollt Pasture" },
+            { Y: 3.01, X: 140.80, Type: "Beacon" },
+            { Y: 20.32, X: 141.11, Type: "Abandoned Building", Region: "Iforn Gardens" },
+            { Y: 20.23, X: 141.48, Type: "Ancient Ruins" },
+            { Y: 24.20, X: 140.47, Type: "Beacon" },
+            { Y: 24.42, X: 140.63, Type: "Trade Terminal", Region: "The Ayete Everglades" },
+            { Y: 28.49, X: 140.45, Type: "Camp", Region: "Okabi Fen" },
+            { Y: 28.44, X: 140.28, Type: "Manufacturing", Region: "The Hardonn Flats" },
+            { Y: 28.67, X: 140.45, Type: "Local Trade Center/Camp", Region: "Billerian Enclave" },
+            { Y: 29.25, X: 140.27, Type: "Abandoned Building", Region: "The Tubour Praire" },
+            { Y: 29.68, X: 140.11, Type: "Abandoned Building", Region: "The Popolin Flats" },
+            { Y: 30.40, X: 140.78, Type: "Manufacturing", Region: "Elder Moor" },
+            { Y: 31.70, X: 141.30, Region: "The Xembor Morass" },
+            { Y: 32.63, X: 141.29, Type: "Comms Tower", Region: "The Vale of Howar" },
+            { Y: 32.75, X: 141.62, Type: "Local Trade Center", Region: "The Muborobasil" },
+            { Y: 33.16, X: 141.48, Type: "Monolith" },
+            { Y: 34.28, X: 146.17, Region: "Babal Scrubland" },
+            { Y: 35.28, X: 166.38, Type: "Portal" }
+        ]
+    };
+}
