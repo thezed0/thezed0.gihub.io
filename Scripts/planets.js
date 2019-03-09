@@ -282,6 +282,28 @@ function ZED03IV()
     };
 }
 
+function ZED04I()
+{
+    return {
+        Messages: ["ZED-04 I", "Icebound", "Small", "0C84:0082:0D59:0122", "11220355A485"],
+        POI: [
+            { Y: -70.12, X: 119.16, Type: "Portal" },
+            { Y: 62.03, X: -111.95, Type: "Distress Beacon" }
+        ]
+    };
+}
+
+function ZED04II()
+{
+    return {
+        Messages: ["ZED-04 II", "Contoured", "Large", "0C84:0082:0D59:0122", "21220355A485"],
+        POI: [
+            { Y: -1.72, X: 124.97, Type: "Distress Beacon" },
+            { Y: -44.51, X: -176.23, Type: "Portal" }
+        ]
+    };
+}
+
 function ZED06I()
 {
     return {
