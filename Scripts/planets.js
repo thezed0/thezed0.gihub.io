@@ -3043,3 +3043,68 @@ function ZED30I()
         ]
     };
 }
+
+function ZED31VI()
+{
+    return {
+        Messages: ["ZED-31 VI", "Sub-zero", "Medium", "0DCD:007E:042F:0033", "6033FFC305CE"],
+        POI: [
+            { Y: 16.33, X: -59.57, Type: "Beacon" },
+            { Y: 18.47, X: -59.38, Type: "Local Trade Center(2)/Camp", Region: "Rossi Post" },
+            { Y: 18.53, X: -59.56, Type: "Transmission Tower/Camp", Region: "Dimit Outpost" },
+            { Y: 18.81, X: -59.99, Region: "Blizzard Point V" },
+            { Y: 20.43, X: -59.57, Region: "Frozen Plains of Zulovk" },
+            { Y: 21.19, X: -60.17, Type: "Trading Post" },
+            { Y: 22.11, X: -60.62, Type: "Resource Depot", Region: "Uzayev Woodland" },
+            { Y: 23.02, X: -59.99, Type: "Camp", Region: "Plains of Mechagir" },
+            { Y: 24.62, X: -59.99, Type: "Drop Pod", Region: "Richinac Valley" },
+            { Y: 25.00, X: -59.77, Type: "Manufacturing", Region: "The Gubkin Ranges" },
+            { Y: 26.59, X: -59.98, Type: "Local Trade Center/Camp", Region: "Kozlo Station" },
+            { Y: 27.07, X: -60.41, Type: "Camp", Region: "Ilukiha Crossing" },
+            { Y: 27.64, X: -60.39, Type: "Transmission Tower/Camp", Region: "Camp Fifiksy" },
+            { Y: 28.31, X: -60.83, Type: "Camp", Region: "Vigors Ice Field" },
+            { Y: 31.17, X: -60.62, Type: "Trade Terminal", Region: "Ice Station Nadreap" },
+            { Y: 31.31, X: -60.41, Type: "Camp", Region: "Obraz XI" },
+            { Y: 31.94, X: -60.83, Type: "Comms Tower", Region: "Plains of Ladny" },
+            { Y: 31.83, X: -61.04, Type: "Local Trade Center", Region: "Lebezhe Forest" },
+            { Y: 31.69, X: -61.25, Type: "Comms Tower", Region: "The Levsko Ranges" },
+            { Y: 31.91, X: -61.47, Type: "Resource Depot", Region: "Frozen Wastes of Ezusumul" }
+        ]
+    };
+}
+
+function ZED31V()
+{
+    return {
+        Messages: ["ZED-31 V", "Paradise", "Small", "0DCD:007E:042F:0033", "5033FFC305CE"],
+        POI: [
+            { Y: 28.18, X: -176.70, Type: "Observatory", Region: "Idwor's Quagmire" },
+            { Y: 29.16, X: -177.09, Type: "Manufacturing", Region: "Garden XIII" },
+            { Y: 29.48, X: -177.07, Type: "Drop Pod", Region: "Bosthec Forest" },
+            { Y: 31.07, X: -177.47, Type: "Beacon" },
+            { Y: 31.07, X: -177.09, Type: "Transmission Tower/Camp", Region: "Ascussal Station" },
+            { Y: 31.39, X: -177.07, Type: "Trading Post" },
+            { Y: 31.68, X: -177.89, Type: "Beacon" },
+            { Y: 33.17, X: -177.06, Region: "Caprich's Orchard" },
+            { Y: 33.46, X: -177.50, Type: "Camp", Region: "The Yetterdi" },
+            { Y: 34.64, X: -178.74, Region: "Daunst Clearing" },
+            { Y: 35.49, X: -178.74, Region: "Ercou Woodland" },
+            { Y: 37.13, X: -178.33, Type: "Drop Pod", Region: "Nosoris Jungle" },
+            { Y: 38.45, X: -179.17, Type: "Drop Pod", Region: "Garden XVI" },
+            { Y: 38.72, X: -178.73, Type: "Ancient Ruins" },
+            { Y: 39.70, X: -179.18, Type: "Trading Post" },
+            { Y: 39.71, X: -178.81, Type: "Abandoned Building", Region: "Hacars Sector V" },
+            { Y: 40.45, X: -179.18, Type: "Camp", Region: "Rugatano Crossing" },
+            { Y: 40.95, X: -179.58, Region: "Bifre's Last Stand" },
+            { Y: 43.92, X: 178.74, Region: "Eontau Crossing" },
+            { Y: 68.70, X: 178.82, Type: "Local Trade Center", Region: "The Toine" }
+        ]
+    };
+}
+
+/*
+ 1 - High Energy / Medium
+ 2 - Rotting / Small
+ 3 - Life-Incompatible / Small
+ 4 - Noxious / Small
+ */
