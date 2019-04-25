@@ -3102,9 +3102,100 @@ function ZED31V()
     };
 }
 
-/*
- 1 - High Energy / Medium
- 2 - Rotting / Small
- 3 - Life-Incompatible / Small
- 4 - Noxious / Small
- */
+function ZED31IV()
+{
+    return {
+        Messages: ["ZED-31 IV", "Noxious", "Small", "0DCD:007E:042F:0033", "4033FFC305CE"],
+        POI: [
+            { Y: -36.06, X: -159.09, Type: "Trade Terminal", Region: "The Iasam Morass" },
+            { Y: -37.11, X: -158.01, Type: "Local Trade Center/Camp", Region: "Inquanguo Outpost" },
+            { Y: -37.13, X: -156.95, Type: "Transmission Tower/Camp", Region: "Ogngoic Outpost" },
+            { Y: -38.97, X: -153.44, Type: "Monolith" },
+            { Y: -38.26, X: -152.47, Type: "Trading Post" },
+            { Y: -38.20, X: -153.13, Type: "Camp", Region: "Fuliuzhr Swamplands" },
+            { Y: -38.58, X: -152.78, Type: "Drop Pod", Region: "Beqenro Wetlands" },
+            { Y: -36.78, X: -153.14, Type: "Transmission Tower", Region: "Wugaoxio Swamp" },
+            { Y: -34.06, X: -152.13, Type: "Camp", Region: "Uncamc XVI" },
+            { Y: -33.46, X: -151.84, Type: "Observatory", Region: "Dianogzhou Sector XIX" },
+            { Y: -33.02, X: -152.10, Region: "Umdoin's Quagmire" },
+            { Y: -32.88, X: -150.51, Type: "Camp", Region: "Elkarr Crossing" },
+            { Y: -32.01, X: -150.17, Type: "Trade Terminal", Region: "Uninnanamc Bog" },
+            { Y: -30.25, X: -149.53, Type: "Crashed Freighter" },
+            { Y: -29.70, X: -149.54, Type: "Beacon" },
+            { Y: -27.44, X: -148.30, Type: "Beacon" },
+            { Y: -25.78, X: -147.44, Type: "Observatory/Camp", Region: "Grial Post" },
+            { Y: -22.77, X: -147.10, Type: "Trade Terminal", Region: "Iweihar Marsh" },
+            { Y: -22.47, X: -147.13, Type: "Manufacturing", Region: "Uipinq Marsh" },
+            { Y: -22.19, X: -147.10, Type: "Ancient Ruins" },
+            { Y: 82.85, X: -96.67, Type: "Portal" }
+        ]
+    };
+}
+
+function ZED31III()
+{
+    return {
+        Messages: ["ZED-31 III", "Life-Incompatible", "Small", "0DCD:007E:042F:0033", "3033FFC305CE"],
+        POI: [
+            { Y: 45.83, X: 39.47, Type: "Distress Beacon" }
+        ]
+    };
+}
+
+function ZED31II()
+{
+    return {
+        Messages: ["ZED-31 II", "Rotting", "Small", "0DCD:007E:042F:0033", "2033FFC305CE"],
+        POI: [
+            { Y: 34.92, X: -108.32, Type: "Trade Terminal", Region: "Aningh Fen" },
+            { Y: 35.66, X: -108.69, Region: "The Diyangyi" },
+            { Y: 40.85, X: -109.80, Type: "Crashed Freighter" },
+            { Y: 67.72, X: -111.03, Type: "Beacon" },
+            { Y: 68.98, X: -113.69, Type: "Observatory", Region: "Gukorma Marsh" },
+            { Y: 70.17, X: -110.28, Region: "The Anhuijeo Expanse" },
+            { Y: 71.37, X: -106.49, Type: "Camp", Region: "Iingje Flats XVIII" },
+            { Y: 72.76, X: -103.71, Region: "Aodunhu Swamp" },
+            { Y: 74.26, X: -105.13, Type: "Drop Pod", Region: "Momordengu Lowlands" },
+            { Y: 75.51, X: -109.85, Type: "Trading Post" },
+            { Y: 76.40, X: -109.53, Type: "Beacon" },
+            { Y: 77.74, X: -113.96, Region: "Haqun Mire" },
+            { Y: 79.33, X: -110.53, Region: "Unaggaido Dale" },
+            { Y: 81.22, X: -115.35, Type: "Trade Terminal", Region: "Great Plains of Zezho" },
+            { Y: 83.78, X: -109.75, Type: "Camp", Region: "Daqinyu Basin" },
+            { Y: 85.64, X: -106.65, Type: "Comms Tower/Camp", Region: "Zoongg Station" },
+            { Y: 86.41, X: -110.59, Type: "Drop Pod", Region: "Sihuadi Crossing" },
+            { Y: 89.42, X: -44.36, Type: "Camp", Region: "Exius Swamp" },
+            { Y: 89.05, X: 152.47, Type: "Camp", Region: "Geums Swamplands" },
+            { Y: 5.01, X: -48.11, Type: "Grave" }
+        ]
+    };
+}
+
+function ZED31I()
+{
+    return {
+        Messages: ["ZED-31 I", "High Energy", "Medium", "0DCD:007E:042F:0033", "1033FFC305CE"],
+        POI: [
+            { Y: 4.42, X: 5.26, Type: "Resource Depot", Region: "Sadine Crossing" },
+            { Y: 5.80, X: 4.71, Type: "Trade Terminal", Region: "Buhryogi Valley" },
+            { Y: 6.08, X: 4.13, Type: "Observatory", Region: "Newqu Enclave" },
+            { Y: 8.54, X: 2.77, Type: "Trade Terminal", Region: "Regoniawus Wastes" },
+            { Y: 9.36, X: 1.66, Type: "Camp", Region: "Point Sohanneya" },
+            { Y: 11.79, X: -0.01, Type: "Drop Pod", Region: "Keyaks Bog" },
+            { Y: 12.32, X: 0.24, Type: "Manufacturing", Region: "Geportha Moor" },
+            { Y: 12.84, X: 0.26, Type: "Camp", Region: "Toinez Bog" },
+            { Y: 13.12, X: -0.02, Type: "Local Trade Center/Camp", Region: "Hochape Encampment" },
+            { Y: 14.68, X: -0.01, Type: "Camp", Region: "Teynem Badlands" },
+            { Y: 15.98, X: -0.28, Type: "Beacon" },
+            { Y: 14.42, X: 1.65, Type: "Local Trade Center/Camp", Region: "Fausis Post" },
+            { Y: 18.01, X: 1.38, Type: "Camp", Region: "Akraigona Crater XV" },
+            { Y: 18.26, X: 1.38, Type: "Drop Pod", Region: "Olmerin Wasteland" },
+            { Y: 21.22, X: 1.09, Type: "Manufacturing", Region: "Erryihi Sector XIII" },
+            { Y: 22.42, X: 0.55, Region: "Point Sosethebid" },
+            { Y: 23.59, X: 0.83, Type: "Drop Pod", Region: "Nodley's Graveyard" },
+            { Y: 24.29, X: 0.82, Type: "Camp", Region: "Poynt Bonefield" },
+            { Y: 25.21, X: 1.10, Type: "Trade Terminal", Region: "Odley Basin" },
+            { Y: 26.78, X: 1.11, Type: "Beacon" }
+        ]
+    };
+}
