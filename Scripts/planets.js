@@ -3199,3 +3199,84 @@ function ZED31I()
         ]
     };
 }
+
+function ZED32III()
+{
+    return {
+        Messages: ["ZED-32 III", "Bountiful", "Small", "0C83:0084:0D59:019B", "319B0555A484"],
+        POI: [
+            { Y: -5.74, X: 12.44, Type: "Ancient Plaque" },
+            { Y: -13.72, X: 12.44, Region: "Eighann Glade" },
+            { Y: -15.24, X: 12.81, Type: "Manufacturing", Region: "Eeton's Hunting Grounds" },
+            { Y: -15.62, X: 12.84, Type: "Ancient Plaque" },
+            { Y: -16.73, X: 13.21, Type: "Local Trade Center/Camp", Region: "Ripoline Encampment" },
+            { Y: -17.85, X: 13.64, Type: "Transmission Tower(2)/Camp", Region: "Raquel Outpost" },
+            { Y: -21.46, X: 13.63, Type: "Resource Depot", Region: "Viane Marsh" },
+            { Y: -25.62, X: 13.24, Region: "The Omeniliw Expanse" },
+            { Y: -29.26, X: 12.37, Type: "Abandoned Building", Region: "Agydia Dale" },
+            { Y: -32.25, X: 12.83, Type: "Trade Terminal", Region: "Rostokyo Scrubland" },
+            { Y: -38.10, X: 11.96, Type: "Abandoned Builidng", Region: "Lemleyb Scrubland" },
+            { Y: -39.64, X: 11.58, Type: "Transmission Tower", Region: "Laudr Fen" },
+            { Y: -39.39, X: 11.63, Type: "Beacon" },
+            { Y: -42.68, X: 11.62, Type: "Drop Pod", Region: "Lidbur Thicket" },
+            { Y: -42.90, X: 11.60, Type: "Camp", Region: "Hegata Bog" },
+            { Y: -43.12, X: 11.58, Type: "Transmission Tower", Region: "Pathiu Meadow" },
+            { Y: -43.89, X: 10.40, Type: "Drop Pod", Region: "Satyx's Hunting Grounds" },
+            { Y: -46.29, X: 10.18, Type: "Resource Depot", Region: "Garden IX" },
+            { Y: -46.54, X: 9.83, Type: "Ancient Plaque" },
+            { Y: -48.57, X: 7.65, Type: "Resource Depot", Region: "Muelaynx Fields" },
+            { Y: -48.79, X: 7.73, Region: "Cedarbo Rainforest" },
+            { Y: -49.27, X: 7.86, Type: "Ancient Ruins" }
+        ]
+    };
+}
+
+function ZED32II()
+{
+    return {
+        Messages: ["ZED-32 II", "Webbed", "Medium", "0C83:0084:0D59:019B", "219B0555A484"],
+        POI: [
+            { Y: 18.31, X: 27.65, Type: "Boundary Failure", Region: "Ryiijian Crossing" },
+            { Y: 9.53, X: 32.43, Type: "Boundary Failure", Region: "Point Eyantia" },
+            { Y: 3.16, X: 35.49, Type: "Boundary Failure", Region: "The Loxoniar Flats" },
+            { Y: 0.67, X: 36.58, Type: "Boundary Failure", Region: "Equomo Lowlands" },
+            { Y: -15.87, X: 42.96, Type: "Boundary Failure", Region: "Wulpa Lowlands" },
+            { Y: -17.35, X: 43.70, Type: "Boundary Failure", Region: "Idmitrig Valley" },
+            { Y: -18.81, X: 44.84, Type: "Boundary Failure", Region: "Upeli Sector VI" },
+            { Y: -27.01, X: 48.53, Type: "Boundary Failure", Region: "Rappr Sector X" },
+            { Y: -33.38, X: 50.80, Type: "Boundary Failure", Region: "Niescus XIX" },
+            { Y: -39.85, X: 54.89, Type: "Boundary Failure", Region: "The Jauoniali Mountains" },
+            { Y: -46.97, X: 59.70, Type: "Distress Beacon" }
+        ]
+    };
+}
+
+function ZED32I()
+{
+    return {
+        Messages: ["ZED-32 I", "Isotopic", "Small", "0C83:0084:0D59:019B", "119B0555A484"],
+        POI: [
+            { Y: -20.90, X: 86.64, Type: "Drop Pod", Region: "Memphalsa Desert" },
+            { Y: -20.54, X: 86.63, Type: "Camp", Region: "Utumus Fen" },
+            { Y: -19.38, X: 85.38, Type: "Drop Pod", Region: "Anyand Dustbowl" },
+            { Y: -17.86, X: 84.13, Type: "Camp", Region: "Letrino Badlands" },
+            { Y: -16.70, X: 84.13, Type: "Resource Depot", Region: "Zahhakari Bonefield" },
+            { Y: -14.02, X: 84.11, Type: "Observatory/Camp", Region: "Nadretaea Platform" },
+            { Y: -11.96, X: 83.30, Type: "Trade Terminal", Region: "Henri's Drift" },
+            { Y: -10.35, X: 83.29, Type: "Trade Terminal", Region: "Snaistai Lowlands" },
+            { Y: -8.73, X: 83.71, Type: "Drop Pod", Region: "Biyblan Swamp" },
+            { Y: -6.27, X: 83.29, Type: "Camp", Region: "Point Sedush" },
+            { Y: -3.37, X: 83.71, Type: "Camp", Region: "Onehoul's Drift" },
+            { Y: 0.43, X: 85.37, Type: "Beacon" },
+            { Y: 0.43, X: 84.96, Region: "Yenniel Basin" },
+            { Y: 1.26, X: 85.79, Type: "Beacon" },
+            { Y: 3.36, X: 85.79, Type: "Large Artifact Crate" },
+            { Y: 5.03, X: 86.60, Type: "Trading Post" },
+            { Y: 11.61, X: 86.63, Type: "Drop Pod", Region: "Gerae Wasteland" },
+            { Y: 14.00, X: 85.79, Type: "Beacon" },
+            { Y: 17.11, X: 86.22, Type: "Camp", Region: "Pohell's Last Stand" },
+            { Y: 19.02, X: 85.80, Type: "Beacon" },
+            { Y: 14.78, X: 86.63, Type: "Local Trade Center/Camp", Region: "Tuzesic Post" }
+        ]
+    };
+}
