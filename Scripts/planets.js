@@ -3280,3 +3280,33 @@ function ZED32I()
         ]
     };
 }
+
+function ZED33I()
+{
+    return {
+        Messages: ["ZED-33 I", "Bountiful", "Large", "0C83:0084:0D59:007A", "107A0555A484"],
+        POI: [
+            { Y: 71.64, X: 137.68, Type: "Drop Pod", Region: "The Oxandroc Wildwood" },
+            { Y: 71.77, X: 137.25, Type: "Trade Terminal", Region: "The Tauro Everglades" },
+            { Y: 71.25, X: 137.19, Region: "Uporeyk Fields" },
+            { Y: 71.38, X: 136.76, Region: "The Tanoss Expanse" },
+            { Y: 72.73, X: 135.96, Region: "The Tenorfo Levels" },
+            { Y: 72.99, X: 136.92, Type: "Camp", Region: "Irgioscor Forest" },
+            { Y: 73.40, X: 137.49, Type: "Ancient Plaque" },
+            { Y: 73.24, X: 137.92, Type: "Abandoned Building", Region: "Great Plains of Yovallu" },
+            { Y: 73.07, X: 140.37, Region: "Cromul Gardens" },
+            { Y: 73.76, X: 140.10, Type: "Drop Pod", Region: "Dumea Fields" },
+            { Y: 75.29, X: 140.10, Region: "Point Luisbo" },
+            { Y: 84.02, X: 143.51, Type: "Trade Terminal", Region: "The Ezbet" },
+            { Y: 86.56, X: 142.43, Type: "Beacon" },
+            { Y: 87.77, X: 131.20, Type: "Trade Terminal", Region: "Rorokepi Woodland" },
+            { Y: 89.06, X: 116.60, Type: "Drop Pod", Region: "Gogini Basin" },
+            { Y: 84.66, X: 11.40, Type: "Camp", Region: "Incub Gardens" },
+            { Y: 84.26, X: 10.52, Region: "Toloca Gardens" },
+            { Y: 83.31, X: 14.57, Type: "Transmission Tower", Region: "Great Plains of Piyxis" },
+            { Y: 81.16, X: 15.02, Type: "Beacon" },
+            { Y: 77.62, X: 14.51, Type: "Trade Terminal", Region: "Eephyar's Hunting Grounds" },
+            { Y: 17.74, X: 10.97, Type: "Local Trade Center", Region: "Mondh Rainforest" }
+        ]
+    };
+}
