@@ -304,6 +304,86 @@ function ZED04II()
     };
 }
 
+function ZED05IIa()
+{
+    return {
+        Messages: ["ZED-05 IIa", "Noxious", "Moon", "0C84:0082:0D59:0123", "31230355A485"],
+        POI: [
+            { Y: 46.60, X: -95.65, Type: "Portal" },
+            { Y: 44.89, X: -96.96, Type: "Camp", Region: "The Camca Morass" },
+            { Y: 6.11, X: -27.42, Type: "Abandoned Building", Region: "Glaib XII" },
+            { Y: 12.17, X: -27.25, Type: "Monolith" },
+            { Y: 19.02, X: -28.79, Type: "Abandoned Building", Region: "Gebung XVII" },
+            { Y: 18.83, X: -29.93, Type: "Monolith" },
+            { Y: 34.50, X: -36.16, Type: "Observatory/Camp", Region: "Ribinggan Outpost" },
+            { Y: 41.56, X: -36.25, Region: "The Huixiumve Flats" },
+            { Y: 51.52, X: -40.24, Type: "Trade Terminal", Region: "Kungj's Great Reaches" },
+            { Y: 57.25, X: -44.97, Type: "Beacon" },
+            { Y: 76.47, X: -90.01, Type: "Camp", Region: "Olong Plains" },
+            { Y: 78.59, X: -116.49, Type: "Local Trade Center/Camp", Region: "Ariqinh Platform" },
+            { Y: 75.30, X: -144.07, Type: "Trading Post" },
+            { Y: 69.96, X: -175.67, Type: "Abandoned Building", Region: "Dewuli Basin" },
+            { Y: 70.01, X: 179.91, Type: "Resource Depot", Region: "Point Gwangy" },
+            { Y: 50.49, X: 162.86, Type: "Resource Depot", Region: "The Kangzaho Morass" },
+            { Y: 47.09, X: 160.78, Type: "Observatory/Camp", Region: "Egyim Post" },
+            { Y: 43.13, X: 159.82, Type: "Manufacturing", Region: "Oyunf Lowlands" },
+            { Y: 34.78, X: 157.07, Type: "Trading Post" },
+            { Y: 32.67, X: 156.87, Type: "Transmission Tower", Region: "Aoten Bog" },
+            { Y: 31.80, X: 158.46, Type: "Trade Terminal", Region: "Anzadg's Quagmire" }
+        ]
+    }
+}
+
+function ZED05II()
+{
+    return {
+        Messages: ["ZED-05 II", "Calcified", "Large", "0C84:0082:0D59:0123", "21230355A485"],
+        POI: [
+            { Y: 31.00, X: -143.51, Type: "Portal" },
+            { Y: 32.14, X: -143.65, Type: "Boundary Failure", Region: "Mifloc Sector XVI" },
+            { Y: 39.74, X: -143.80, Type: "Boundary Failure", Region: "Taean Sector XI" },
+            { Y: 39.55, X: -143.87, Type: "Boundary Failure", Region: "Vigiareti XI" },
+            { Y: 40.35, X: -144.00, Type: "Boundary Failure", Region: "Audiu's Great Reaches" },
+            { Y: 45.11, X: -142.94, Type: "Boundary Failure", Region: "The Wapel Levels" },
+            { Y: 45.49, X: -142.89, Type: "Boundary Failure", Region: "Kinuu Floodplain" },
+            { Y: 69.00, X: -142.40, Type: "Boundary Failure", Region: "Popuman Sector XVIII" },
+            { Y: 69.11, X: -142.83, Type: "Boundary Failure", Region: "Hubrech Crossing" },
+            { Y: 70.30, X: -142.93, Type: "Boundary Failure", Region: "Mountains of Rodinge" },
+            { Y: 75.31, X: -144.13, Type: "Boundary Failure", Region: "Plains of Wistrum" },
+            { Y: 60.66, X: 35.45, Type: "Distress Beacon" }
+        ]
+    }
+}
+
+function ZED05I()
+{
+    return {
+        Messages: ["ZED-05 I", "Parched", "Small", "0C84:0082:0D59:0123", "11230355A485"],
+        POI: [
+            { Y: -0.39, X: -163.99, Type: "Portal" },
+            { Y: 1.62, X: -163.64, Type: "Manufacturing", Region: "The Yaserg Levels" },
+            { Y: 3.24, X: -164.43, Type: "Manufacturing", Region: "Halich's Drift" },
+            { Y: 4.45, X: -164.02, Type: "Observatory", Region: "Budet Lowlands" },
+            { Y: 6.48, X: -164.78, Type: "Beacon" },
+            { Y: 9.73, X: -166.40, Type: "Local Trade Center", Region: "Deymkarab's Last Stand" },
+            { Y: 10.13, X: -166.39, Type: "Transmission Tower", Region: "Yakht Plains" },
+            { Y: 11.72, X: -166.80, Type: "Abandoned Building", Region: "Poyevskoy Lowlands" },
+            { Y: 17.02, X: -165.57, Type: "Beacon" },
+            { Y: 16.74, X: -162.11, Type: "Local Trade Center", Region: "Shakhtu Wastes" },
+            { Y: 18.24, X: -162.49, Type: "Trading Post" },
+            { Y: 22.82, X: -162.46, Region: "Vinymit Badlands" },
+            { Y: 22.90, X: -163.25, Type: "Camp", Region: "Lost Plains of Omara" },
+            { Y: 23.62, X: -163.62, Type: "Resource Depot", Region: "Iraetskiy Crater XI" },
+            { Y: 28.04, X: -162.48, Type: "Camp", Region: "Point Zenachi" },
+            { Y: 28.97, X: -162.48, Type: "Camp", Region: "Tuchiia's Drift" },
+            { Y: 31.10, X: -162.48, Type: "Local Trade Center/Camp", Region: "Loboy Enclave" },
+            { Y: 32.10, X: -163.64, Type: "Trading Post" },
+            { Y: 30.68, X: -161.71, Type: "Trade Terminal", Region: "Windswept Plains of Bashc" },
+            { Y: 26.26, X: -160.97, Type: "Manufacturing", Region: "Great Plains of Aylovo" }
+        ]
+    };
+}
+
 function ZED06I()
 {
     return {
