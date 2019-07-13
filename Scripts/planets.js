@@ -384,6 +384,35 @@ function ZED05I()
     };
 }
 
+function ZED06II()
+{
+    return {
+        Messages: ["ZED-06 II", "Hot", "Large", "0C84:0082:0D59:0124", "11240355A485"],
+        POI: [
+            { Y: -65.13, X: -123.09, Type: "Portal" },
+            { Y: -64.90, X: -123.20, Type: "Trade Terminal", Region: "Kashik Crossing" },
+            { Y: -64.04, X: -123.32, Type: "Camp", Region: "Tajim Valley" },
+            { Y: -62.93, X: -123.01, Type: "Beacon" },
+            { Y: -62.02, X: -123.48, Type: "Crashed Freighter" },
+            { Y: -61.25, X: -122.74, Type: "Beacon" },
+            { Y: -60.38, X: -122.35, Type: "Abandoned Building", Region: "Kojiy Crater VII" },
+            { Y: -60.32, X: -122.67, Type: "Crashed Freighter" },
+            { Y: -60.17, X: -122.47, Type: "Camp", Region: "Irish Wasteland" },
+            { Y: -59.65, X: -121.71, Type: "Drop Pod", Region: "Semboku Desert" },
+            { Y: -59.25, X: -121.15, Type: "Trade Terminal", Region: "Yubama Flats VII" },
+            { Y: -58.01, X: -121.07, Type: "Ancient Ruins" },
+            { Y: -54.98, X: -121.52, Type: "Manufacturing", Region: "Bikinoh Sands" },
+            { Y: -54.09, X: -120.72, Type: "Ancient Plaque" },
+            { Y: -54.14, X: -120.46, Type: "Abandoned Building", Region: "Nodaitomai Wasteland" },
+            { Y: -53.30, X: -120.08, Type: "Local Trade Center/Camp", Region: "Rakaokay Post" },
+            { Y: -52.89, X: -119.92, Type: "Beacon" },
+            { Y: -53.40, X: -117.95, Type: "Local Trade Center", Region: "Mikasa's Wilds" },
+            { Y: -53.23, X: -118.07, Region: "Batag Wasteland" },
+            { Y: -51.62, X: -119.06, Type: "Drop Pod", Region: "Kohas Plains" }
+        ]
+    };
+}
+
 function ZED06I()
 {
     return {
