@@ -384,6 +384,36 @@ function ZED05I()
     };
 }
 
+
+function ZED06III()
+{
+    return {
+        Messages: ["ZED-06 III", "Bountiful", "Small", "0C84:0082:0D59:0124", "21240355A485"],
+        POI: [
+            { Y: 20.52, X: 147.97, Type: "Portal" },
+            { Y: 20.45, X: 147.69, Region: "Udder Forest" },
+            { Y: 21.07, X: 147.68, Type: "Resource Depot", Region: "Patungel Grasslands" },
+            { Y: 21.86, X: 147.09, Region: "Epenialy Moor" },
+            { Y: 23.14, X: 147.36, Type: "Camp", Region: "Telforch's Bounty" },
+            { Y: 25.79, X: 147.38, Type: "Drop Pod", Region: "Itneyr Woods" },
+            { Y: 26.66, X: 148.60, Region: "The Impur Ranges" },
+            { Y: 30.27, X: 148.57, Type: "Camp", Region: "Raeleom's Bounty" },
+            { Y: 30.75, X: 148.28, Type: "Trading Post" },
+            { Y: 35.65, X: 148.00, Type: "Beacon" },
+            { Y: 35.79, X: 147.66, Type: "Manufacturing", Region: "Horshama Plains" },
+            { Y: 39.34, X: 148.26, Type: "Trading Post" },
+            { Y: 39.84, X: 148.60, Type: "Crashed Freighter" },
+            { Y: 45.56, X: 148.89, Type: "Camp", Region: "Idney Dale" },
+            { Y: 46.56, X: 148.66, Region: "Yebury Fen" },
+            { Y: 48.28, X: 148.15, Type: "Beacon" },
+            { Y: 49.38, X: 149.03, Type: "Trade Terminal", Region: "Bicean Grassland" },
+            { Y: 49.45, X: 148.33, Type: "Local Trade Center", Region: "Grims Gardens" },
+            { Y: 51.27, X: 148.50, Type: "Beacon" },
+            { Y: 55.29, X: 149.32, Type: "Camp", Region: "Roshama Clearing" }
+        ]
+    };
+}
+
 function ZED06II()
 {
     return {
@@ -408,7 +438,8 @@ function ZED06II()
             { Y: -52.89, X: -119.92, Type: "Beacon" },
             { Y: -53.40, X: -117.95, Type: "Local Trade Center", Region: "Mikasa's Wilds" },
             { Y: -53.23, X: -118.07, Region: "Batag Wasteland" },
-            { Y: -51.62, X: -119.06, Type: "Drop Pod", Region: "Kohas Plains" }
+            { Y: -51.62, X: -119.06, Type: "Drop Pod", Region: "Kohas Plains" },
+            { Y: -51.45, X: -119.16, Region: "Meokakom's Wilds" }
         ]
     };
 }
