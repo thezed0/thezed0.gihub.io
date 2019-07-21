@@ -384,6 +384,26 @@ function ZED05I()
     };
 }
 
+function ZED06IV()
+{
+    return {
+        Messages: ["ZED-06 IV", "Contoured", "Small", "0C84:0082:0D59:0124", "31240355A485"],
+        POI: [
+            { Y: -14.82, X: 13.26, Type: "Portal" },
+            { Y: -11.32, X: 13.61, Type: "Boundary Failure", Region: "Leoareal Sector XI" },
+            { Y: -22.56, X: 16.74, Type: "Boundary Failure", Region: "Suration Sector XVI" },
+            { Y: -27.69, X: 17.90, Type: "Boundary Failure", Region: "Point Hothin" },
+            { Y: -35.41, X: 20.15, Type: "Boundary Failure", Region: "Lobidu Lowlands" },
+            { Y: -47.18, X: 25.32, Type: "Boundary Failure", Region: "Point Guerionu" },
+            { Y: -74.93, X: 72.56, Type: "Boundary Failure", Region: "Runecn Lowlands" },
+            { Y: -75.98, X: 114.38, Type: "Boundary Failure", Region: "The Uadrayu Flats" },
+            { Y: -74.04, X: 131.96, Type: "Boundary Failure", Region: "Napenn Basin" },
+            { Y: -70.87, X: 143.69, Type: "Boundary Failure", Region: "Eioniatar Flats XV" },
+            { Y: -36.88, X: -179.62, Type: "Boundary Failure", Region: "Lawarp Crossing" },
+            { Y: -27.18, X: -175.80, Type: "Distress Beacon" }
+        ]
+    };
+}
 
 function ZED06III()
 {
