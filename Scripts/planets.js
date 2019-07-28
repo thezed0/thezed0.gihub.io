@@ -384,6 +384,35 @@ function ZED05I()
     };
 }
 
+function ZED06V()
+{
+    return {
+        Messages: ["ZED-06 V", "Contaminated", "Large", "0C84:0082:0D59:0124", "51240355A485"],
+        POI: [
+            { Y: 1.20, X: 72.89, Type: "Portal" },
+            { Y: 3.21, X: 72.20, Type: "Beacon" },
+            { Y: 3.60, X: 72.71, Type: "Trade Terminal", Region: "Kiford Fen" },
+            { Y: 3.99, X: 72.51, Type: "Trade Terminal", Region: "Pomon Wastes" },
+            { Y: 4.58, X: 71.94, Region: "Erosale Crater X" },
+            { Y: 6.16, X: 72.32, Type: "Observatory/Camp", Region: "Lacome Encampment" },
+            { Y: 6.37, X: 72.32, Region: "The Cryest Morass" },
+            { Y: 7.19, X: 73.09, Region: "Woolefo Reach" },
+            { Y: 7.58, X: 73.28, Type: "Comms Tower/Camp", Region: "Avokamb Crossing" },
+            { Y: 8.59, X: 73.67, Type: "Trade Terminal", Region: "Point Wembrix" },
+            { Y: 8.60, X: 73.86, Type: "Trade Terminal", Region: "Chway Highlands" },
+            { Y: 8.79, X: 73.86, Type: "Camp", Region: "The Watfi" },
+            { Y: 11.89, X: 73.48, Type: "Manufacturing", Region: "Heidona's Drift" },
+            { Y: 12.67, X: 73.67, Type: "Camp", Region: "The Nusaxmun" },
+            { Y: 13.10, X: 74.44, Type: "Transmission Tower", Region: "Pisbur Swamplands" },
+            { Y: 14.82, X: 74.45, Region: "The Nasorie" },
+            { Y: 15.58, X: 74.64, Type: "Camp", Region: "Emoga Bonefield" },
+            { Y: 16.13, X: 74.45, Type: "Camp", Region: "Lemecusse Swamplands" },
+            { Y: 17.65, X: 72.90, Type: "Abandoned Building", Region: "The Lusiouxf" },
+            { Y: 19.32, X: 71.39, Type: "Trading Post" }
+        ]
+    };
+}
+
 function ZED06IV()
 {
     return {
@@ -467,7 +496,7 @@ function ZED06II()
 function ZED06I()
 {
     return {
-        Messages: ["ZED-06 I", "High Temperature", "0C84:0082:0D59:0124", "41240355A485"],
+        Messages: ["ZED-06 I", "High Temperature", "Small", "0C84:0082:0D59:0124", "41240355A485"],
         POI: [
             { Y: -79.97, X: -16.93, Type: "Monolith" },
             { Y: -41.61, X: -151.91, Type: "Local Trade Center", Region: "Usonoj Sector IX" },
@@ -487,7 +516,10 @@ function ZED06I()
             { Y: -56.75, X: 42.24, Type: "Local Trade Center/Camp", Region: "Shobarazuk Post" },
             { Y: -9.08, X: 33.17, Type: "Transmission Tower/Camp", Region: "Kokayas Platform" },
             { Y: 6.35, X: 32.60, Type: "Drop Pod", Region: "Ogori Sands" },
-            { Y: 7.38, X: 32.60, Type: "Portal" }
+            { Y: 7.38, X: 32.60, Type: "Portal" },
+            { Y: 7.72, X: 32.88, Type: "Camp", Region: "Nakyot Crossing" },
+            { Y: 12.14, X: 33.16, Type: "Abandoned Building", Region: "Erikawa Sands" },
+            { Y: 12.83, X: 35.47, Type: "Local Trade Center/Camp", Region: "Camp Togawa" }
         ]
     };
 }
