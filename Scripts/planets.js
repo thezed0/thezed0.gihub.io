@@ -555,14 +555,27 @@ function ZED07III()
 function ZED07II()
 {
     return {
-        Messages: ["ZED-07 II", "Life-Incompatible", "0C84:0082:0D59:007A", "307A0355A485"]
+        Messages: ["ZED-07 II", "Petrified", "Medium", "0C84:0082:0D59:007A", "307A0355A485"],
+        POI: [
+            { Y: 1.96, X: 141.63, Type: "Boundary Failure", Region: "The Lodrig" },
+            { Y: 5.03, X: 142.14, Type: "Boundary Failure", Region: "Nobotabu Basin" },
+            { Y: 10.57, X: 148.73, Type: "Boundary Failure", Region: "Rewin XVIII" },
+            { Y: 22.42, X: 165.03, Type: "Boundary Failure", Region: "Swaidia Highlands" },
+            { Y: 23.50, X: 166.86, Type: "Boundary Failure", Region: "The Rugyro" },
+            { Y: 26.08, X: 171.42, Type: "Boundary Failure", Region: "Wegga Crossing" },
+            { Y: 29.78, X: 177.75, Type: "Boundary Failure", Region: "Point Otilatusce" },
+            { Y: 31.44, X: -178.91, Type: "Boundary Failure", Region: "Ustus Sector VIII" },
+            { Y: 34.98, X: -170.92, Type: "Boundary Failure", Region: "Point Xiposs" },
+            { Y: 35.85, X: -166.64, Type: "Boundary Failure", Region: "Dinaisirer Hills" },
+            { Y: 40.42, X: -136.33, Type: "Distress Beacon" }
+        ]
     }
 }
 
 function ZED07Ia()
 {
     return {
-        Messages: ["ZED-07 Ia", "Freezing", "0C84:0082:0D59:007A", "207A0355A485"],
+        Messages: ["ZED-07 Ia", "Freezing", "Moon", "0C84:0082:0D59:007A", "207A0355A485"],
         POI: [
             { Y: -76.35, X: 89.92, Type: "Monolith" },
             { Y: -49.25, X: 42.25, Type: "Trading Post" },
@@ -583,7 +596,11 @@ function ZED07Ia()
             { Y: 18.07, X: -134.12, Type: "Grave" },
             { Y: 0.05, X: -88.16, Type: "Trading Post" },
             { Y: 1.33, X: -46.82, Type: "Camp", Region: "Great Plains of Okopinooz" },
-            { Y: 0.02, X: -34.98, Type: "Comms Tower/Camp", Region: "Point Simov" }
+            { Y: 0.02, X: -34.98, Type: "Comms Tower/Camp", Region: "Point Simov" },
+            { Y: 39.39, X: -35.01, Type: "Comms Tower/Camp", Region: "Urome Station" },
+            { Y: 21.45, X: -23.02, Type: "Trading Post" },
+            { Y: 26.26, X: -24.44, Type: "Trading Post" },
+            { Y: 33.96, X: -27.26, Region: "Hevolo Forest" }
         ]
     }
 }
@@ -3790,8 +3807,7 @@ function ZED35I()
 2- Hexagonal
 3- Parched
 4 - Arid
-5 - Desolate
-6 - Flurishing
+
 
 h-0108-007c-076f-0044
 1-0108-007c-076f-009a
