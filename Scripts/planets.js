@@ -527,7 +527,7 @@ function ZED06I()
 function ZED07III()
 {
     return {
-        Messages: ["ZED-07 III", "Paradise", "0C84:0082:0D59:007A", "407A0355A485"],
+        Messages: ["ZED-07 III", "Paradise", "Small", "0C84:0082:0D59:007A", "407A0355A485"],
         POI: [
             { Y: 27.83, X: -75.57, Type: "Abandoned Building", Region: "Nocancess Living Expanse" },
             { Y: 28.08, X: -75.18, Type: "Camp", Region: "Swanl Crossing" },
@@ -547,7 +547,9 @@ function ZED07III()
             { Y: 52.55, X: -81.15, Type: "Comms Tower/Camp", Region: "Tokyotsl Outpost" },
             { Y: 66.52, X: -87.09, Type: "Monolith" },
             { Y: 87.86, X: -101.44, Type: "Trade Terminal", Region: "Mades Grove" },
-            { Y: 86.11, X: 102.76, Type: "Portal" }
+            { Y: 86.11, X: 102.76, Type: "Portal" },
+            { Y: 11.79, X: -66.20, Type: "Camp", Region: "Ebbiel Swamp" },
+            { Y: 14.90, X: -64.80, Region: "Edwic Fields" }
         ]
     };
 }
@@ -567,7 +569,8 @@ function ZED07II()
             { Y: 31.44, X: -178.91, Type: "Boundary Failure", Region: "Ustus Sector VIII" },
             { Y: 34.98, X: -170.92, Type: "Boundary Failure", Region: "Point Xiposs" },
             { Y: 35.85, X: -166.64, Type: "Boundary Failure", Region: "Dinaisirer Hills" },
-            { Y: 40.42, X: -136.33, Type: "Distress Beacon" }
+            { Y: 40.42, X: -136.33, Type: "Distress Beacon" },
+            { Y: -55.16, X: 14.11, Type: "Portal" }
         ]
     }
 }
@@ -620,7 +623,8 @@ function ZED07I()
             { Y: 48.66, X: -67.49, Type: "Boundary Failure", Region: "Abjudg Peak" },
             { Y: 48.91, X: -66.23, Type: "Boundary Failure", Region: "Bicrito Crossing" },
             { Y: 49.20, X: -65.17, Type: "Boundary Failure", Region: "Urpist Crossing" },
-            { Y: 41.76, X: 29.17, Type: "Distress Beacon" }
+            { Y: 41.76, X: 29.17, Type: "Distress Beacon" },
+            { Y: 39.66, X: 155.39, Type: "Portal" }
         ]
     }
 }
