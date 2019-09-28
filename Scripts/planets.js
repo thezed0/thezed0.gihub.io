@@ -629,11 +629,10 @@ function ZED07I()
     }
 }
 
-//puyorsk
 function ZED08II()
 {
     return {
-        Messages: ["ZED-08 II", "Incandesant", "0C84:0082:0D59:013D", "213D0355A485"],
+        Messages: ["ZED-08 II", "Incandesant", "Large", "0C84:0082:0D59:013D", "213D0355A485"],
         POI: [
             { Y: -25.70, X: -65.06, Type: "Manufacturing", Region: "Nokuch Desert" },
             { Y: -25.78, X: -65.40, Type: "Ancient Plaque" },
@@ -654,7 +653,8 @@ function ZED08II()
             { Y: 26.29, X: -58.54, Type: "Observatory/Camp", Region: "Idaka Post" },
             { Y: -21.16, X: -61.70, Type: "Monolith" },
             { Y: -17.47, X: -120.68, Type: "Portal" },
-            { Y: 26.41, X: -60.25, Type: "Local Trade Center", Region: "Ijona XIV" }
+            { Y: 26.41, X: -60.25, Type: "Local Trade Center", Region: "Ijona XIV" },
+            { Y: -16.62, X: -120.83, Type: "Comms Tower/Camp", Region: "Camp Gotenri" }
         ]
     }
 }
@@ -662,7 +662,19 @@ function ZED08II()
 function ZED08I()
 {
     return {
-        Messages: ["ZED-08 I", "Empty", "0C84:0082:0D59:013D", "113D0355A485"]
+        Messages: ["ZED-08 I", "Empty", "Large", "0C84:0082:0D59:013D", "113D0355A485"],
+        POI: [
+            { Y: -13.85, X: -172.28, Type: "Portal" },
+            { Y: -19.65, X: -162.91, Type: "Boundary Failure", Region: "Nesepo XVII" },
+            { Y: -22.72, X: -157.17, Type: "Boundary Failure", Region: "The Pasusgumq" },
+            { Y: -23.04, X: -157.17, Type: "Boundary Failure", Region: "Point Uscarmat" },
+            { Y: -24.12, X: -154.90, Type: "Boundary Failure", Region: "Gevatoriu Crossing" },
+            { Y: -27.57, X: -147.50, Type: "Boundary Failure", Region: "Ubsanc Sector IX" },
+            { Y: -33.22, X: -129.87, Type: "Boundary Failure", Region: "Point Roveri" },
+            { Y: -35.30, X: -119.43, Type: "Boundary Failure", Region: "Point Rament" },
+            { Y: -35.83, X: -116.31, Type: "Boundary Failure", Region: "The Gemado" },
+            { Y: -11.10, X: -26.82, Type: "Distress Beacon" }
+        ]
     }
 }
 
@@ -3804,14 +3816,73 @@ function ZED35I()
     };
 }
 
+function ZED36I()
+{
+    return {
+        Messages: ["ZED-36 I", "High Energy", "Medium", "0C82:0084:0D59:021A", "121A0555A483"],
+        POI: [
+            { Y: 37.07, X: 72.75, Region: "Palem Marsh" },
+            { Y: 37.28, X: 72.99, Type: "Beacon" },
+            { Y: 37.32, X: 73.25, Type: "Beacon" },
+            { Y: 36.69, X: 72.50, Type: "Camp", Region: "Uzeno's Graveyard" },
+            { Y: 36.58, X: 73.00, Type: "Local Trade Center/Camp", Region: "Camp Heymnacr" },
+            { Y: 43.32, X: 72.24, Type: "Resource Depot", Region: "Omahabor Wasteland" },
+            { Y: 43.14, X: 71.99, Type: "Trade Terminal", Region: "Dauns Valley" },
+            { Y: 43.68, X: 71.90, Type: "Resource Depot", Region: "Mubhak's Drift" },
+            { Y: 44.20, X: 71.84, Type: "Abandoned Building", Region: "Avius Sector XVI" },
+            { Y: 45.51, X: 71.56, Region: "The Tuvalex" },
+            { Y: 45.81, X: 71.66, Type: "Camp", Region: "Dolandf's Graveyard" },
+            { Y: 47.44, X: 72.15, Region: "Zantoin Plains" },
+            { Y: 47.59, X: 72.04, Type: "Ancient Plaque" },
+            { Y: 47.26, X: 71.94, Type: "Beacon" },
+            { Y: 50.54, X: 71.79, Type: "Camp", Region: "Plains of Diusikaty" },
+            { Y: 51.02, X: 71.47, Type: "Camp", Region: "Uiteles Sector XVIII" },
+            { Y: 53.38, X: 71.33, Type: "Trade Terminal", Region: "Beelz Wetlands" },
+            { Y: 53.61, X: 71.57, Type: "Resource Depot", Region: "Mebley Wetlands" },
+            { Y: 55.00, X: 71.83, Type: "Camp", Region: "Nibayorul Plateau" },
+            { Y: 57.94, X: 71.01, Type: "Drop Pod", Region: "Amtartab Sands" },
+            { Y: 57.69, X: 70.71, Type: "Crashed Freighter" },
+            { Y: 57.75, X: 71.14, Type: "Ancient Plaque" },
+            { Y: 58.06, X: 70.44, Type: "Drop Pod", Region: "Nejuanr Wastes" },
+            { Y: 72.42, X: 72.16, Type: "Abandoned Building", Region: "Pilsb Marsh" },
+            { Y: 70.05, X: 72.10, Type: "Abandoned Building", Region: "Point Mimaro" }
+        ]
+    }
+}
+
+function ZED37I()
+{
+    return {
+        Messages: ["ZED-37 I", "Verdant", "Small", "0C82:0083:0D59:0007A", "107A0455A483"],
+        POI: [
+            { Y: -1.34, X: -142.86, Region: "Eynsiha Wetlands" },
+            { Y: 0.67, X: -143.70, Type: "Camp", Region: "Aulio Living Expanse" },
+            { Y: 5.08, X: -143.67, Region: "Sacruces Living Expanse" },
+            { Y: 9.07, X: -143.43, Type: "Transmission Tower/Camp", Region: "Camp Hunise" },
+            { Y: 9.97, X: -142.87, Type: "Trade Terminal", Region: "The Eophi Flats" },
+            { Y: 16.03, X: -142.86, Region: "Uelia Woods" },
+            { Y: 16.39, X: -143.13, Type: "Ancient Plaque" },
+            { Y: 15.66, X: -142.60, Type: "Drop Pod", Region: "Isonj Fields" },
+            { Y: 17.06, X: -143.41, Type: "Resource Depot", Region: "Sette Point" },
+            { Y: 18.54, X: -143.13, Type: "Beacon" },
+            { Y: 19.68, X: -142.86, Region: "Celis Heath" },
+            { Y: 22.88, X: -143.95, Type: "Beacon" },
+            { Y: 69.36, X: -141.34, Type: "Beacon" },
+            { Y: 71.47, X: -154.10, Type: "Local Trade Center", Region: "Korescen Thicket" },
+            { Y: 72.47, X: -152.26, Type: "Trade Terminal", Region: "Potels Forest" },
+            { Y: 73.83, X: -149.56, Type: "Drop Pod", Region: "Moutiatheys Grasslands" },
+            { Y: 74.72, X: -149.36, Type: "Comms Tower/Camp", Region: "Point Ilfran" },
+            { Y: 76.80, X: -147.84, Type: "Resource Depot", Region: "Wabrino Reach" },
+            { Y: 78.48, X: -149.81, Type: "Transmission Tower/Camp", Region: "Busharase Post" },
+            { Y: 80.48, X: -151.32, Type: "Camp", Region: "Piusana Fields" },
+            { Y: 80.27, X: -149.16, Type: "Camp", Region: "Gwatcehl Glade" },
+            { Y: 78.25, X: -148.03, Type: "Trade Terminal", Region: "Olmerai Woodland" },
+            { Y: 79.73, X: -148.43, Type: "Abandoned Building", Region: "Deberiusin Forest" }
+        ]
+    }
+}
+
 /*
-
-
-1 - Charred
-2- Hexagonal
-3- Parched
-4 - Arid
-
 
 h-0108-007c-076f-0044
 1-0108-007c-076f-009a
