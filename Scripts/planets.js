@@ -3853,7 +3853,7 @@ function ZED36I()
 function ZED37I()
 {
     return {
-        Messages: ["ZED-37 I", "Verdant", "Small", "0C82:0083:0D59:0007A", "107A0455A483"],
+        Messages: ["ZED-37 I", "Verdant", "Small", "0C82:0083:0D59:007A", "107A0455A483"],
         POI: [
             { Y: -1.34, X: -142.86, Region: "Eynsiha Wetlands" },
             { Y: 0.67, X: -143.70, Type: "Camp", Region: "Aulio Living Expanse" },
@@ -3882,7 +3882,40 @@ function ZED37I()
     }
 }
 
+function ZED38IV()
+{
+    return {
+        Messages: ["ZED-38 IV", "Decaying Nuclear", "Medium", "0C82:0083:0D59:0005", "10050455A483"],
+        POI: [
+            { Y: -9.37, X: 91.95, Type: "Resource Depot", Region: "Chenr Dale" },
+            { Y: -7.48, X: 91.95, Type: "Camp", Region: "The Lathusett Levels" },
+            { Y: -6.10, X: 91.95, Region: "Etaea's Great Reaches" },
+            { Y: 1.10, X: 91.93, Type: "Trading Post" },
+            { Y: 1.38, X: 91.95, Type: "Camp", Region: "Drusha's Great Reaches" },
+            { Y: 2.49, X: 92.22, Type: "Transmission Tower", Region: "Yasto Wastes" },
+            { Y: 4.44, X: 92.22, Type: "Beacon" },
+            { Y: 5.27, X: 91.94, Type: "Beacon" },
+            { Y: 1.10, X: 91.38, Type: "Local Trade Center/Camp", Region: "Biggl Outpost" },
+            { Y: 0.26, X: 91.38, Type: "Local Trade Center/Camp", Region: "Camp Awsan" },
+            { Y: 0.00, X: 91.11, Type: "Drop Pod", Region: "Hibourturn Crossing" },
+            { Y: -0.02, X: 90.27, Type: "Transmission Tower/Camp", Region: "Point Izesini" },
+            { Y: -0.56, X: 89.17, Type: "Trade Terminal", Region: "Roitaw's Last Stand" },
+            { Y: -0.28, X: 86.94, Region: "Omford XVI" },
+            { Y: 0.26, X: 86.38, Type: "Observatory/Camp", Region: "Irgos Outpost" },
+            { Y: 0.56, X: 86.11, Type: "Beacon" },
+            { Y: 0.83, X: 84.18, Region: "Ewisb Wetlands" },
+            { Y: 0.83, X: 83.90, Type: "Ancient Plaque" },
+            { Y: 0.57, X: 81.98, Type: "Trading Post" },
+            { Y: 0.00, X: 79.28, Type: "Trade Terminal", Region: "Ruciana Dustbowl" }
+        ]
+    }
+}
+
 /*
+ 
+ 1 - Arid / Medium
+ 2 - Hexagonal / Medium
+ 3 - Boiling / Small
 
 h-0108-007c-076f-0044
 1-0108-007c-076f-009a
