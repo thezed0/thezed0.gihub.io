@@ -3885,7 +3885,7 @@ function ZED37I()
 function ZED38IV()
 {
     return {
-        Messages: ["ZED-38 IV", "Decaying Nuclear", "Medium", "0C82:0083:0D59:0005", "10050455A483"],
+        Messages: ["ZED-38 IV", "Decaying Nuclear", "Medium", "0C82:0083:0D59:0005", "40050455A483"],
         POI: [
             { Y: -9.37, X: 91.95, Type: "Resource Depot", Region: "Chenr Dale" },
             { Y: -7.48, X: 91.95, Type: "Camp", Region: "The Lathusett Levels" },
@@ -3911,11 +3911,88 @@ function ZED38IV()
     }
 }
 
+function ZED38III()
+{
+    return {
+        Messages: ["ZED-38 III", "Boiling", "Small", "0C82:0083:0D59:0005", "30050455A483"],
+        POI: [
+            { Y: 18.02, X: 43.48, Type: "Resource Depot", Region: "Appor's Graveyard" },
+            { Y: 18.38, X: 44.09, Type: "Manufacturing", Region: "Usukiha's Graveyard" },
+            { Y: 18.72, X: 43.92, Type: "Trade Terminal", Region: "Uuraia's Graveyard" },
+            { Y: 18.65, X: 44.12, Type: "Camp", Region: "Riokaya Dustbowl" },
+            { Y: 17.62, X: 43.92, Type: "Drop Pod", Region: "Idakaimi Crossing" },
+            { Y: 17.29, X: 44.12, Type: "Camp", Region: "Iryuga Plains" },
+            { Y: 12.55, X: 43.90, Type: "Transmission Tower/Camp", Region: "Idoribetsu Outpost" },
+            { Y: 11.99, X: 43.70, Type: "Trade Terminal", Region: "Kunishi Basin" },
+            { Y: 9.35, X: 43.68, Type: "Camp", Region: "Danono Crater XVII" },
+            { Y: 9.64, X: 43.68, Type: "Camp", Region: "Umois IV" },
+            { Y: 7.27, X: 43.68, Type: "Manufacturing", Region: "Borig Basin" },
+            { Y: 6.71, X: 43.24, Type: "Camp", Region: "Okami Dustbowl" },
+            { Y: 5.87, X: 42.56, Type: "Manufacturing", Region: "The Soshiojiyo" },
+            { Y: 5.56, X: 42.58, Type: "Resource Depot", Region: "Yotosaij Sector XVIII" },
+            { Y: 9.01, X: 41.87, Type: "Camp", Region: "The Imuro" },
+            { Y: 9.83, X: 42.58, Region: "Tanama's Graveyard" },
+            { Y: 12.23, X: 42.60, Type: "Ancient Ruins" },
+            { Y: 12.26, X: 42.36, Type: "Beacon" },
+            { Y: 10.12, X: 40.68, Type: "Local Trade Center/Camp", Region: "Dachito Encampment" },
+            { Y: 9.21, X: 40.45, Type: "Trade Terminal", Region: "Lost Plains of Kamiga" }
+        ]
+    }
+}
+
+function ZED38II()
+{
+    return {
+        Messages: ["ZED-38 II", "Hexagonal", "Medium", "0C82:0083:0D59:0005", "20050455A483"],
+        POI: [
+            { Y: -10.06, X: -66.17, Type: "Boundary Failure", Region: "Onthomarca Crossing" },
+            { Y: -12.46, X: -65.71, Type: "Boundary Failure", Region: "Vaputti Crossing" },
+            { Y: -14.32, X: -65.25, Type: "Boundary Failure", Region: "Yaldi Sector XVIII" },
+            { Y: -19.53, X: -64.57, Type: "Boundary Failure", Region: "Ircoifa Floodplain" },
+            { Y: -21.66, X: -64.12, Type: "Boundary Failure", Region: "Azakr Valley" },
+            { Y: -29.89, X: -63.00, Type: "Boundary Failure", Region: "Usume XII" },
+            { Y: -37.82, X: -62.13, Type: "Boundary Failure", Region: "The Ulumel Expanse" },
+            { Y: -45.81, X: -60.38, Type: "Boundary Failure", Region: "Toniag Sector XVII" },
+            { Y: -51.09, X: -60.06, Type: "Boundary Failure", Region: "Twigeo Crossing" },
+            { Y: -63.01, X: -55.13, Type: "Boundary Failure", Region: "Lixutsi XVI" },
+            { Y: -63.92, X: -53.51, Type: "Boundary Failure", Region: "Point Hotele" },
+            { Y: -66.29, X: -51.77, Type: "Boundary Failure", Region: "Ruchap Crossing" },
+            { Y: -83.43, X: 22.14, Type: "Boundary Failure", Region: "The Nihabi Flats" },
+            { Y: -62.57, X: 103.51, Type: "Distress Beacon" }
+        ]
+    }
+}
+
+function ZED38I()
+{
+    return {
+        Messages: ["ZED-38 I", "Arid", "Medium", "0C82:0083:0D59:0005", "10050455A483"],
+        POI: [
+            { Y: -35.55, X: 59.98, Region: "Uzawa Lowlands" },
+            { Y: -35.34, X: 60.40, Type: "Crashed Freighter" },
+            { Y: -35.63, X: 60.82, Type: "Observatory", Region: "Kochiur Badlands" },
+            { Y: -35.84, X: 60.50, Type: "Camp", Region: "Yokos's Drift" },
+            { Y: -32.29, X: 60.81, Type: "Comms Tower/Camp", Region: "Kahok Post" },
+            { Y: -30.49, X: 61.47, Type: "Camp", Region: "Mejit Sands" },
+            { Y: -29.24, X: 60.82, Type: "Camp", Region: "Kamat Desert" },
+            { Y: -29.47, X: 61.04, Type: "Trade Terminal", Region: "Bosone's Graveyard" },
+            { Y: -26.87, X: 61.25, Type: "Camp", Region: "Udamag Sector XI" },
+            { Y: -26.91, X: 61.47, Type: "Drop Pod", Region: "Hokoh Sector X" },
+            { Y: -25.24, X: 61.04, Region: "Lost Plains of Mukour" },
+            { Y: -24.37, X: 60.62, Type: "Camp", Region: "Aikikushim Wasteland" },
+            { Y: -23.95, X: 60.62, Type: "Trade Terminal", Region: "Imizuruok Dustbowl" },
+            { Y: -21.64, X: 60.41, Region: "Betsu VII" },
+            { Y: -19.89, X: 59.99, Type: "Camp", Region: "Karakizumi Wasteland" },
+            { Y: -16.60, X: 59.78, Type: "Camp", Region: "Lost Plains of Ottoriyama" },
+            { Y: -13.66, X: 59.57, Type: "Camp", Region: "Oganonjose's Wilds" },
+            { Y: -12.50, X: 59.35, Type: "Comms Tower/Camp", Region: "Iomichio Post" },
+            { Y: -11.37, X: 59.57, Type: "Drop Pod", Region: "Baraz Crossing" },
+            { Y: -10.60, X: 58.95, Region: "Hayam Wasteland" }
+        ]
+    }
+}
+
 /*
- 
- 1 - Arid / Medium
- 2 - Hexagonal / Medium
- 3 - Boiling / Small
 
 h-0108-007c-076f-0044
 1-0108-007c-076f-009a
