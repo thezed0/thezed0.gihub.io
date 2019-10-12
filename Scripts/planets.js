@@ -678,7 +678,6 @@ function ZED08I()
     }
 }
 
-//mukshad
 function ZED09IIa()
 {
     return {
@@ -740,7 +739,29 @@ function ZED09II()
 function ZED09I()
 {
     return {
-        Messages: ["ZED-09 I", "Airless", "0C84:0082:0D59:00F9", "10F90355A485"]
+        Messages: ["ZED-09 I", "Foaming", "Small", "0C84:0082:0D59:00F9", "10F90355A485"],
+        POI: [
+            { Y: 15.78, X: 159.80, Type: "Portal" },
+            { Y: 15.93, X: 161.28, Type: "Boundary Failure", Region: "Tessum Flats XIII" },
+            { Y: 13.17, X: 164.75, Type: "Boundary Failure", Region: "Windswept Plains of Puhnosum" },
+            { Y: 5.43, X: 174.93, Type: "Boundary Failure", Region: "Ebbar Moor" },
+            { Y: 4.19, X: 176.18, Type: "Boundary Failure", Region: "Ovolvag Sector VIII" },
+            { Y: -9.74, X: -166.39, Type: "Boundary Failure", Region: "Point Hapta" },
+            { Y: -17.25, X: -156.58, Type: "Boundary Failure", Region: "The Nousko" },
+            { Y: -27.90, X: -138.61, Type: "Boundary Failure", Region: "Asypusi Moor" },
+            { Y: -27.81, X: -138.34, Type: "Large Artifact Crate" },
+            { Y: -35.77, X: -115.89, Type: "Boundary Failure", Region: "Romaral Plains" },
+            { Y: -36.62, X: -113.10, Type: "Boundary Failure", Region: "Uberoia Plateau" },
+            { Y: -36.45, X: -112.74, Type: "Boundary Failure", Region: "Loposte Plains" },
+            { Y: -36.59, X: -112.02, Type: "Boundary Failure", Region: "Eotyt Plains" },
+            { Y: -36.92, X: -110.19, Type: "Boundary Failure", Region: "The Fualute" },
+            { Y: -39.43, X: -76.78, Type: "Boundary Failure", Region: "Aquat's Lookout" },
+            { Y: -38.73, X: -73.24, Type: "Boundary Failure", Region: "Plectorn View" },
+            { Y: -38.61, X: -72.47, Type: "Boundary Failure", Region: "Mount Estall" },
+            { Y: -37.24, X: -64.13, Type: "Boundary Failure", Region: "Point Ajectur" },
+            { Y: -35.80, X: -58.62, Type: "Boundary Failure", Region: "Point Amtiren" },
+            { Y: -34.74, X: -51.80, Type: "Distress Beacon" }
+        ]
     }
 }
 
