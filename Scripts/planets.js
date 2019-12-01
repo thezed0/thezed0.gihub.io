@@ -4463,6 +4463,64 @@ function ZED42I()
     }
 }
 
+function ZED43II()
+{
+    return {
+        Messages: ["ZED-43 II", "Temperate", "Large", "0C82:0083:0D58:007A", "207A04559483"],
+        POI: [
+            { Y: -16.90, X: -177.90, Type: "Crashed Freighter" },
+            { Y: -16.71, X: -177.69, Region: "Tozuphl Lowlands" },
+            { Y: -16.70, X: -177.50, Type: "Manufacturing", Region: "Arjordita Sector IX" },
+            { Y: -13.19, X: -177.70, Type: "Camp", Region: "Windswept Plains of Alydosieb" },
+            { Y: -12.79, X: -177.91, Type: "Drop Pod", Region: "Lalus Grasslands" },
+            { Y: -11.60, X: -177.70, Type: "Trading Post" },
+            { Y: -10.78, X: -178.12, Type: "Camp", Region: "Windswept Plains of Agyan" },
+            { Y: -10.38, X: -178.32, Type: "Crashed Freighter" },
+            { Y: -9.97, X: -178.33, Type: "Drop Pod", Region: "Garden VI" },
+            { Y: -9.36, X: -177.91, Type: "Camp", Region: "Windswept Plains of Cikhilleya" },
+            { Y: -9.15, X: -177.91, Type: "Drop Pod", Region: "The Ramlinur Morass" },
+            { Y: -8.54, X: -178.11, Region: "Windswept Plains of Kation" },
+            { Y: -7.30, X: -178.53, Type: "Beacon" },
+            { Y: -7.09, X: -178.55, Type: "Comms Tower/Camp", Region: "Point Uuleucu" },
+            { Y: -7.09, X: 178.72, Type: "Local Trade Center/Camp", Region: "Point Usoin" },
+            { Y: -5.23, X: 178.11, Type: "Beacon" },
+            { Y: -4.60, X: 177.69, Region: "The Pezuk Expanse" },
+            { Y: -3.77, X: 177.69, Type: "Trade Terminal", Region: "Plains of Amworla" },
+            { Y: -3.35, X: 177.90, Type: "Trade Terminal", Region: "Heliusa Grove" },
+            { Y: -0.42, X: 177.69, Type: "Ancient Plaque" }
+        ]
+    }
+}
+
+function ZED43I()
+{
+    return {
+        Messages: ["ZED-43 I", "Toxic", "Medium", "0C82:0083:0D58:007A", "107A04559483"],
+        POI: [
+            { Y: -56.48, X: -24.69, Type: "Ancient Ruins" },
+            { Y: -55.78, X: -24.94, Type: "Comms Tower/Camp", Region: "Eermen Outpost" },
+            { Y: -55.71, X: -25.30, Region: "Hetiawshe XI" },
+            { Y: -55.29, X: -25.31, Type: "Beacon" },
+            { Y: -53.23, X: -25.43, Type: "Local Trade Center/Camp", Region: "Agarmar Post" },
+            { Y: -52.76, X: -24.95, Type: "Camp", Region: "Jejudat VIII" },
+            { Y: -49.72, X: -24.39, Type: "Abandoned Building", Region: "Qizhou Pass" },
+            { Y: -49.36, X: -24.41, Type: "Camp", Region: "Guanh Wetlands" },
+            { Y: -48.72, X: -24.90, Type: "Observatory/Camp", Region: "Uejeon Platform" },
+            { Y: -48.88, X: -25.00, Region: "Mountains of Arlun" },
+            { Y: -48.17, X: -24.35, Region: "Aying Crossing" },
+            { Y: -47.97, X: -24.50, Type: "Drop Pod", Region: "Urgase Marsh" },
+            { Y: -47.50, X: -25.08, Type: "Drop Pod", Region: "The Uiyug" },
+            { Y: -47.02, X: -25.67, Type: "Manufacturing", Region: "The Satogqe" },
+            { Y: -46.76, X: -26.06, Type: "Camp", Region: "Goqenr Fen" },
+            { Y: -46.51, X: -26.44, Type: "Beacon" },
+            { Y: -46.43, X: -26.73, Type: "Loal Trade Center", Region: "Drups Pass" },
+            { Y: -44.97, X: -26.83, Type: "Camp", Region: "Ekannin Swamp" },
+            { Y: -40.58, X: -27.01, Type: "Beacon" },
+            { Y: -39.71, X: -27.02, Type: "Drop Pod", Region: "Uzhishay Swamp" }
+        ]
+    }
+}
+
 /*
 
 1 - Gamma
