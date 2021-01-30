@@ -7513,6 +7513,474 @@ function ZED70I()
     }
 }
 
+function ZED71IV()
+{
+    return {
+        Messages: ["ZED-71 IV", "Overgrown", "Small", "0C7B:0084:0D4F:0174", "41740555047C"],
+        POI: [
+            { Y: -45.21, X: -89.16, Type: "Large Artifact Crate" },
+            { Y: -45.89, X: -88.73, Type: "Planetary Archive" },
+            { Y: -47.14, X: -87.74, Type: "Camp", Region: "Plains of Boeoti" },
+            { Y: -47.61, X: -87.24, Type: "Ancient Plaque" },
+            { Y: -50.45, X: -86.44, Type: "Camp", Region: "Kepim Point" },
+            { Y: -51.48, X: -86.83, Type: "Manufacturing", Region: "Icrose Forest" },
+            { Y: -54.71, X: -86.44, Type: "Camp", Region: "The Midah Pasture" },
+            { Y: -59.10, X: -85.07, Type: "Manufacturing", Region: "Snodleig Heath" },
+            { Y: -66.49, X: -86.14, Type: "Trade Terminal", Region: "Skear's Quagmire" },
+            { Y: -67.95, X: -88.98, Type: "Abandoned Building", Region: "Agerapi's Weald" },
+            { Y: -68.34, X: -88.94, Type: "Large Artifact Crate" },
+            { Y: -72.44, X: -87.35, Region: "Ruveykin Dale" },
+            { Y: -74.76, X: -86.94, Type: "Drop Pod", Region: "Haburfo Thicket" },
+            { Y: -76.36, X: -90.01, Type: "Beacon" },
+            { Y: -76.75, X: -91.82, Type: "Resource Depot", Region: "Fanymus Thicket" },
+            { Y: -77.82, X: -97.91, Type: "Trading Post" },
+            { Y: -78.11, X: -102.10, Region: "Plains of Liynx" },
+            { Y: -87.02, X: -98.33, Type: "Drop Pod", Region: "The Halago" },
+            { Y: -85.80, X: 90.07, Type: "Monolith" },
+            { Y: -83.25, X: 119.87, Type: "Manufacturing", Region: "Dosieb Marsh" },
+            { Y: -27.81, X: 145.62, Type: "Portal" }
+        ]
+    }
+}
+
+function ZED71III()
+{
+    return {
+        Messages: ["ZED-71 III", "Cloudy", "Small", "0C7B:0084:0D4F:0174", "31740555047C"],
+        POI: [
+            { Y: 18.55, X: 155.81, Type: "Manufacturing", Region: "Locomne Clearing" },
+            { Y: 22.19, X: 157.59, Type: "Camp", Region: "Aarolisa Rainforest" },
+            { Y: 23.46, X: 157.26, Region: "Kahumi Fields" },
+            { Y: 26.14, X: 157.97, Type: "Drop Pod", Region: "Plains of Repton" },
+            { Y: 27.45, X: 158.33, Type: "Drop Pod", Region: "Point Gegest" },
+            { Y: 28.42, X: 158.67, Type: "Abandoned Building", Region: "Ilminstat Forest" },
+            { Y: 34.10, X: 161.73, Type: "Trading Post" },
+            { Y: 32.94, X: 161.31, Type: "Crashed Freighter" },
+            { Y: 33.60, X: 162.04, Type: "Camp", Region: "Rileynd Rainforest" },
+            { Y: 35.46, X: 163.58, Type: "Camp", Region: "Yicianu's Bounty" },
+            { Y: 37.18, X: 164.80, Type: "Trading Post" },
+            { Y: 37.72, X: 164.78, Type: "Beacon" },
+            { Y: 41.11, X: 164.78, Region: "The Yendal Wildlands" },
+            { Y: 46.96, X: 163.95, Type: "Manufacturing", Region: "Point Xinesven" },
+            { Y: 46.54, X: 164.24, Type: "Distress Beacon" },
+            { Y: 49.86, X: 163.25, Type: "Planetary Archive" },
+            { Y: 52.25, X: 163.45, Type: "Crashed Freighter" },
+            { Y: 53.86, X: 162.98, Type: "Comms Tower/Camp", Region: "Aminste Outpost" },
+            { Y: 58.35, X: 162.64, Type: "Crashed Freighter" },
+            { Y: 62.47, X: 163.59, Type: "Drop Pod", Region: "Windswept Plains of Haumero" },
+            { Y: 63.61, X: 164.48, Type: "Camp", Region: "Adtoweym Reach" }
+        ]
+    }
+}
+
+function ZED71II()
+{
+    return {
+        Messages: ["ZED-71 II", "Tropical", "Large", "0C7B:0084:0D4F:0174", "21740555047C"],
+        POI: [
+            { Y: 25.31, X: 20.66, Type: "Local Trade Center/Camp", Region: "Ostho Enclave" },
+            { Y: 25.28, X: 20.85, Type: "Beacon" },
+            { Y: 25.91, X: 21.93, Type: "Trading Post" },
+            { Y: 26.14, X: 22.48, Type: "Ancient Plaque" },
+            { Y: 25.96, X: 22.67, Type: "Monolith" },
+            { Y: 26.51, X: 23.01, Type: "Camp", Region: "The Flaust Wildlands" },
+            { Y: 27.15, X: 24.59, Type: "Transmission Tower", Region: "Garden VI" },
+            { Y: 27.15, X: 26.13, Type: "Abandoned Building", Region: "The Teadl Everglades" },
+            { Y: 27.35, X: 26.64, Type: "Comms Tower", Region: "Rejev's Bounty" },
+            { Y: 27.38, X: 26.47, Type: "Camp", Region: "Jonas's Orchard" },
+            { Y: 27.61, X: 26.82, Type: "Beacon" },
+            { Y: 27.76, X: 27.48, Type: "Trade Terminal", Region: "Deforadi's Last Stand" },
+            { Y: 27.84, X: 28.46, Type: "Large Artifact Crate" },
+            { Y: 27.69, X: 29.09, Type: "Abandoned Building", Region: "Plains of Gabalb" },
+            { Y: 28.00, X: 30.20, Type: "Abandoned Building", Region: "Owden's Last Stand" },
+            { Y: 28.10, X: 30.36, Type: "Abandoned Building", Region: "Windswept Plains of Eciusir" },
+            { Y: 28.49, X: 33.12, Type: "Trading Post" },
+            { Y: 28.61, X: 33.69, Type: "Ancient Plaque" },
+            { Y: 28.45, X: 34.25, Type: "Camp", Region: "The Oenot" },
+            { Y: 25.89, X: 81.66, Type: "Local Trade Center/Camp", Region: "Laika Platform" },
+            { Y: -77.84, X: -17.85, Type: "Distress Beacon" }
+        ]
+    }
+}
+
+function ZED71I()
+{
+    return {
+        Messages: ["ZED-71 I", "Metallurgic", "Small", "0C7B:0084:0D4F:0174", "11740555047C"],
+        POI: [
+            { Y: 4.64, X: -157.26, Type: "Distress Beacon" },
+            { Y: 9.60, X: -156.91, Region: "Oiotort Moor" },
+            { Y: 10.32, X: -156.58, Type: "Boundary Failure", Region: "The Roxiart Levels" },
+            { Y: 11.84, X: -156.91, Type: "Monolith" },
+            { Y: 18.42, X: -157.65, Type: "Boundary Failure", Region: "Zeisto Floodplain" },
+            { Y: 29.73, X: -157.65, Type: "Boundary Failure", Region: "The Dujorniumer Levels" },
+            { Y: 29.91, X: -156.94, Type: "Observatory", Region: "Negwitali Encampment" },
+            { Y: 34.59, X: -156.94, Type: "Boundary Failure", Region: "Ruhamin Basin" },
+            { Y: 37.77, X: -157.65, Type: "Boundary Failure", Region: "Aisremium Flats X" },
+            { Y: 42.94, X: -157.47, Region: "Sacrat Flats IV" },
+            { Y: 48.72, X: -158.41, Type: "Boundary Failure", Region: "The Eauta" },
+            { Y: 49.75, X: -159.72, Type: "Boundary Failure", Region: "Pizare Basin" },
+            { Y: 59.84, X: -161.62, Type: "Abandoned Building", Region: "Robul Crossing" },
+            { Y: 62.61, X: -161.86, Type: "Observatory", Region: "Iurus Platform" },
+            { Y: 61.85, X: -159.13, Type: "Boundary Failure", Region: "Julusart Floodplain" },
+            { Y: 55.03, X: -146.15, Region: "The Vale of Fiari" },
+            { Y: 51.00, X: -140.53, Region: "Mochius Sector VIII" },
+            { Y: 48.49, X: -138.39, Type: "Boundary Failure", Region: "Cuum Plateau" },
+            { Y: 47.87, X: -136.35, Type: "Boundary Failure", Region: "Sewin Dale" },
+            { Y: 47.08, X: -134.71, Type: "Boundary Failure", Region: "Yempli Flats VIII" },
+            { Y: 39.29, X: -129.61, Type: "Distress Beacon" }
+        ]
+    }
+}
+
+function ZED72III()
+{
+    return {
+        Messages: ["ZED-72 III", "Haunted Emeril", "Medium", "0C7B:0084:0D4F:008B", "508B0555047C"],
+        POI: [
+
+        ]
+    }
+}
+
+function ZED72IIb()
+{
+    return {
+        Messages: ["ZED-72 IIb", "Overgrown", "Moon", "0C7B:0084:0D4F:008B", "408B0555047C"],
+        POI: [
+            { Y: 39.25, X: 40.03, Type: "Beacon" },
+            { Y: 42.34, X: 39.41, Type: "Camp" }
+        ]
+    }
+}
+
+function ZED72IIa()
+{
+    return {
+        Messages: ["ZED-72 IIa", "Bleak", "Moon", "0C7B:0084:0D4F:008B", "308B0555047C"],
+        POI: [
+            { Y: 20.77, X: 62.70, Type: "Portal" },
+            { Y: 16.69, X: 64.11, Type: "Camp" },
+            { Y: 13.92, X: 65.51, Type: "Beacon" }
+        ]
+    }
+}
+
+function ZED72II()
+{
+    return {
+        Messages: ["ZED-72 II", "Viridescent", "Large", "0C7B:0084:0D4F:008B", "208B0555047C"],
+        POI: [
+            { Y: 25.36, X: 5.23, Type: "Beacon" }
+        ]
+    }
+}
+
+function ZED72I()
+{
+    return {
+        Messages: ["ZED-72 I", "Capped", "Medium", "0C7B:0084:0D4F:008B", "108B0555047C"],
+        POI: [
+            { Y: -59.82, X: 26.79, Type: "Distress Beacon" }
+        ]
+    }
+}
+
+function ZED73IV()
+{
+    return {
+        Messages: ["ZED-73 IV", "Hiemal", "Medium", "0C7A:0084:0D4F:00D4", "50D40555047B"],
+        POI: [
+            { Y: 2.06, X: -66.87, Type: "Camp", Region: "Riyever Thicket" },
+            { Y: 3.09, X: -67.82, Type: "Resource Depot", Region: "The Teyugoind Flats" },
+            { Y: 3.60, X: -67.82, Type: "Beacon" },
+            { Y: 3.07, X: -66.87, Type: "Trade Terminal", Region: "Kadnaya Woods" },
+            { Y: 0.76, X: -65.24, Type: "Beacon" },
+            { Y: 0.50, X: -64.79, Region: "The Tousov Pasture" },
+            { Y: -6.35, X: -61.90, Type: "Beacon" },
+            { Y: -7.29, X: -61.47, Type: "Drop Pod", Region: "Mashcahe Slopes" },
+            { Y: -9.59, X: -60.41, Region: "The Lexand Expanse" },
+            { Y: -10.17, X: -59.37, Type: "Camp", Region: "Kozhev Ice Field" },
+            { Y: -11.98, X: -58.96, Type: "Beacon" },
+            { Y: -17.95, X: -55.62, Type: "Abandoned Building", Region: "Holunino Valley" },
+            { Y: -18.60, X: -55.61, Region: "The Azhdut Levels" },
+            { Y: -41.10, X: -36.39, Type: "Observatory/Camp", Region: "Vilenski Encampment" },
+            { Y: -44.49, X: -32.96, Type: "Trading Post" },
+            { Y: -45.14, X: -32.45, Region: "Libirsky Dale" },
+            { Y: -45.51, X: -32.30, Type: "Manufacturing", Region: "Gavrils Grasslands" },
+            { Y: -45.90, X: -32.11, Type: "Transmission Tower/Camp", Region: "Camp Tekovs" },
+            { Y: -48.80, X: -28.84, Type: "Beacon" },
+            { Y: -64.67, X: 43.31, Type: "Local Trade Center", Region: "Frozen Plains of Vigal" }
+        ]
+    }
+}
+
+function ZED73IIIa()
+{
+    return {
+        Messages: ["ZED-73 IIIa", "Supercritical", "Moon", "0C7A:0084:0D4F:00D4", "40D40555047B"],
+        POI: [
+            { Y: -8.35, X: 74.76, Type: "Trade Terminal", Region: "Neburnh Basin" },
+            { Y: -16.20, X: 73.15, Type: "Resource Depot", Region: "Waburbitima's Graveyard" },
+            { Y: -21.77, X: 68.50, Type: "Abandoned Building", Region: "Hemon Swamplands" },
+            { Y: -29.18, X: 67.02, Region: "Ezbett Desert" },
+            { Y: -35.30, X: 68.46, Type: "Manufacturing", Region: "The Hurcho Morass" },
+            { Y: -37.41, X: 68.48, Type: "Manufacturing", Region: "Great Plains of Naretaean" },
+            { Y: -42.27, X: 74.77, Type: "Camp", Region: "Heportahfiel Marsh" },
+            { Y: -44.21, X: 76.38, Type: "Trade Terminal", Region: "Ahrimsby's Wilds" },
+            { Y: -57.15, X: 79.25, Type: "Camp", Region: "Ayete's Quagmire" },
+            { Y: -59.84, X: 81.05, Type: "Camp", Region: "Sorixh's Quagmire" },
+            { Y: -69.11, X: 71.61, Type: "Camp", Region: "Yudiadu Lowlands" },
+            { Y: -71.01, X: 74.78, Type: "Camp", Region: "Vigatall X" },
+            { Y: -70.47, X: 70.08, Type: "Beacon" },
+            { Y: -79.05, X: 51.40, Type: "Resource Depot", Region: "Apusca Dale" },
+            { Y: -86.63, X: 89.68, Type: "Local Trade Center/Camp", Region: "Hewich Post" },
+            { Y: -87.46, X: -134.46, Type: "Camp", Region: "Kutasham's Quagmire" },
+            { Y: -82.60, X: -134.77, Type: "Camp", Region: "Aeumo Sector VII" },
+            { Y: -75.37, X: -144.47, Type: "Drop Pod", Region: "Coyreu's Wilds" },
+            { Y: -58.70, X: -143.05, Type: "Camp", Region: "Niferd's Great Reaches" },
+            { Y: -46.93, X: -144.25, Type: "Drop Pod", Region: "Oydonoya Desert" }
+        ]
+    }
+}
+
+function ZED73III()
+{
+    return {
+        Messages: ["ZED-73 III", "Caustic Nightmare", "Large", "0C7A:0084:0D4F:00D4", "30D40555047B"],
+        POI: [
+            { Y: 14.76, X: -121.14, Type: "Ancient Ruins" },
+            { Y: 15.95, X: -120.99, Region: "Qiannang Mire" },
+            { Y: 20.27, X: -121.29, Type: "Ancient Ruins" },
+            { Y: 22.10, X: -120.85, Type: "Boundary Failure", Region: "Jumna Dale" },
+            { Y: 27.80, X: -119.91, Region: "Meyancan Swamp" },
+            { Y: 28.08, X: -119.90, Type: "Ancient Plaque" },
+            { Y: 52.58, X: -122.11, Type: "Boundary Failure", Region: "Imjea's Quagmire" },
+            { Y: 63.73, X: -168.44, Type: "Ancient Plaque" },
+            { Y: 51.49, X: 159.19, Type: "Abandoned Building", Region: "Ogqenxoi Sector IV" },
+            { Y: 51.46, X: 158.98, Type: "Crashed Freighter" },
+            { Y: 49.31, X: 156.35, Type: "Abandoned Building", Region: "Magan Sector VII" },
+            { Y: 43.85, X: 149.56, Region: "Fusha Lowlands" },
+            { Y: 42.08, X: 147.55, Type: "Abandoned Building", Region: "The Enggor Morass" },
+            { Y: 38.55, X: 144.85, Type: "Abandoned Building", Region: "The Ragunpowe Levels" },
+            { Y: 38.19, X: 144.74, Type: "Drop Pod", Region: "Point Ragxinmi" },
+            { Y: 34.88, X: 142.16, Type: "Drop Pod", Region: "Inyigyi's Quagmire" },
+            { Y: 33.94, X: 141.10, Type: "Abandoned Building", Region: "Xangbord's Lookout" },
+            { Y: 33.21, X: 141.01, Type: "Distress Beacon" },
+            { Y: 31.87, X: 141.13, Type: "Ancient Plaque" },
+            { Y: 22.64, X: 140.75, Region: "Luennia Crossing" }
+        ]
+    }
+}
+
+function ZED73II()
+{
+    return {
+        Messages: ["ZED-73 II", "High Energy", "Small", "0C7A:0084:0D4F:00D4", "20D40555047B"],
+        POI: [
+            { Y: 50.76, X: -166.51, Type: "Observatory", Region: "Stran Wasteland" },
+            { Y: 50.21, X: -166.22, Region: "Paydne Floodplain" },
+            { Y: 49.67, X: -165.97, Type: "Drop Pod", Region: "The Woyomi Morass" },
+            { Y: 48.47, X: -166.11, Type: "Observatory/Camp", Region: "Etria Station" },
+            { Y: 47.50, X: -166.12, Type: "Transmission Tower", Region: "The Shvil Levels" },
+            { Y: 46.66, X: -165.10, Type: "Ancient Plaque" },
+            { Y: 46.24, X: -165.32, Type: "Beacon" },
+            { Y: 48.10, X: -169.64, Type: "Camp", Region: "Elxin Marsh" },
+            { Y: 49.09, X: -169.78, Type: "Manufacturing", Region: "Okinit Dale" },
+            { Y: 49.33, X: -169.73, Type: "Abandoned Building", Region: "Ornacius Desert" },
+            { Y: 49.72, X: -171.53, Type: "Trade Terminal", Region: "Uckyer Wasteland" },
+            { Y: 50.06, X: -172.94, Type: "Drop Pod", Region: "Gleybriam's Wilds" },
+            { Y: 51.49, X: -176.29, Type: "Beacon" },
+            { Y: 52.33, X: -178.86, Type: "Transmission Tower/Camp", Region: "Point Ricuse" },
+            { Y: 52.04, X: -177.26, Type: "Local Trade Center/Camp", Region: "Orrie Enclave" },
+            { Y: 52.85, X: 177.73, Type: "Comms Tower/Camp", Region: "Othor Station" },
+            { Y: 52.85, X: 178.30, Type: "Camp", Region: "Zoavid Crossing" },
+            { Y: 54.60, X: 173.46, Region: "Ocong Desert" },
+            { Y: 55.01, X: 170.92, Type: "Drop Pod", Region: "Wallu Wastes" },
+            { Y: 55.58, X: 165.02, Type: "Manufacturing", Region: "Point Emuely" },
+            { Y: 48.49, X: 109.94, Type: "Local Trade Center", Region: "Aethou Desert" }
+        ]
+    }
+}
+
+function ZED73I()
+{
+    return {
+        Messages: ["ZED-73 I", "Bleak", "Medium", "0C7A:0084:0D4F:00D4", "10D40555047B"],
+        POI: [
+            { Y: 67.27, X: -137.83, Type: "Observatory/Camp", Region: "Camp Renyag" },
+            { Y: 67.94, X: -137.93, Type: "Transmission Tower/Camp", Region: "Point Sushimki" },
+            { Y: 68.08, X: -138.42, Type: "Beacon" },
+            { Y: 67.54, X: -139.77, Type: "Resource Depot", Region: "Gleber's Graveyard" },
+            { Y: 67.48, X: -141.65, Region: "Atouso Wastes" },
+            { Y: 67.45, X: -142.65, Type: "Local Trade Center", Region: "Mebayevozy VI" },
+            { Y: 66.95, X: -145.23, Type: "Trade Terminal", Region: "Naburga Bonefield" },
+            { Y: 65.80, X: -147.36, Type: "Transmission Tower/Camp", Region: "Geysk Outpost" },
+            { Y: 64.61, X: -149.24, Type: "Trade Terminal", Region: "Kumsky's Wilds" },
+            { Y: 64.54, X: -150.04, Type: "Ancient Ruins" },
+            { Y: 64.25, X: -151.14, Type: "Camp", Region: "Ilime Plateau" },
+            { Y: 63.94, X: -150.87, Type: "Monolith" },
+            { Y: 64.27, X: -153.70, Type: "Drop Pod", Region: "Plains of Irovsky" },
+            { Y: 64.38, X: -154.24, Type: "Transmission Tower/Camp", Region: "Pozzh Enclave" },
+            { Y: 64.06, X: -155.25, Type: "Camp", Region: "Abliz's Wilds" },
+            { Y: 64.18, X: -158.79, Type: "Trading Post" },
+            { Y: 63.35, X: -161.40, Type: "Resource Depot", Region: "Etyevkaz Badlands" },
+            { Y: 62.64, X: -163.10, Type: "Trade Terminal", Region: "Opkiny's Great Reaches" },
+            { Y: 61.85, X: -168.51, Type: "Camp", Region: "Point Elido" },
+            { Y: 43.07, X: 147.61, Type: "Portal" },
+            { Y: 3.23, X: 165.29, Type: "Local Trade Center/Camp", Region: "Trorenyev Encampment" }
+        ]
+    }
+}
+
+function ZED74III()
+{
+    return {
+        Messages: ["ZED-74 III", "Verdant", "Medium", "0C7A:0084:0D4E:017D", "417D0554F47B"],
+        POI: [
+            { Y: -39.91, X: -164.28, Type: "Drop Pod", Region: "Tugomo Thicket" },
+            { Y: -37.93, X: -164.04, Type: "Local Trade Center/Camp", Region: "Hawes Encampment" },
+            { Y: -38.10, X: -164.02, Region: "Anzusumx Heath" },
+            { Y: -37.60, X: -164.02, Type: "Ancient Plaque" },
+            { Y: -34.12, X: -164.25, Type: "Trading Post" },
+            { Y: -33.19, X: -164.27, Type: "Beacon" },
+            { Y: -32.72, X: -165.05, Region: "Tipat Sector V" },
+            { Y: -32.57, X: -165.32, Type: "Drop Pod", Region: "Kasmos Jungle" },
+            { Y: -31.79, X: -165.34, Type: "Observatory", Region: "Oroude's Orchard" },
+            { Y: -31.59, X: -165.31, Type: "Crashed Ship" },
+            { Y: -26.46, X: -165.34, Type: "Observatory/Camp", Region: "Horpe Enclave" },
+            { Y: -25.99, X: -165.07, Type: "Comms Tower/Camp", Region: "Mebiadus Platform" },
+            { Y: -24.02, X: -165.06, Region: "Lifram Plateau" },
+            { Y: -22.17, X: -164.82, Type: "Transmission Tower", Region: "Paali Meadows" },
+            { Y: -15.41, X: -164.28, Region: "Gadenium Woods" },
+            { Y: -14.59, X: -163.25, Type: "Beacon" },
+            { Y: -13.35, X: -163.53, Type: "Transmission Tower/Camp", Region: "Point Joycerbo" },
+            { Y: -13.85, X: -163.52, Type: "Comms Tower/Camp", Region: "Humievasi Station" },
+            { Y: -11.58, X: -163.51, Region: "The Sestonyomp Ranges" },
+            { Y: -10.54, X: -163.77, Type: "Trading Post" },
+            { Y: -10.03, X: -163.51, Type: "Trade Terminal", Region: "The Aotom Everglades" }
+        ]
+    }
+}
+
+function ZED74II()
+{
+    return {
+        Messages: ["ZED-74 II", "Torrid", "Medium", "0C7A:0084:0D4E:017D", "317D0554F47B"],
+        POI: [
+            { Y: -37.76, X: 24.98, Type: "Drop Pod", Region: "Yushino Wastes" },
+            { Y: -36.59, X: 25.20, Type: "Comms Tower", Region: "Ayamami Bonefield" },
+            { Y: -35.72, X: 25.43, Type: "Trade Terminal", Region: "Miboson Dustbowl" },
+            { Y: -35.43, X: 25.21, Type: "Crashed Freighter" },
+            { Y: -35.08, X: 24.51, Type: "Camp", Region: "The Hagium" },
+            { Y: -35.18, X: 24.02, Type: "Abandoned Building", Region: "Nezaw Crater V" },
+            { Y: -35.06, X: 23.83, Region: "Ookayas Wasteland" },
+            { Y: -34.93, X: 23.60, Type: "Monolith" },
+            { Y: -34.89, X: 23.82, Type: "Camp", Region: "Iratsu Crossing" },
+            { Y: -34.81, X: 23.36, Type: "Monolith" },
+            { Y: -34.74, X: 24.52, Type: "Drop Pod", Region: "Narug Desert" },
+            { Y: -34.00, X: 24.75, Region: "Damama Desert" },
+            { Y: -33.66, X: 24.76, Type: "Observatory x2/Camp", Region: "Akyota Post" },
+            { Y: -32.69, X: 24.28, Type: "Camp", Region: "Point Funantana" },
+            { Y: -32.73, X: 24.04, Type: "Manufacturing", Region: "Kojiy Sector X" },
+            { Y: -32.32, X: 24.28, Type: "Local Trade Center/Camp", Region: "Kehar Post" },
+            { Y: -32.14, X: 24.29, Type: "Beacon" },
+            { Y: -30.52, X: 24.06, Type: "Drop Pod", Region: "Degawan Badlands" },
+            { Y: -30.04, X: 24.49, Type: "Planetary Archive" },
+            { Y: -29.39, X: 24.97, Type: "Local Trade Center/Camp", Region: "Camp Misahi" },
+            { Y: 2.06, X: 47.92, Type: "Large Artifact Crate" }
+        ]
+    }
+}
+
+function ZED74Ia()
+{
+    return {
+        Messages: ["ZED-74 Ia", "Caustic", "Moon", "0C7A:0084:0D4E:017D", "217D0554F47B"],
+        POI: [
+            { Y: 19.82, X: 96.93, Type: "Resource Depot", Region: "Sewar XIV" },
+            { Y: 30.70, X: 100.31, Type: "Manufacturing", Region: "Onggo's Great Reaches" },
+            { Y: 35.83, X: 106.83, Type: "Manufacturing", Region: "Oxungg Flats XV" },
+            { Y: 36.29, X: 109.96, Type: "Abandoned Building", Region: "Aninglai Plateau" },
+            { Y: 40.19, X: 111.50, Type: "Drop Pod", Region: "Lugua Fen" },
+            { Y: 40.78, X: 108.25, Type: "Trading Post" },
+            { Y: 42.84, X: 111.44, Type: "Local Trade Center/Camp", Region: "Isuixingl Post" },
+            { Y: 42.65, X: 112.99, Type: "Ancient Plaque" },
+            { Y: 42.29, X: 114.46, Type: "Drop Pod", Region: "The Mohaeju Expanse" },
+            { Y: 41.75, X: 112.96, Type: "Monolith" },
+            { Y: 56.32, X: 114.05, Type: "Comms Tower/Camp", Region: "Arreg Platform" },
+            { Y: 62.55, X: 110.36, Type: "Comms Tower/Camp", Region: "Eifan Outpost" },
+            { Y: 61.20, X: 109.38, Type: "Local Trade Center", Region: "The Ulgan Levels" },
+            { Y: 81.36, X: 90.12, Region: "Alaza's Great Reaches" },
+            { Y: 78.52, X: 116.50, Type: "Beacon" },
+            { Y: 82.65, X: 135.04, Type: "Crashed Freighter" },
+            { Y: 65.76, X: 132.29, Type: "Beacon" },
+            { Y: 66.60, X: 140.46, Type: "Transmission Tower", Region: "The Unkhov Morass" },
+            { Y: 77.91, X: 179.70, Type: "Trading Post" },
+            { Y: 86.50, X: 178.85, Type: "Camp", Region: "Keshaja Flats XIII" },
+            { Y: 84.53, X: 19.25, Type: "Camp", Region: "Acaus Wetlands" }
+        ]
+    }
+}
+
+function ZED74I()
+{
+    return {
+        Messages: ["ZED-74 I", "Abandoned", "Large", "0C7A:0084:0D4E:017D", "117D0554F47B"],
+        POI: [
+            { Y: -13.16, X: -93.15, Type: "Local Trade Center", Region: "Point Limovs" },
+            { Y: -13.36, X: -93.15, Type: "Camp", Region: "Ormole Sector XV" },
+            { Y: -12.75, X: -93.35, Type: "Planetary Archive" },
+            { Y: -12.57, X: -93.15, Type: "Trade Terminal", Region: "Hekaluy's Drift" },
+            { Y: -11.77, X: -92.73, Type: "Camp", Region: "Ormato Dustbowl" },
+            { Y: -10.14, X: -92.73, Type: "Abandoned Building", Region: "Great Plains of Ivils" },
+            { Y: -8.32, X: -92.31, Type: "Camp", Region: "Point Doykha" },
+            { Y: -7.92, X: -92.31, Region: "Tolyosv IX" },
+            { Y: -7.30, X: -91.68, Type: "Comms Tower", Region: "Nushval Badlands" },
+            { Y: -6.04, X: -91.47, Type: "Transmission Tower", Region: "Monto Sands" },
+            { Y: -4.79, X: -91.68, Type: "Planetary Archive" },
+            { Y: -3.97, X: -92.10, Type: "Manufacturing", Region: "Point Ensehche" },
+            { Y: -3.13, X: -92.10, Type: "Camp", Region: "Mezhniy Desert" },
+            { Y: -2.52, X: -92.31, Type: "Beacon" },
+            { Y: -1.66, X: -91.89, Type: "Observatory/Camp", Region: "Namenn Platform" },
+            { Y: -0.84, X: -91.68, Type: "Beacon" },
+            { Y: 1.05, X: -92.10, Type: "Trade Terminal", Region: "The Vale of Bonov" },
+            { Y: 2.32, X: -92.10, Type: "Camp", Region: "Peskoy's Wilds" },
+            { Y: 5.02, X: -92.31, Region: "Urtav Crossing" },
+            { Y: 5.65, X: -91.89, Type: "Camp", Region: "Chyegona Valley" },
+            { Y: 7.10, X: -91.89, Region: "Yazran Wastes" }
+        ]
+    }
+}
+
+function ZED75IVa()
+{
+    return {
+        Messages: ["ZED-75 IVa", "Noxious", "Moon", "0C7A:0084:0D4E:0084", "60840554F47B"],
+        POI: [
+            { Y: 3.39, X: 95.20, Type: "Camp", Region: "Namru Wetlands" },
+            { Y: 3.38, X: 91.69, Type: "Comms Tower/Camp", Region: "Xiang Enclave" },
+            { Y: 9.63, X: 68.49, Type: "Monolith" },
+            { Y: 15.03, X: 84.83, Type: "Local Trade Center", Region: "The Eifang" },
+            { Y: 13.30, X: 81.47, Type: "Planatary Archive" },
+            { Y: 13.48, X: 88.28, Type: "Manufacturing", Region: "Inxia Valley" },
+            { Y: 15.01, X: 95.16, Type: "Observatory/Camp", Region: "Camp Yilang" },
+            { Y: 18.51, X: 113.12, Type: "Trading Post" },
+            { Y: 13.35, X: 118.57, Type: "Transmission Tower/Camp", Region: "Hefeic Post" },
+            { Y: 11.65, X: 121.14, Type: "Portal" },
+            { Y: 16.28, X: 118.61, Type: "Trade Terminal", Region: "Nehem Moor" },
+            { Y: 29.73, X: 115.86, Type: "Camp", Region: "Okchoga Sector XIV" },
+            { Y: 33.83, X: 112.93, Type: "Crashed Freighter" },
+            { Y: 34.06, X: 111.51, Type: "Trade Terminal", Region: "Akyunn Plains" }
+        ]
+    }
+}
+
 /*
-1 - Dusty  / Medium
+1 - Rainy / Large
+1a - Finned / Moon
+2 - Supercritical / Medium
+3 - Desert / Small
+4 - Radioactive / Large
+4a - Noxious / Moon
 */
